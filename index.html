@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/verbalingo-deutsch/">
+
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#3A5A7A">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Тренажёр немецкой лексики A1 для русскоязычных.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Verbalingo Deutsch">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Verbalingo Deutsch</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!--
+    Заставка на время холодной загрузки.
+
+    До первого кадра Flutter уходит около пяти мегабайт: сам `main.dart.js`,
+    CanvasKit и колода. Всё это время страница была белой — и белая страница
+    читается не как «грузится», а как «сломалось», потому что ничем от
+    сломанной не отличается.
+
+    Инлайном, и в `<head>`: это единственное, что должно нарисоваться до
+    единственного запроса, который здесь есть. Отдельный CSS-файл был бы ещё
+    одним походом на сервер именно в тот момент, ради которого всё и затеяно.
+
+    Цвета — те же, что у темы приложения (`ColorScheme.fromSeed` от
+    `0xFF3A5A7A`): фон светлой темы `#F8F9FF`, тёмной `#101418`. Совпадение не
+    косметическое — оно и делает подмену заставки первым кадром невидимой.
+    Если поменяется тема, поменять и здесь: сверить нечем, кроме глаза.
+
+    Снимает заставку сам Flutter, из `hideSplash()`, — по первому кадру, а не
+    по таймеру. Таймер либо снимает её раньше, чем есть что показать, и
+    возвращает белый экран, либо держит поверх готового приложения.
+  -->
+  <style>
+    html, body { height: 100%; margin: 0; }
+    body { background: #F8F9FF; }
+    #splash {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: #3A5A7A;
+      /* Убирается вместе с элементом; переход в первый кадр Flutter не должен
+         читаться как мигание. */
+      transition: opacity 180ms ease-out;
+    }
+    #splash.gone { opacity: 0; }
+    #splash-name {
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+    }
+    #splash-ring {
+      width: 34px;
+      height: 34px;
+      border: 3px solid rgba(58, 90, 122, 0.22);
+      border-top-color: #3A5A7A;
+      border-radius: 50%;
+      animation: splash-spin 900ms linear infinite;
+    }
+    @keyframes splash-spin { to { transform: rotate(360deg); } }
+    /* Уважая системную настройку: заставка в белом перед тёмным приложением
+       — это вспышка в лицо тому, кто открыл его ночью. */
+    @media (prefers-color-scheme: dark) {
+      body { background: #101418; }
+      #splash { color: #A9C7E8; }
+      #splash-ring {
+        border-color: rgba(169, 199, 232, 0.22);
+        border-top-color: #A9C7E8;
+      }
+    }
+    /* Кому анимация мешает — кольцо остаётся, но стоит. */
+    @media (prefers-reduced-motion: reduce) {
+      #splash-ring { animation: none; }
+      #splash { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <div id="splash" role="status" aria-live="polite">
+    <div id="splash-ring"></div>
+    <div id="splash-name">Verbalingo</div>
+  </div>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

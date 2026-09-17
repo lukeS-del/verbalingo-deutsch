@@ -1,0 +1,561 @@
+{
+  "version": 1,
+  "description": "Adaptive English placement test — 60 questions (10 per CEFR level A1–C2). 40% grammar, 30% vocabulary, 30% reading comprehension.",
+  "adaptiveLogic": {
+    "rounds": 3,
+    "questionsPerRound": 5,
+    "startingDifficulty": "A2-B1",
+    "routes": {
+      "up": { "minCorrect": 4, "shift": 1 },
+      "stay": { "minCorrect": 2, "maxCorrect": 3, "shift": 0 },
+      "down": { "maxCorrect": 1, "shift": -1 }
+    }
+  },
+  "questions": {
+    "A1": [
+      {
+        "id": "gA1-01",
+        "type": "grammar",
+        "question": "My name ___ Anna.",
+        "options": ["am", "is", "are", "be"],
+        "correctAnswer": "is",
+        "explanation": "Present simple: 'is' for third person singular (name = it)."
+      },
+      {
+        "id": "gA1-02",
+        "type": "grammar",
+        "question": "There ___ two apples on the table.",
+        "options": ["is", "are", "am", "be"],
+        "correctAnswer": "are",
+        "explanation": "'There are' for plural nouns (apples). 'There is' is for singular."
+      },
+      {
+        "id": "gA1-03",
+        "type": "grammar",
+        "question": "She ___ a doctor. She works at the hospital.",
+        "options": ["am", "is", "are", "be"],
+        "correctAnswer": "is",
+        "explanation": "Present simple: 'is' for he/she/it."
+      },
+      {
+        "id": "gA1-04",
+        "type": "grammar",
+        "question": "___ you like coffee?",
+        "options": ["Are", "Do", "Is", "Does"],
+        "correctAnswer": "Do",
+        "explanation": "Questions with 'like' use 'do' for I/you/we/they."
+      },
+      {
+        "id": "vA1-05",
+        "type": "vocabulary",
+        "question": "I'm hungry. Let's go to a ___.",
+        "options": ["shop", "restaurant", "park", "school"],
+        "correctAnswer": "restaurant",
+        "explanation": "A restaurant is a place where you eat. 'Hungry' signals the need for food."
+      },
+      {
+        "id": "vA1-06",
+        "type": "vocabulary",
+        "question": "It's raining. Take your ___.",
+        "options": ["umbrella", "bag", "phone", "book"],
+        "correctAnswer": "umbrella",
+        "explanation": "An umbrella protects you from rain."
+      },
+      {
+        "id": "vA1-07",
+        "type": "vocabulary",
+        "question": "My brother has two children: a boy and a ___.",
+        "options": ["girl", "woman", "lady", "sister"],
+        "correctAnswer": "girl",
+        "explanation": "'Girl' is the word for a female child. 'Woman' and 'lady' are for adults."
+      },
+      {
+        "id": "rA1-08",
+        "type": "reading",
+        "question": "Tom is a student. He goes to school every day. He likes maths and English. — What does Tom do every day?",
+        "options": ["He works in an office.", "He goes to school.", "He plays football.", "He stays at home."],
+        "correctAnswer": "He goes to school.",
+        "explanation": "The text states: 'He goes to school every day.'"
+      },
+      {
+        "id": "rA1-09",
+        "type": "reading",
+        "question": "Maria has a cat. The cat is black and white. It sleeps on the sofa. — What colour is Maria's cat?",
+        "options": ["Black", "White", "Grey", "Black and white"],
+        "correctAnswer": "Black and white",
+        "explanation": "The text states: 'The cat is black and white.'"
+      },
+      {
+        "id": "rA1-10",
+        "type": "reading",
+        "question": "It is Sunday. The shops are closed. Anna is at home. She reads a book. — Where is Anna?",
+        "options": ["At the shop", "At school", "At home", "In the park"],
+        "correctAnswer": "At home",
+        "explanation": "The text states: 'Anna is at home.'"
+      }
+    ],
+    "A2": [
+      {
+        "id": "gA2-01",
+        "type": "grammar",
+        "question": "I ___ to London last summer.",
+        "options": ["go", "went", "gone", "going"],
+        "correctAnswer": "went",
+        "explanation": "Past simple of 'go' is 'went'. 'Last summer' signals past time."
+      },
+      {
+        "id": "gA2-02",
+        "type": "grammar",
+        "question": "She ___ than her brother.",
+        "options": ["tall", "taller", "tallest", "more tall"],
+        "correctAnswer": "taller",
+        "explanation": "Comparative form of one-syllable adjectives: adjective + -er."
+      },
+      {
+        "id": "gA2-03",
+        "type": "grammar",
+        "question": "There isn't ___ milk in the fridge.",
+        "options": ["some", "any", "a", "many"],
+        "correctAnswer": "any",
+        "explanation": "'Any' is used in negative sentences with uncountable nouns like 'milk'."
+      },
+      {
+        "id": "gA2-04",
+        "type": "grammar",
+        "question": "___ you like to go to the cinema tonight?",
+        "options": ["Would", "Will", "Do", "Are"],
+        "correctAnswer": "Would",
+        "explanation": "'Would you like' is the polite form for invitations and offers."
+      },
+      {
+        "id": "vA2-05",
+        "type": "vocabulary",
+        "question": "I need to ___ a hotel room for next weekend.",
+        "options": ["book", "buy", "rent", "take"],
+        "correctAnswer": "book",
+        "explanation": "'Book' means to reserve something in advance (hotel, ticket, table)."
+      },
+      {
+        "id": "vA2-06",
+        "type": "vocabulary",
+        "question": "She was very ___ when she heard the good news.",
+        "options": ["happy", "hungry", "tired", "bored"],
+        "correctAnswer": "happy",
+        "explanation": "'Good news' makes people feel happy."
+      },
+      {
+        "id": "vA2-07",
+        "type": "vocabulary",
+        "question": "Can you ___ me your phone? I need to make a call.",
+        "options": ["lend", "borrow", "give", "send"],
+        "correctAnswer": "lend",
+        "explanation": "'Lend' means to give something temporarily. 'Borrow' is what the receiver does."
+      },
+      {
+        "id": "rA2-08",
+        "type": "reading",
+        "question": "Last weekend, Emma went to the beach with her friends. They swam in the sea and built sandcastles. In the evening, they had dinner at a seafood restaurant. — What did Emma do last weekend?",
+        "options": ["She stayed at home.", "She went to the mountains.", "She went to the beach.", "She visited a museum."],
+        "correctAnswer": "She went to the beach.",
+        "explanation": "The text states: 'Emma went to the beach with her friends.'"
+      },
+      {
+        "id": "rA2-09",
+        "type": "reading",
+        "question": "Mark works in a big office in the city centre. He usually starts at 8 a.m. and finishes at 5 p.m. He takes the bus to work because parking is very expensive. — How does Mark get to work?",
+        "options": ["He drives a car.", "He walks.", "He takes the bus.", "He cycles."],
+        "correctAnswer": "He takes the bus.",
+        "explanation": "The text states: 'He takes the bus to work.'"
+      },
+      {
+        "id": "rA2-10",
+        "type": "reading",
+        "question": "The weather was terrible yesterday. It rained all day and the wind was very strong. Many flights were cancelled at the airport. — Why were flights cancelled?",
+        "options": ["Because of a strike.", "Because of bad weather.", "Because the airport was closed.", "Because there were too many passengers."],
+        "correctAnswer": "Because of bad weather.",
+        "explanation": "The text connects bad weather (rain, strong wind) to flight cancellations."
+      }
+    ],
+    "B1": [
+      {
+        "id": "gB1-01",
+        "type": "grammar",
+        "question": "By the time we arrived, the film ___ already.",
+        "options": ["started", "has started", "had started", "was starting"],
+        "correctAnswer": "had started",
+        "explanation": "Past perfect ('had started') for an action completed before another past action."
+      },
+      {
+        "id": "gB1-02",
+        "type": "grammar",
+        "question": "If it ___ tomorrow, we'll stay at home.",
+        "options": ["will rain", "rains", "rained", "would rain"],
+        "correctAnswer": "rains",
+        "explanation": "First conditional: 'if' + present simple, main clause with 'will'."
+      },
+      {
+        "id": "gB1-03",
+        "type": "grammar",
+        "question": "The letter ___ by the manager yesterday.",
+        "options": ["wrote", "was written", "has written", "is writing"],
+        "correctAnswer": "was written",
+        "explanation": "Passive voice, past simple: 'was/were + past participle'. The letter was written (by someone)."
+      },
+      {
+        "id": "gB1-04",
+        "type": "grammar",
+        "question": "I've been studying English ___ three years.",
+        "options": ["since", "for", "during", "from"],
+        "correctAnswer": "for",
+        "explanation": "'For' is used with a period of time (three years). 'Since' is for a point in time (2022)."
+      },
+      {
+        "id": "vB1-05",
+        "type": "vocabulary",
+        "question": "He couldn't ___ the temptation to check his phone during the meeting.",
+        "options": ["resist", "refuse", "reject", "decline"],
+        "correctAnswer": "resist",
+        "explanation": "'Resist temptation' is a common collocation. 'Refuse/reject/decline' don't collocate with 'temptation'."
+      },
+      {
+        "id": "vB1-06",
+        "type": "vocabulary",
+        "question": "The company plans to ___ 50 new employees this year.",
+        "options": ["take", "hire", "bring", "carry"],
+        "correctAnswer": "hire",
+        "explanation": "'Hire' means to employ someone, especially for a job."
+      },
+      {
+        "id": "vB1-07",
+        "type": "vocabulary",
+        "question": "She was ___ to see her old friend after so many years.",
+        "options": ["delighted", "boring", "annoying", "disappointed"],
+        "correctAnswer": "delighted",
+        "explanation": "'Delighted' means very happy or pleased. Seeing an old friend is a positive experience."
+      },
+      {
+        "id": "rB1-08",
+        "type": "reading",
+        "question": "More and more people are choosing to work from home these days. While this offers greater flexibility and saves commuting time, some people find it difficult to separate their work life from their personal life. Experts recommend setting clear boundaries, such as having a dedicated workspace and fixed working hours. — According to the text, what is one disadvantage of working from home?",
+        "options": ["Spending more money.", "Difficulty separating work and personal life.", "Lack of internet connection.", "Having to wear formal clothes."],
+        "correctAnswer": "Difficulty separating work and personal life.",
+        "explanation": "The text states: 'some people find it difficult to separate their work life from their personal life.'"
+      },
+      {
+        "id": "rB1-09",
+        "type": "reading",
+        "question": "A new study suggests that drinking coffee may lower the risk of heart disease. Researchers followed 500,000 people over ten years and found that those who drank two to three cups a day had a 15% lower risk. However, the scientists warn that adding too much sugar or cream may cancel out the benefits. — What did scientists warn about?",
+        "options": ["Coffee is too expensive.", "Sugar and cream may cancel the benefits.", "People should not drink coffee.", "The study only included men."],
+        "correctAnswer": "Sugar and cream may cancel the benefits.",
+        "explanation": "The text states: 'adding too much sugar or cream may cancel out the benefits.'"
+      },
+      {
+        "id": "rB1-10",
+        "type": "reading",
+        "question": "When Sarah arrived at the station, she realised she had forgotten her ticket. She checked her bag twice but couldn't find it anywhere. Fortunately, she was able to buy a new one on her phone just before the train departed. — How did Sarah solve her problem?",
+        "options": ["She went back home.", "She asked a stranger for help.", "She bought a ticket on her phone.", "She decided not to travel."],
+        "correctAnswer": "She bought a ticket on her phone.",
+        "explanation": "The text states: 'she was able to buy a new one on her phone.'"
+      }
+    ],
+    "B2": [
+      {
+        "id": "gB2-01",
+        "type": "grammar",
+        "question": "If I ___ about the meeting earlier, I would have attended.",
+        "options": ["knew", "had known", "have known", "would know"],
+        "correctAnswer": "had known",
+        "explanation": "Third conditional: 'if + past perfect, would have + past participle' for unreal past situations."
+      },
+      {
+        "id": "gB2-02",
+        "type": "grammar",
+        "question": "Despite ___ hard, he didn't pass the exam.",
+        "options": ["studied", "studying", "he studied", "to study"],
+        "correctAnswer": "studying",
+        "explanation": "After prepositions like 'despite', we use the gerund (-ing form)."
+      },
+      {
+        "id": "gB2-03",
+        "type": "grammar",
+        "question": "Not only ___ the exam, but she also got the highest score.",
+        "options": ["she passed", "did she pass", "she did pass", "passed she"],
+        "correctAnswer": "did she pass",
+        "explanation": "After 'not only', subject-verb inversion is required in formal English."
+      },
+      {
+        "id": "gB2-04",
+        "type": "grammar",
+        "question": "By next summer, they ___ in this house for ten years.",
+        "options": ["live", "will live", "will have lived", "are living"],
+        "correctAnswer": "will have lived",
+        "explanation": "Future perfect ('will have + past participle') for an action completed by a specific future time."
+      },
+      {
+        "id": "vB2-05",
+        "type": "vocabulary",
+        "question": "The two companies decided to ___ rather than compete against each other.",
+        "options": ["collaborate", "collapse", "collect", "collide"],
+        "correctAnswer": "collaborate",
+        "explanation": "'Collaborate' means to work together. 'Collapse' means to fall down; 'collide' means to crash."
+      },
+      {
+        "id": "vB2-06",
+        "type": "vocabulary",
+        "question": "His argument was so ___ that nobody could find a flaw in it.",
+        "options": ["compelling", "confusing", "complaining", "comparing"],
+        "correctAnswer": "compelling",
+        "explanation": "'Compelling' means convincing and powerful. A 'compelling argument' is one that persuades."
+      },
+      {
+        "id": "vB2-07",
+        "type": "vocabulary",
+        "question": "The manager asked us to ___ the report before sending it to the client.",
+        "options": ["look after", "go through", "take off", "put up"],
+        "correctAnswer": "go through",
+        "explanation": "'Go through' means to examine or review something carefully."
+      },
+      {
+        "id": "rB2-08",
+        "type": "reading",
+        "question": "The concept of a four-day working week has gained significant attention in recent years. Several pilot programmes across Europe have shown that reducing working hours does not necessarily reduce productivity. In fact, many companies reported that employees were more focused and took fewer sick days. However, critics argue that the model does not work for all industries, particularly those that require round-the-clock staffing. — According to the text, what is one reported benefit of a four-day working week?",
+        "options": ["Lower salaries.", "Fewer sick days.", "More office space.", "Shorter lunch breaks."],
+        "correctAnswer": "Fewer sick days.",
+        "explanation": "The text states: 'employees were more focused and took fewer sick days.'"
+      },
+      {
+        "id": "rB2-09",
+        "type": "reading",
+        "question": "Electric vehicles are often promoted as a solution to urban air pollution. While they produce no exhaust emissions, the electricity that powers them may still come from fossil fuels. Moreover, manufacturing batteries requires mining for lithium and cobalt, which has its own environmental costs. A truly green transport system, experts say, would combine electric vehicles with renewable energy and better public transport. — What is the main limitation of electric vehicles mentioned in the text?",
+        "options": ["They are too slow.", "Their electricity may come from fossil fuels.", "They are too expensive to buy.", "They cannot drive on highways."],
+        "correctAnswer": "Their electricity may come from fossil fuels.",
+        "explanation": "The text states: 'the electricity that powers them may still come from fossil fuels.'"
+      },
+      {
+        "id": "rB2-10",
+        "type": "reading",
+        "question": "When the fire alarm went off, everyone in the building immediately followed the evacuation procedure they had practised the month before. Within three minutes, all 200 employees were standing safely in the car park. The fire turned out to be a small electrical fault in the basement, but the building manager praised the staff for their calm and orderly response. — Why did the evacuation go smoothly?",
+        "options": ["The fire was very small.", "The staff had practised the procedure before.", "The building manager gave instructions during the fire.", "The fire brigade arrived quickly."],
+        "correctAnswer": "The staff had practised the procedure before.",
+        "explanation": "The text states: 'they had practised the month before' and the manager praised their 'calm and orderly response.'"
+      }
+    ],
+    "C1": [
+      {
+        "id": "gC1-01",
+        "type": "grammar",
+        "question": "Were it not for her timely intervention, the project ___.",
+        "options": ["would fail", "would have failed", "will fail", "fails"],
+        "correctAnswer": "would have failed",
+        "explanation": "Inverted third conditional without 'if': 'Were it not for' = 'If it were not for', followed by 'would have + past participle'."
+      },
+      {
+        "id": "gC1-02",
+        "type": "grammar",
+        "question": "The report, the findings of ___ have been widely debated, was published last month.",
+        "options": ["that", "which", "what", "whom"],
+        "correctAnswer": "which",
+        "explanation": "Relative clause: 'the findings of which' refers back to 'the report'. 'Which' is used for things, not people."
+      },
+      {
+        "id": "gC1-03",
+        "type": "grammar",
+        "question": "It is imperative that every employee ___ the new safety guidelines.",
+        "options": ["follows", "follow", "followed", "is following"],
+        "correctAnswer": "follow",
+        "explanation": "Subjunctive mood: after expressions like 'it is imperative that', the base form of the verb is used."
+      },
+      {
+        "id": "gC1-04",
+        "type": "grammar",
+        "question": "No sooner ___ the building than the fire alarm went off.",
+        "options": ["he had entered", "had he entered", "he entered", "did he enter"],
+        "correctAnswer": "had he entered",
+        "explanation": "'No sooner... than' triggers subject-auxiliary inversion: 'No sooner had he entered...'"
+      },
+      {
+        "id": "vC1-05",
+        "type": "vocabulary",
+        "question": "The politician tried to ___ the scandal by changing the subject.",
+        "options": ["deflect", "deflate", "defrost", "deform"],
+        "correctAnswer": "deflect",
+        "explanation": "'Deflect' means to redirect attention away from something. 'Deflect criticism/attention/a question'."
+      },
+      {
+        "id": "vC1-06",
+        "type": "vocabulary",
+        "question": "The evidence was ___ and the suspect was released immediately.",
+        "options": ["inconclusive", "unthinkable", "indisputable", "inevitable"],
+        "correctAnswer": "inconclusive",
+        "explanation": "'Inconclusive' means not leading to a clear conclusion. The context of 'released immediately' suggests the evidence was too weak."
+      },
+      {
+        "id": "vC1-07",
+        "type": "vocabulary",
+        "question": "She managed to ___ the difficult concept into a simple, two-minute explanation.",
+        "options": ["distil", "disperse", "discard", "dispute"],
+        "correctAnswer": "distil",
+        "explanation": "'Distil' means to extract the essential meaning. 'Distil a concept/idea into something simple' is a common academic collocation."
+      },
+      {
+        "id": "rC1-08",
+        "type": "reading",
+        "question": "The decline of local journalism has been linked to a phenomenon known as 'news deserts' — communities with no local newspaper or reliable source of civic information. A study by the University of North Carolina found that over 2,000 local newspapers have closed since 2004. The consequences extend beyond a lack of reporting on local government: studies suggest that voter turnout drops and municipal borrowing costs rise in areas that have lost their local paper. — According to the text, what is one consequence of losing a local newspaper?",
+        "options": ["Higher taxes for all residents.", "Lower voter turnout.", "More people watching TV news.", "Fewer people reading online."],
+        "correctAnswer": "Lower voter turnout.",
+        "explanation": "The text states: 'voter turnout drops' in areas that have lost their local paper."
+      },
+      {
+        "id": "rC1-09",
+        "type": "reading",
+        "question": "The notion that creative genius is intertwined with mental illness has persisted for centuries. From Van Gogh to Virginia Woolf, history offers compelling examples. Yet recent large-scale epidemiological research paints a more nuanced picture. While certain creative professions do show slightly elevated rates of mood disorders, the effect is modest and likely bidirectional: the lifestyle of a creative career — with its financial instability and irregular hours — may itself contribute to mental health challenges. — What does recent research suggest about the link between creativity and mental illness?",
+        "options": ["It proves that all artists are mentally ill.", "It shows no connection at all.", "It presents a more nuanced picture with only a modest effect.", "It confirms the historical view without reservations."],
+        "correctAnswer": "It presents a more nuanced picture with only a modest effect.",
+        "explanation": "The text states: 'recent large-scale epidemiological research paints a more nuanced picture... the effect is modest and likely bidirectional.'"
+      },
+      {
+        "id": "rC1-10",
+        "type": "reading",
+        "question": "The introduction of the printing press in the 15th century is often compared to the rise of the internet. Both technologies dramatically lowered the cost of distributing information, and both faced initial resistance from established authorities. However, while the printing press took decades to spread across Europe, the internet achieved global reach in a matter of years. This accelerated pace of adoption, some scholars argue, has left societies with less time to develop the norms and regulations needed to manage the technology responsibly. — What is one key difference between the printing press and the internet, according to the text?",
+        "options": ["Only the internet faced resistance.", "The printing press was not a useful invention.", "The internet spread much faster.", "The printing press lowered costs while the internet raised them."],
+        "correctAnswer": "The internet spread much faster.",
+        "explanation": "The text states: 'while the printing press took decades to spread across Europe, the internet achieved global reach in a matter of years.'"
+      }
+    ],
+    "C2": [
+      {
+        "id": "gC2-01",
+        "type": "grammar",
+        "question": "He speaks as though he ___ the only expert in the room.",
+        "options": ["is", "was", "were", "has been"],
+        "correctAnswer": "were",
+        "explanation": "Subjunctive mood: 'as though' + 'were' for unreal or hypothetical comparisons, regardless of the subject."
+      },
+      {
+        "id": "gC2-02",
+        "type": "grammar",
+        "question": "Such was the complexity of the case ___ the jury took three weeks to reach a verdict.",
+        "options": ["so", "that", "as", "then"],
+        "correctAnswer": "that",
+        "explanation": "'Such + be + noun + that-clause' is a formal inversion structure expressing cause and result."
+      },
+      {
+        "id": "gC2-03",
+        "type": "grammar",
+        "question": "The law stipulates that any such agreement ___ in writing.",
+        "options": ["is", "will be", "be", "was"],
+        "correctAnswer": "be",
+        "explanation": "Mandative subjunctive: after verbs like 'stipulate', 'demand', or 'require', the base form is used ('be' not 'is')."
+      },
+      {
+        "id": "gC2-04",
+        "type": "grammar",
+        "question": "Much ___ I admire her talent, I find her latest work disappointing.",
+        "options": ["as", "though", "while", "despite"],
+        "correctAnswer": "as",
+        "explanation": "'Much as' introduces a concessive clause and means 'although'. This is a formal, literary construction."
+      },
+      {
+        "id": "vC2-05",
+        "type": "vocabulary",
+        "question": "The ambassador's speech was carefully crafted to ___ relations between the two nations.",
+        "options": ["ameliorate", "aggravate", "annihilate", "abdicate"],
+        "correctAnswer": "ameliorate",
+        "explanation": "'Ameliorate' means to make a bad situation better. 'Aggravate' means to make worse."
+      },
+      {
+        "id": "vC2-06",
+        "type": "vocabulary",
+        "question": "The professor's argument was so ___ that several students changed their minds on the spot.",
+        "options": ["cogent", "candid", "casual", "cryptic"],
+        "correctAnswer": "cogent",
+        "explanation": "'Cogent' means clear, logical, and convincing. A 'cogent argument' persuades through logical force."
+      },
+      {
+        "id": "vC2-07",
+        "type": "vocabulary",
+        "question": "Far from being ___ by the criticism, the artist felt motivated to prove her detractors wrong.",
+        "options": ["daunted", "elated", "amused", "confounded"],
+        "correctAnswer": "daunted",
+        "explanation": "'Daunted' means discouraged or intimidated. The structure 'far from being daunted' means 'instead of being discouraged'."
+      },
+      {
+        "id": "rC2-08",
+        "type": "reading",
+        "question": "The Fermi paradox asks a deceptively simple question: if the universe is teeming with habitable planets, why haven't we detected any sign of extraterrestrial intelligence? Proposed resolutions range from the optimistic — that civilisations are simply too far away — to the deeply pessimistic 'Great Filter' hypothesis, which posits that intelligent life invariably destroys itself before achieving interstellar capability. Each proposed answer carries profound implications not only for astronomy but for our understanding of our own civilisation's longevity. — What is the 'Great Filter' hypothesis?",
+        "options": ["That aliens have already visited Earth.", "That intelligent life inevitably destroys itself.", "That the universe is not habitable.", "That our detection technology is too primitive."],
+        "correctAnswer": "That intelligent life inevitably destroys itself.",
+        "explanation": "The text describes the Great Filter as the hypothesis 'that intelligent life invariably destroys itself before achieving interstellar capability.'"
+      },
+      {
+        "id": "rC2-09",
+        "type": "reading",
+        "question": "The distinction between correlation and causation is one of the most fundamental concepts in scientific reasoning, yet it is routinely ignored in public discourse. A classic example is the robust correlation between ice cream sales and drowning deaths — not because ice cream causes drowning, but because both increase during summer. Despite being taught in introductory statistics courses, this logical error continually resurfaces in media coverage of health studies, where dietary findings in particular are prone to causal overinterpretation. — Why does the author mention ice cream and drowning?",
+        "options": ["To show that ice cream is dangerous.", "To illustrate the difference between correlation and causation.", "To argue that statistics courses are ineffective.", "To discuss summer safety."],
+        "correctAnswer": "To illustrate the difference between correlation and causation.",
+        "explanation": "The text uses the ice cream-drowning example as 'a classic example' to illustrate the correlation vs. causation distinction introduced in the first sentence."
+      },
+      {
+        "id": "rC2-10",
+        "type": "reading",
+        "question": "Postmodernist thought, which gained prominence in the latter half of the 20th century, fundamentally challenged the Enlightenment belief in objective truth and universal reason. Figures like Foucault and Derrida argued that what we consider 'knowledge' is inextricably bound up with power structures and linguistic conventions. While this critique has been enormously influential in the humanities, it has also drawn fierce criticism from scientists who see it as undermining the very foundations of empirical inquiry. The tension between these two worldviews remains largely unresolved and continues to shape debates about everything from climate policy to medical research. — According to the text, what did postmodernist thinkers challenge?",
+        "options": ["The authority of religious institutions.", "The Enlightenment belief in objective truth.", "The value of artistic expression.", "The structure of democratic governments."],
+        "correctAnswer": "The Enlightenment belief in objective truth.",
+        "explanation": "The text opens: 'Postmodernist thought... fundamentally challenged the Enlightenment belief in objective truth and universal reason.'"
+      }
+    ]
+  },
+  "scoringFormula": {
+    "description": "Weighted cumulative score across 3 adaptive rounds. The difficulty level of each question contributes to the final score, preventing a user who answers A1 questions correctly but fails at B1 from being labelled B2.",
+    "weights": {
+      "A1": 0.5,
+      "A2": 1.0,
+      "B1": 1.5,
+      "B2": 2.0,
+      "C1": 2.5,
+      "C2": 3.0
+    },
+    "derivation": "sum(correct answers × level weight) / sum(max possible weighted score). The weighted score is then mapped to a CEFR band.",
+    "thresholds": {
+      "below A1": [0.0, 0.10],
+      "A1": [0.10, 0.25],
+      "A2": [0.25, 0.40],
+      "B1": [0.40, 0.55],
+      "B2": [0.55, 0.70],
+      "C1": [0.70, 0.85],
+      "C2": [0.85, 1.0]
+    }
+  },
+  "resultScreenTemplates": {
+    "A1": {
+      "title": "A1 — Beginner",
+      "description": "Вы понимаете и используете простые повседневные фразы. Можете представиться, задать базовые вопросы о знакомых темах и понимаете медленную, чёткую речь.",
+      "recommendation": "vocab_a1"
+    },
+    "A2": {
+      "title": "A2 — Elementary",
+      "description": "Вы понимаете часто употребляемые выражения на знакомые темы. Можете общаться в простых бытовых ситуациях и описать свою семью, работу, покупки.",
+      "recommendation": "vocab_a2"
+    },
+    "B1": {
+      "title": "B1 — Intermediate",
+      "description": "Вы понимаете основное содержание чётких текстов на знакомые темы. Можете справиться с большинством ситуаций в путешествии и связно высказаться на знакомую тему.",
+      "recommendation": "vocab_b1"
+    },
+    "B2": {
+      "title": "B2 — Upper Intermediate",
+      "description": "Вы понимаете основные идеи сложных текстов на конкретные и абстрактные темы. Можете общаться с носителями языка без напряжения и привести аргументы за и против.",
+      "recommendation": "vocab_b2"
+    },
+    "C1": {
+      "title": "C1 — Advanced",
+      "description": "Вы понимаете объёмные сложные тексты на разные темы и распознаёте скрытый смысл. Выражаете мысли бегло и спонтанно, гибко используете язык в социальной, академической и профессиональной сферах.",
+      "recommendation": "vocab_c1"
+    },
+    "C2": {
+      "title": "C2 — Proficient",
+      "description": "Вы понимаете практически всё, что читаете или слышите. Можете обобщить информацию из разных источников и выразить мысли с высокой точностью, передавая тончайшие оттенки значений.",
+      "recommendation": "vocab_c2"
+    }
+  }
+}

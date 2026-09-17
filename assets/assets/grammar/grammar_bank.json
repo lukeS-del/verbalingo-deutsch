@@ -1,0 +1,977 @@
+{
+  "version": 1,
+  "questions": {
+    "A1": [
+      {
+        "id": "gA1-01",
+        "type": "grammar",
+        "question": "She ___ from Russia.",
+        "options": ["am", "is", "are", "be"],
+        "correctAnswer": "is",
+        "explanation": "Present simple: для he/she/it — is. She is from Russia."
+      },
+      {
+        "id": "gA1-02",
+        "type": "grammar",
+        "question": "___ you have a sister?",
+        "options": ["Do", "Are", "Does", "Is"],
+        "correctAnswer": "Do",
+        "explanation": "Вопрос с глаголом have для you — Do you have. Does — только для he/she/it."
+      },
+      {
+        "id": "gA1-03",
+        "type": "grammar",
+        "question": "I have ___ cat and a dog.",
+        "options": ["a", "an", "the", "—"],
+        "correctAnswer": "a",
+        "explanation": "Первое упоминание предмета — неопределённый артикль. Перед согласным звуком — a."
+      },
+      {
+        "id": "gA1-04",
+        "type": "grammar",
+        "question": "This is ___ orange.",
+        "options": ["a", "an", "the", "—"],
+        "correctAnswer": "an",
+        "explanation": "Перед гласным звуком — an: an orange."
+      },
+      {
+        "id": "gA1-05",
+        "type": "grammar",
+        "question": "They ___ football every weekend.",
+        "options": ["plays", "play", "playing", "is playing"],
+        "correctAnswer": "play",
+        "explanation": "Present simple, they: глагол без окончания — play."
+      },
+      {
+        "id": "gA1-06",
+        "type": "grammar",
+        "question": "She ___ to school by bus.",
+        "options": ["go", "goes", "going", "is go"],
+        "correctAnswer": "goes",
+        "explanation": "he/she/it в Present simple — окончание -es после -o: goes."
+      },
+      {
+        "id": "gA1-07",
+        "type": "grammar",
+        "question": "There are two ___ on the table.",
+        "options": ["book", "books", "the book", "a book"],
+        "correctAnswer": "books",
+        "explanation": "После числительного two — множественное число: two books."
+      },
+      {
+        "id": "gA1-08",
+        "type": "grammar",
+        "question": "___ you from England?",
+        "options": ["Do", "Are", "Is", "Am"],
+        "correctAnswer": "Are",
+        "explanation": "Вопрос с глаголом to be для you — Are: Are you from England?"
+      },
+      {
+        "id": "gA1-09",
+        "type": "grammar",
+        "question": "They ___ at home.",
+        "options": ["is", "are", "am", "be"],
+        "correctAnswer": "are",
+        "explanation": "To be для they — are: They are at home."
+      },
+      {
+        "id": "gA1-10",
+        "type": "grammar",
+        "question": "I ___ a student.",
+        "options": ["is", "are", "am", "be"],
+        "correctAnswer": "am",
+        "explanation": "To be для I — am: I am a student."
+      },
+      {
+        "id": "gA1-11",
+        "type": "grammar",
+        "question": "My sister ___ like ice cream.",
+        "options": ["don't", "doesn't", "isn't", "aren't"],
+        "correctAnswer": "doesn't",
+        "explanation": "Отрицание в Present simple для he/she/it — doesn't: My sister doesn't like ice cream."
+      },
+      {
+        "id": "gA1-12",
+        "type": "grammar",
+        "question": "Look! The baby ___.",
+        "options": ["sleeps", "is sleeping", "sleep", "sleeping"],
+        "correctAnswer": "is sleeping",
+        "explanation": "Действие прямо сейчас — Present continuous: am/is/are + -ing. The baby is sleeping."
+      },
+      {
+        "id": "gA1-13",
+        "type": "grammar",
+        "question": "___ you playing football now?",
+        "options": ["Do", "Does", "Are", "Is"],
+        "correctAnswer": "Are",
+        "explanation": "Вопрос в Present continuous — to be перед подлежащим: Are you playing football now?"
+      },
+      {
+        "id": "gA1-14",
+        "type": "grammar",
+        "question": "There are two ___ in the room.",
+        "options": ["child", "childs", "children", "childrens"],
+        "correctAnswer": "children",
+        "explanation": "Неправильное множественное число: child → children."
+      },
+      {
+        "id": "gA1-15",
+        "type": "grammar",
+        "question": "This is ___ car.",
+        "options": ["I", "my", "me", "mine"],
+        "correctAnswer": "my",
+        "explanation": "Перед существительным — притяжательное прилагательное: my car."
+      },
+      {
+        "id": "gA1-16",
+        "type": "grammar",
+        "question": "It is ___ umbrella.",
+        "options": ["Ann", "Anns", "Ann's", "Anns'"],
+        "correctAnswer": "Ann's",
+        "explanation": "Притяжательный падеж: Ann's umbrella — зонтик Анны."
+      },
+      {
+        "id": "gA1-17",
+        "type": "grammar",
+        "question": "___ is my friend.",
+        "options": ["Him", "His", "He", "Her"],
+        "correctAnswer": "He",
+        "explanation": "Подлежащее — форма he: He is my friend."
+      },
+      {
+        "id": "gA1-18",
+        "type": "grammar",
+        "question": "___ are my keys.",
+        "options": ["This", "That", "These", "It"],
+        "correctAnswer": "These",
+        "explanation": "Множественное число с глаголом are — these: These are my keys."
+      },
+      {
+        "id": "gA1-19",
+        "type": "grammar",
+        "question": "I ___ swim well.",
+        "options": ["can", "cans", "am can", "to can"],
+        "correctAnswer": "can",
+        "explanation": "Модальный глагол can не меняется и стоит без to: I can swim well."
+      },
+      {
+        "id": "gA1-20",
+        "type": "grammar",
+        "question": "The cat is ___ the table.",
+        "options": ["on", "at", "in", "of"],
+        "correctAnswer": "on",
+        "explanation": "На поверхности — on: on the table."
+      }
+    ],
+    "A2": [
+      {
+        "id": "gA2-01",
+        "type": "grammar",
+        "question": "Yesterday I ___ to the cinema.",
+        "options": ["go", "went", "going", "gone"],
+        "correctAnswer": "went",
+        "explanation": "Past simple от go — неправильный глагол: went."
+      },
+      {
+        "id": "gA2-02",
+        "type": "grammar",
+        "question": "She didn't ___ the question.",
+        "options": ["answered", "answer", "to answer", "answering"],
+        "correctAnswer": "answer",
+        "explanation": "После didn't — инфинитив без to: didn't answer."
+      },
+      {
+        "id": "gA2-03",
+        "type": "grammar",
+        "question": "There isn't ___ milk in the fridge.",
+        "options": ["some", "any", "much", "many"],
+        "correctAnswer": "any",
+        "explanation": "В отрицании — any: isn't any milk."
+      },
+      {
+        "id": "gA2-04",
+        "type": "grammar",
+        "question": "Would you like ___ coffee?",
+        "options": ["some", "any", "a few", "many"],
+        "correctAnswer": "some",
+        "explanation": "В предложении-угощении — some: Would you like some coffee?"
+      },
+      {
+        "id": "gA2-05",
+        "type": "grammar",
+        "question": "She is ___ than her brother.",
+        "options": ["tall", "taller", "tallest", "more tall"],
+        "correctAnswer": "taller",
+        "explanation": "Сравнительная степень односложных прилагательных — -er: taller."
+      },
+      {
+        "id": "gA2-06",
+        "type": "grammar",
+        "question": "They are going ___ football tomorrow.",
+        "options": ["to play", "playing", "play", "played"],
+        "correctAnswer": "to play",
+        "explanation": "Конструкция going to + инфинитив: are going to play."
+      },
+      {
+        "id": "gA2-07",
+        "type": "grammar",
+        "question": "How ___ books do you have?",
+        "options": ["much", "many", "more", "most"],
+        "correctAnswer": "many",
+        "explanation": "Books — счётное существительное: how many."
+      },
+      {
+        "id": "gA2-08",
+        "type": "grammar",
+        "question": "I ___ my homework last night.",
+        "options": ["finish", "finished", "finishes", "finishing"],
+        "correctAnswer": "finished",
+        "explanation": "Действие вчера — Past simple: правильный глагол + -ed, finished."
+      },
+      {
+        "id": "gA2-09",
+        "type": "grammar",
+        "question": "___ she at school yesterday?",
+        "options": ["Was", "Were", "Is", "Did"],
+        "correctAnswer": "Was",
+        "explanation": "Вопрос к to be в прошедшем для he/she/it — Was: Was she at school?"
+      },
+      {
+        "id": "gA2-10",
+        "type": "grammar",
+        "question": "They ___ happy last weekend.",
+        "options": ["was", "were", "are", "be"],
+        "correctAnswer": "were",
+        "explanation": "To be в прошедшем для they — were: They were happy."
+      },
+      {
+        "id": "gA2-11",
+        "type": "grammar",
+        "question": "This is the ___ building in the city.",
+        "options": ["tall", "taller", "tallest", "more tall"],
+        "correctAnswer": "tallest",
+        "explanation": "Превосходная степень односложных прилагательных — the + -est: the tallest building."
+      },
+      {
+        "id": "gA2-12",
+        "type": "grammar",
+        "question": "I bought ___ bread at the shop.",
+        "options": ["any", "some", "many", "a"],
+        "correctAnswer": "some",
+        "explanation": "В утвердительном предложении — some: some bread."
+      },
+      {
+        "id": "gA2-13",
+        "type": "grammar",
+        "question": "We ___ see you tomorrow.",
+        "options": ["will", "going", "did", "are"],
+        "correctAnswer": "will",
+        "explanation": "Будущее время — will + инфинитив: will see."
+      },
+      {
+        "id": "gA2-14",
+        "type": "grammar",
+        "question": "How ___ water do you drink a day?",
+        "options": ["much", "many", "more", "most"],
+        "correctAnswer": "much",
+        "explanation": "Water — несчётное существительное: how much."
+      },
+      {
+        "id": "gA2-15",
+        "type": "grammar",
+        "question": "It's hot in here. ___ I open the window?",
+        "options": ["Shall", "Do", "Am", "Is"],
+        "correctAnswer": "Shall",
+        "explanation": "Предложение помощи — Shall I...? Shall I open the window?"
+      },
+      {
+        "id": "gA2-16",
+        "type": "grammar",
+        "question": "You ___ go to bed early tonight.",
+        "options": ["should", "must to", "ought", "does"],
+        "correctAnswer": "should",
+        "explanation": "Совет — should + инфинитив без to: should go."
+      },
+      {
+        "id": "gA2-17",
+        "type": "grammar",
+        "question": "Look at ___! They are dancing.",
+        "options": ["them", "they", "their", "theirs"],
+        "correctAnswer": "them",
+        "explanation": "После предлога — объектное местоимение: look at them."
+      },
+      {
+        "id": "gA2-18",
+        "type": "grammar",
+        "question": "Whose bag is this? It's ___.",
+        "options": ["my", "mine", "me", "I"],
+        "correctAnswer": "mine",
+        "explanation": "Без существительного — притяжательное местоимение: mine."
+      },
+      {
+        "id": "gA2-19",
+        "type": "grammar",
+        "question": "I always ___ at seven o'clock.",
+        "options": ["get up", "am get up", "getting up", "got up"],
+        "correctAnswer": "get up",
+        "explanation": "Регулярное действие + наречие always — Present simple: I always get up."
+      },
+      {
+        "id": "gA2-20",
+        "type": "grammar",
+        "question": "She ___ very fast.",
+        "options": ["runs", "run", "running", "is run"],
+        "correctAnswer": "runs",
+        "explanation": "He/she/it в Present simple — окончание -s: runs."
+      }
+    ],
+    "B1": [
+      {
+        "id": "gB1-01",
+        "type": "grammar",
+        "question": "I have lived here ___ 2015.",
+        "options": ["since", "for", "from", "ago"],
+        "correctAnswer": "since",
+        "explanation": "Точка отсчёта — since (since 2015); период — for (for five years)."
+      },
+      {
+        "id": "gB1-02",
+        "type": "grammar",
+        "question": "She has already ___ the report.",
+        "options": ["finished", "finish", "finishing", "finishes"],
+        "correctAnswer": "finished",
+        "explanation": "Present perfect: have/has + третья форма глагола (finished)."
+      },
+      {
+        "id": "gB1-03",
+        "type": "grammar",
+        "question": "If it ___ tomorrow, we will stay home.",
+        "options": ["rains", "rain", "will rain", "would rain"],
+        "correctAnswer": "rains",
+        "explanation": "Первый тип условия: после if — Present simple, а will — в главной части."
+      },
+      {
+        "id": "gB1-04",
+        "type": "grammar",
+        "question": "I enjoy ___ to music.",
+        "options": ["to listen", "listen", "listening", "listened"],
+        "correctAnswer": "listening",
+        "explanation": "Enjoy + герундий: enjoy listening."
+      },
+      {
+        "id": "gB1-05",
+        "type": "grammar",
+        "question": "The car was ___ by my brother.",
+        "options": ["repair", "repaired", "repairing", "to repair"],
+        "correctAnswer": "repaired",
+        "explanation": "Страдательный залог: was + третья форма (repaired)."
+      },
+      {
+        "id": "gB1-06",
+        "type": "grammar",
+        "question": "You ___ be late for the exam.",
+        "options": ["mustn't", "don't have to", "couldn't", "needn't"],
+        "correctAnswer": "mustn't",
+        "explanation": "Запрет — mustn't. Don't have to — «не обязательно», не запрет."
+      },
+      {
+        "id": "gB1-07",
+        "type": "grammar",
+        "question": "I used ___ coffee, but now I drink tea.",
+        "options": ["to drink", "drink", "drinking", "drank"],
+        "correctAnswer": "to drink",
+        "explanation": "Used to + инфинитив — «раньше пил»: used to drink."
+      },
+      {
+        "id": "gB1-08",
+        "type": "grammar",
+        "question": "She has lived here ___ five years.",
+        "options": ["since", "for", "from", "during"],
+        "correctAnswer": "for",
+        "explanation": "Период времени — for (for five years); точка отсчёта — since (since 2015)."
+      },
+      {
+        "id": "gB1-09",
+        "type": "grammar",
+        "question": "I haven't finished my homework ___.",
+        "options": ["yet", "already", "ever", "just"],
+        "correctAnswer": "yet",
+        "explanation": "В отрицании Present perfect — yet: haven't finished yet. Already — в утверждениях."
+      },
+      {
+        "id": "gB1-10",
+        "type": "grammar",
+        "question": "While I was cooking, the phone ___.",
+        "options": ["rang", "was ringing", "rings", "is ringing"],
+        "correctAnswer": "rang",
+        "explanation": "Фоновое действие (Past continuous) прервано коротким (Past simple): the phone rang."
+      },
+      {
+        "id": "gB1-11",
+        "type": "grammar",
+        "question": "When we arrived, they ___ lunch.",
+        "options": ["had eaten", "ate", "were eating", "have eaten"],
+        "correctAnswer": "had eaten",
+        "explanation": "Действие раньше другого в прошлом — Past perfect: had eaten."
+      },
+      {
+        "id": "gB1-12",
+        "type": "grammar",
+        "question": "The man ___ helped us is a teacher.",
+        "options": ["who", "whose", "which", "whom"],
+        "correctAnswer": "who",
+        "explanation": "Относительное местоимение для человека в роли подлежащего — who."
+      },
+      {
+        "id": "gB1-13",
+        "type": "grammar",
+        "question": "I'm interested ___ learning languages.",
+        "options": ["in", "at", "for", "on"],
+        "correctAnswer": "in",
+        "explanation": "Be interested in + герундий: interested in learning."
+      },
+      {
+        "id": "gB1-14",
+        "type": "grammar",
+        "question": "She stopped ___ chocolate to lose weight.",
+        "options": ["eating", "to eat", "ate", "eat"],
+        "correctAnswer": "eating",
+        "explanation": "Stop + герундий — «перестать»: stopped eating. Stop + инфинитив — «остановиться, чтобы»."
+      },
+      {
+        "id": "gB1-15",
+        "type": "grammar",
+        "question": "You don't ___ pay now.",
+        "options": ["have to", "must", "need", "should"],
+        "correctAnswer": "have to",
+        "explanation": "«Не обязательно» — don't have to; must не употребляется с отрицанием do."
+      },
+      {
+        "id": "gB1-16",
+        "type": "grammar",
+        "question": "This box is too heavy ___ me to lift.",
+        "options": ["for", "to", "with", "at"],
+        "correctAnswer": "for",
+        "explanation": "Конструкция too... for somebody to do: too heavy for me to lift."
+      },
+      {
+        "id": "gB1-17",
+        "type": "grammar",
+        "question": "It was ___ a good film that I watched it twice.",
+        "options": ["such", "so", "too", "very"],
+        "correctAnswer": "such",
+        "explanation": "Such + a + прилагательное + существительное: such a good film. So — только с прилагательным."
+      },
+      {
+        "id": "gB1-18",
+        "type": "grammar",
+        "question": "He ___ come, will he?",
+        "options": ["won't", "will", "doesn't", "isn't"],
+        "correctAnswer": "won't",
+        "explanation": "Разделительный вопрос: He won't come, will he? — утвердительный «хвостик»."
+      },
+      {
+        "id": "gB1-19",
+        "type": "grammar",
+        "question": "When we were kids, we ___ play in the garden.",
+        "options": ["would", "will", "use to", "are"],
+        "correctAnswer": "would",
+        "explanation": "Привычное действие в прошлом — would + инфинитив: would play."
+      },
+      {
+        "id": "gB1-20",
+        "type": "grammar",
+        "question": "This is the best film I ___ ever seen.",
+        "options": ["have", "has", "had", "am"],
+        "correctAnswer": "have",
+        "explanation": "Превосходная степень + Present perfect: the best film I have ever seen."
+      }
+    ],
+    "B2": [
+      {
+        "id": "gB2-01",
+        "type": "grammar",
+        "question": "If I ___ you, I would apologise.",
+        "options": ["was", "were", "am", "be"],
+        "correctAnswer": "were",
+        "explanation": "Второй тип условия: If I were you — сослагательное наклонение."
+      },
+      {
+        "id": "gB2-02",
+        "type": "grammar",
+        "question": "She said she ___ help me.",
+        "options": ["would", "will", "can", "shall"],
+        "correctAnswer": "would",
+        "explanation": "В косвенной речи will → would: she said she would help."
+      },
+      {
+        "id": "gB2-03",
+        "type": "grammar",
+        "question": "The report ___ by Friday.",
+        "options": ["must finish", "must be finished", "must finished", "must been finished"],
+        "correctAnswer": "must be finished",
+        "explanation": "Модальный глагол + пассив: must be + третья форма."
+      },
+      {
+        "id": "gB2-04",
+        "type": "grammar",
+        "question": "He suggested ___ a break.",
+        "options": ["to take", "take", "taking", "took"],
+        "correctAnswer": "taking",
+        "explanation": "Suggest + герундий: suggested taking."
+      },
+      {
+        "id": "gB2-05",
+        "type": "grammar",
+        "question": "I'm used ___ up early.",
+        "options": ["to get", "getting", "to getting", "get"],
+        "correctAnswer": "to getting",
+        "explanation": "Be used to + герундий: used to getting. Used to + инфинитив — «раньше»."
+      },
+      {
+        "id": "gB2-06",
+        "type": "grammar",
+        "question": "The man ___ car was stolen called the police.",
+        "options": ["who", "which", "whose", "whom"],
+        "correctAnswer": "whose",
+        "explanation": "Притяжательное относительное местоимение для людей — whose."
+      },
+      {
+        "id": "gB2-07",
+        "type": "grammar",
+        "question": "Not only ___ late, he also forgot his keys.",
+        "options": ["he was", "was he", "he were", "was him"],
+        "correctAnswer": "was he",
+        "explanation": "После not only — инверсия: Not only was he late."
+      },
+      {
+        "id": "gB2-08",
+        "type": "grammar",
+        "question": "If she had studied, she ___ the exam.",
+        "options": ["would have passed", "would pass", "will pass", "passes"],
+        "correctAnswer": "would have passed",
+        "explanation": "Третий тип условия: If + Past perfect → would have + третья форма."
+      },
+      {
+        "id": "gB2-09",
+        "type": "grammar",
+        "question": "By 2028, they ___ in this house for ten years.",
+        "options": ["will have lived", "will live", "have lived", "are living"],
+        "correctAnswer": "will have lived",
+        "explanation": "Действие, завершённое к моменту в будущем, — Future perfect: will have lived."
+      },
+      {
+        "id": "gB2-10",
+        "type": "grammar",
+        "question": "The bridge ___ at the moment.",
+        "options": ["is being built", "is built", "is building", "was built"],
+        "correctAnswer": "is being built",
+        "explanation": "Страдательный залог в процессе — is/are being + третья форма: is being built."
+      },
+      {
+        "id": "gB2-11",
+        "type": "grammar",
+        "question": "You should have ___ me earlier.",
+        "options": ["told", "tell", "telling", "to tell"],
+        "correctAnswer": "told",
+        "explanation": "Сожаление о прошлом — should have + третья форма: should have told."
+      },
+      {
+        "id": "gB2-12",
+        "type": "grammar",
+        "question": "She avoided ___ him.",
+        "options": ["seeing", "to see", "see", "saw"],
+        "correctAnswer": "seeing",
+        "explanation": "Avoid + герундий: avoided seeing."
+      },
+      {
+        "id": "gB2-13",
+        "type": "grammar",
+        "question": "I ___ rather stay at home than go out.",
+        "options": ["would", "will", "am", "was"],
+        "correctAnswer": "would",
+        "explanation": "Would rather + инфинитив — «предпочёл бы»: would rather stay."
+      },
+      {
+        "id": "gB2-14",
+        "type": "grammar",
+        "question": "Despite ___ late, we missed nothing.",
+        "options": ["being", "to be", "be", "been"],
+        "correctAnswer": "being",
+        "explanation": "Despite + герундий: despite being late."
+      },
+      {
+        "id": "gB2-15",
+        "type": "grammar",
+        "question": "The film, ___ was made in 1990, is a classic.",
+        "options": ["which", "who", "whose", "whom"],
+        "correctAnswer": "which",
+        "explanation": "Неопределительное относительное для вещей — which: the film, which was made..."
+      },
+      {
+        "id": "gB2-16",
+        "type": "grammar",
+        "question": "He must ___ the train — he's not here yet.",
+        "options": ["have missed", "miss", "to miss", "missing"],
+        "correctAnswer": "have missed",
+        "explanation": "Логический вывод о прошлом — must have + третья форма: must have missed."
+      },
+      {
+        "id": "gB2-17",
+        "type": "grammar",
+        "question": "I wish I ___ taller.",
+        "options": ["were", "am", "is", "be"],
+        "correctAnswer": "were",
+        "explanation": "Wish о настоящем — Past simple/сослагательное: I wish I were taller."
+      },
+      {
+        "id": "gB2-18",
+        "type": "grammar",
+        "question": "She is ___ tall as her sister.",
+        "options": ["as", "so", "than", "more"],
+        "correctAnswer": "as",
+        "explanation": "Равенство — as... as: as tall as her sister."
+      },
+      {
+        "id": "gB2-19",
+        "type": "grammar",
+        "question": "I look forward to ___ from you.",
+        "options": ["hearing", "hear", "heard", "to hear"],
+        "correctAnswer": "hearing",
+        "explanation": "Look forward to + герундий: look forward to hearing."
+      },
+      {
+        "id": "gB2-20",
+        "type": "grammar",
+        "question": "She denied ___ the money.",
+        "options": ["taking", "to take", "take", "took"],
+        "correctAnswer": "taking",
+        "explanation": "Deny + герундий: denied taking."
+      }
+    ],
+    "C1": [
+      {
+        "id": "gC1-01",
+        "type": "grammar",
+        "question": "Had I known, I ___ differently.",
+        "options": ["would act", "would have acted", "will act", "act"],
+        "correctAnswer": "would have acted",
+        "explanation": "Третий тип условия с инверсией: Had I known... would have acted."
+      },
+      {
+        "id": "gC1-02",
+        "type": "grammar",
+        "question": "It's time we ___ home.",
+        "options": ["go", "went", "would go", "will go"],
+        "correctAnswer": "went",
+        "explanation": "It's time + Past simple (сослагательное): it's time we went."
+      },
+      {
+        "id": "gC1-03",
+        "type": "grammar",
+        "question": "The problems ___ by climate change are serious.",
+        "options": ["causing", "caused", "to cause", "cause"],
+        "correctAnswer": "caused",
+        "explanation": "Причастный оборот в определении: problems caused by... (страдательное)."
+      },
+      {
+        "id": "gC1-04",
+        "type": "grammar",
+        "question": "I wish I ___ that.",
+        "options": ["didn't say", "haven't said", "hadn't said", "won't say"],
+        "correctAnswer": "hadn't said",
+        "explanation": "Сожаление о прошлом — I wish + Past perfect: hadn't said."
+      },
+      {
+        "id": "gC1-05",
+        "type": "grammar",
+        "question": "___ to finish on time, we started early.",
+        "options": ["For", "In order", "So that", "Because"],
+        "correctAnswer": "In order",
+        "explanation": "In order to — «для того чтобы»: In order to finish on time."
+      },
+      {
+        "id": "gC1-06",
+        "type": "grammar",
+        "question": "He demanded that everyone ___ silent.",
+        "options": ["is", "be", "was", "would be"],
+        "correctAnswer": "be",
+        "explanation": "Сослагательное наклонение после demand: that everyone be silent."
+      },
+      {
+        "id": "gC1-07",
+        "type": "grammar",
+        "question": "She is said ___ a millionaire.",
+        "options": ["to be", "being", "be", "been"],
+        "correctAnswer": "to be",
+        "explanation": "Пассив с глаголами восприятия: is said to be — «говорят, что она»."
+      },
+      {
+        "id": "gC1-08",
+        "type": "grammar",
+        "question": "___ the rain, we went out.",
+        "options": ["In spite of", "Despite of", "Although", "Because of"],
+        "correctAnswer": "In spite of",
+        "explanation": "Уступительная конструкция + существительное: in spite of the rain. Although требует предложения."
+      },
+      {
+        "id": "gC1-09",
+        "type": "grammar",
+        "question": "Having ___ the exam, she relaxed.",
+        "options": ["passed", "pass", "passing", "to pass"],
+        "correctAnswer": "passed",
+        "explanation": "Перфектное причастие — Having + третья форма: Having passed the exam..."
+      },
+      {
+        "id": "gC1-10",
+        "type": "grammar",
+        "question": "He insisted on ___ a refund.",
+        "options": ["getting", "get", "to get", "got"],
+        "correctAnswer": "getting",
+        "explanation": "Insist on + герундий: insisted on getting a refund."
+      },
+      {
+        "id": "gC1-11",
+        "type": "grammar",
+        "question": "I recommend that he ___ the report.",
+        "options": ["submit", "submits", "will submit", "submitting"],
+        "correctAnswer": "submit",
+        "explanation": "Сослагательное после recommend: that he submit (без -s)."
+      },
+      {
+        "id": "gC1-12",
+        "type": "grammar",
+        "question": "I can't help ___ at his jokes.",
+        "options": ["laughing", "to laugh", "laugh", "laughed"],
+        "correctAnswer": "laughing",
+        "explanation": "Can't help + герундий — «не могу не»: can't help laughing."
+      },
+      {
+        "id": "gC1-13",
+        "type": "grammar",
+        "question": "He congratulated me on ___ the race.",
+        "options": ["winning", "win", "to win", "won"],
+        "correctAnswer": "winning",
+        "explanation": "Congratulate somebody on + герундий: congratulated me on winning."
+      },
+      {
+        "id": "gC1-14",
+        "type": "grammar",
+        "question": "What ___ most is kindness.",
+        "options": ["matters", "matter", "mattered", "to matter"],
+        "correctAnswer": "matters",
+        "explanation": "Придаточное с what согласуется в единственном числе: What matters most is..."
+      },
+      {
+        "id": "gC1-15",
+        "type": "grammar",
+        "question": "He acted as if he ___ the boss.",
+        "options": ["were", "was", "is", "be"],
+        "correctAnswer": "were",
+        "explanation": "Нереальное сравнение — сослагательное were: as if he were the boss."
+      },
+      {
+        "id": "gC1-16",
+        "type": "grammar",
+        "question": "The idea sounds ___.",
+        "options": ["good", "well", "nicely", "goodly"],
+        "correctAnswer": "good",
+        "explanation": "Глаголы чувства (sound, look, feel) требуют прилагательное, а не наречие: sounds good."
+      },
+      {
+        "id": "gC1-17",
+        "type": "grammar",
+        "question": "If he ___ more careful now, he wouldn't have had the accident.",
+        "options": ["were", "is", "has been", "will be"],
+        "correctAnswer": "were",
+        "explanation": "Смешанный тип условия: условие о настоящем (if + were), результат о прошлом."
+      },
+      {
+        "id": "gC1-18",
+        "type": "grammar",
+        "question": "I regret ___ you that the job is gone.",
+        "options": ["to inform", "informing", "inform", "informed"],
+        "correctAnswer": "to inform",
+        "explanation": "Regret + инфинитив — «с сожалением сообщаю»; regret + герундий — «сожалею о сделанном»."
+      },
+      {
+        "id": "gC1-19",
+        "type": "grammar",
+        "question": "She looks ___ her mother.",
+        "options": ["like", "as", "than", "to"],
+        "correctAnswer": "like",
+        "explanation": "«Похожа на» — look like; as — «в роли, в качестве»."
+      },
+      {
+        "id": "gC1-20",
+        "type": "grammar",
+        "question": "___ by his friend, he continued the race.",
+        "options": ["Encouraged", "Encouraging", "To encourage", "Encourage"],
+        "correctAnswer": "Encouraged",
+        "explanation": "Страдательное причастие в начале предложения: Encouraged by his friend..."
+      }
+    ],
+    "C2": [
+      {
+        "id": "gC2-01",
+        "type": "grammar",
+        "question": "So ___ was the noise that I couldn't sleep.",
+        "options": ["loud", "loudly", "more loud", "too loud"],
+        "correctAnswer": "loud",
+        "explanation": "Инверсия so + прилагательное + that: So loud was the noise..."
+      },
+      {
+        "id": "gC2-02",
+        "type": "grammar",
+        "question": "Little ___ that the plan would fail.",
+        "options": ["they knew", "did they know", "knew they", "had they known"],
+        "correctAnswer": "did they know",
+        "explanation": "Отрицательное наречие little требует инверсии: Little did they know."
+      },
+      {
+        "id": "gC2-03",
+        "type": "grammar",
+        "question": "Were it not ___ your help, we would have lost.",
+        "options": ["for", "that", "to", "if"],
+        "correctAnswer": "for",
+        "explanation": "Were it not for — «если бы не»: Were it not for your help."
+      },
+      {
+        "id": "gC2-04",
+        "type": "grammar",
+        "question": "The more you practise, ___ you get.",
+        "options": ["better", "the better", "more better", "the best"],
+        "correctAnswer": "the better",
+        "explanation": "Двойная сравнительная конструкция: the more..., the better."
+      },
+      {
+        "id": "gC2-05",
+        "type": "grammar",
+        "question": "He is thought ___ abroad.",
+        "options": ["to live", "to be living", "living", "being lived"],
+        "correctAnswer": "to be living",
+        "explanation": "Сложное дополнение с пассивом: is thought to be living."
+      },
+      {
+        "id": "gC2-06",
+        "type": "grammar",
+        "question": "It was on that day ___ everything changed.",
+        "options": ["which", "that", "when", "who"],
+        "correctAnswer": "that",
+        "explanation": "Усилительная конструкция It was... that... выделяет обстоятельство."
+      },
+      {
+        "id": "gC2-07",
+        "type": "grammar",
+        "question": "Under no circumstances ___ the files.",
+        "options": ["should you delete", "you should delete", "you delete", "delete you"],
+        "correctAnswer": "should you delete",
+        "explanation": "Отрицательное обстоятельство в начале — инверсия: Under no circumstances should you delete."
+      },
+      {
+        "id": "gC2-08",
+        "type": "grammar",
+        "question": "Should you ___ help, let me know.",
+        "options": ["need", "needs", "needing", "needed"],
+        "correctAnswer": "need",
+        "explanation": "Инверсия первого типа условия: Should you need help — «Если вам понадобится помощь»."
+      },
+      {
+        "id": "gC2-09",
+        "type": "grammar",
+        "question": "Rarely ___ such talent.",
+        "options": ["have I seen", "I have seen", "I saw", "saw I"],
+        "correctAnswer": "have I seen",
+        "explanation": "Наречие rarely требует инверсию: Rarely have I seen such talent."
+      },
+      {
+        "id": "gC2-10",
+        "type": "grammar",
+        "question": "All I want ___ peace.",
+        "options": ["is", "are", "be", "being"],
+        "correctAnswer": "is",
+        "explanation": "Усилительная конструкция All I want — подлежащее в единственном числе: is peace."
+      },
+      {
+        "id": "gC2-11",
+        "type": "grammar",
+        "question": "I resent ___ being blamed for it.",
+        "options": ["his", "him", "he", "to"],
+        "correctAnswer": "his",
+        "explanation": "Формальный стиль — притяжательное местоимение перед герундием: I resent his being blamed."
+      },
+      {
+        "id": "gC2-12",
+        "type": "grammar",
+        "question": "I would rather you ___ me the truth.",
+        "options": ["told", "tell", "tells", "telling"],
+        "correctAnswer": "told",
+        "explanation": "Would rather + придаточное — сослагательное прошедшее: rather you told me."
+      },
+      {
+        "id": "gC2-13",
+        "type": "grammar",
+        "question": "The plan must ___ by now.",
+        "options": ["have been approved", "be approved", "have approved", "approved"],
+        "correctAnswer": "have been approved",
+        "explanation": "Модальный + перфектный пассив: must have been approved."
+      },
+      {
+        "id": "gC2-14",
+        "type": "grammar",
+        "question": "Such was the demand ___ tickets sold out in a day.",
+        "options": ["that", "which", "so", "as"],
+        "correctAnswer": "that",
+        "explanation": "Инверсия Such... that: Such was the demand that tickets sold out."
+      },
+      {
+        "id": "gC2-15",
+        "type": "grammar",
+        "question": "On no account ___ leave early.",
+        "options": ["must you", "you must", "must", "you"],
+        "correctAnswer": "must you",
+        "explanation": "Усиленное отрицание On no account — инверсия: On no account must you leave early."
+      },
+      {
+        "id": "gC2-16",
+        "type": "grammar",
+        "question": "He went to the meeting ___ his illness.",
+        "options": ["notwithstanding", "however", "despite of", "although"],
+        "correctAnswer": "notwithstanding",
+        "explanation": "Notwithstanding — книжное «несмотря на»; however и although требуют предложения."
+      },
+      {
+        "id": "gC2-17",
+        "type": "grammar",
+        "question": "The sooner we start, ___ we'll finish.",
+        "options": ["the sooner", "sooner", "the more soon", "more soon"],
+        "correctAnswer": "the sooner",
+        "explanation": "Двойная сравнительная конструкция: the sooner..., the sooner..."
+      },
+      {
+        "id": "gC2-18",
+        "type": "grammar",
+        "question": "If only I ___ listened to your advice.",
+        "options": ["had", "have", "would", "did"],
+        "correctAnswer": "had",
+        "explanation": "If only + Past perfect — сожаление о прошлом: If only I had listened."
+      },
+      {
+        "id": "gC2-19",
+        "type": "grammar",
+        "question": "Only after the meeting ___ the truth.",
+        "options": ["did we learn", "we learned", "we learn", "learn we"],
+        "correctAnswer": "did we learn",
+        "explanation": "Only после обстоятельства требует инверсию: Only after the meeting did we learn the truth."
+      },
+      {
+        "id": "gC2-20",
+        "type": "grammar",
+        "question": "He is known ___ a brilliant pianist.",
+        "options": ["as", "for", "to", "by"],
+        "correctAnswer": "as",
+        "explanation": "Be known as — «известен как»; known for — «известен благодаря»."
+      }
+    ]
+  }
+}
