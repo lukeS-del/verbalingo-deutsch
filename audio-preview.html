@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Немецкие предложения — прослушивание</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { max-width: 860px; margin: 40px auto; padding: 0 20px 60px; }
+    h1 { font-size: clamp(24px, 5vw, 36px); margin-bottom: 12px; }
+    p { line-height: 1.6; }
+    .muted { opacity: .7; }
+    input { box-sizing: border-box; width: 100%; padding: 14px; font: inherit; border: 1px solid #8888; border-radius: 10px; }
+    .toolbar { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin: 20px 0; }
+    select, button { font: inherit; padding: 10px 14px; border: 1px solid #8888; border-radius: 8px; cursor: pointer; }
+    button:disabled { opacity: .5; cursor: default; }
+    article { border-bottom: 1px solid #8884; padding: 20px 0; }
+    article p { margin: 0 0 8px; }
+    .german { font-size: 20px; font-weight: 550; }
+    audio { width: 100%; margin-top: 12px; }
+    #status { min-height: 1.6em; }
+  </style>
+</head>
+<body>
+  <h1>Немецкий — слушаем предложения</h1>
+  <p class="muted">Голос Thorsten · немецкий (Германия) · синтезировано локально с помощью Piper</p>
+  <p id="status" role="status">Загружаю каталог записей…</p>
+  <input id="search" type="search" placeholder="Найти предложение, перевод или слово…" aria-label="Поиск по предложениям" disabled>
+  <div class="toolbar">
+    <label>Скорость <select id="speed"><option value="0.8">0,8×</option><option value="1" selected>1×</option><option value="1.15">1,15×</option></select></label>
+    <span id="count" class="muted"></span>
+  </div>
+  <div id="sentences"></div>
+  <div class="toolbar"><button id="previous" disabled>Назад</button><span id="page"></span><button id="next" disabled>Дальше</button></div>
+  <script>
+    const byId = id => document.getElementById(id);
+    const pageSize = 30;
+    let entries = [], filtered = [], page = 0, currentAudio = null;
+    function render() {
+      if (currentAudio) currentAudio.pause();
+      currentAudio = null;
+      const fragment = document.createDocumentFragment();
+      for (const entry of filtered.slice(page * pageSize, (page + 1) * pageSize)) {
+        const card = document.createElement('article');
+        const german = document.createElement('p');
+        german.className = 'german'; german.lang = 'de'; german.textContent = entry.text;
+        const translation = document.createElement('p');
+        translation.textContent = entry.translation;
+        const audio = document.createElement('audio');
+        audio.controls = true; audio.preload = 'none';
+        audio.src = 'audio/de-DE/' + entry.file;
+        audio.setAttribute('aria-label', 'Прослушать: ' + entry.text);
+        audio.playbackRate = Number(byId('speed').value);
+        audio.addEventListener('play', () => {
+          if (currentAudio && currentAudio !== audio) currentAudio.pause();
+          currentAudio = audio;
+        });
+        audio.addEventListener('error', () => { byId('status').textContent = 'Не удалось загрузить запись. Проверьте наличие аудиофайлов.'; });
+        card.append(german, translation, audio); fragment.append(card);
+      }
+      byId('sentences').replaceChildren(fragment);
+      byId('count').textContent = 'Найдено: ' + filtered.length;
+      const pages = Math.max(1, Math.ceil(filtered.length / pageSize));
+      byId('page').textContent = (page + 1) + ' / ' + pages;
+      byId('previous').disabled = page === 0;
+      byId('next').disabled = page + 1 >= pages;
+    }
+    byId('search').addEventListener('input', event => {
+      const query = event.target.value.trim().toLocaleLowerCase();
+      filtered = entries.filter(e => [e.text, e.translation, e.wordId].join(' ').toLocaleLowerCase().includes(query));
+      page = 0; render();
+    });
+    byId('speed').addEventListener('change', event => {
+      document.querySelectorAll('audio').forEach(audio => { audio.playbackRate = Number(event.target.value); });
+    });
+    byId('previous').addEventListener('click', () => { page--; render(); window.scrollTo(0, 0); });
+    byId('next').addEventListener('click', () => { page++; render(); window.scrollTo(0, 0); });
+    async function load() {
+      try {
+        let response = await fetch('audio/de-DE/manifest.json');
+        if (response.status === 404) response = await fetch('audio/de-DE/manifest.sample.json');
+        if (!response.ok) throw new Error('Каталог ещё не создан');
+        const manifest = await response.json();
+        entries = manifest.entries.filter(e => manifest.files[e.file]);
+        filtered = entries;
+        byId('status').textContent = (manifest.complete ? 'Все записи готовы. ' : 'Пробный или неполный набор. ') +
+          entries.length + ' упражнений, ' + Object.keys(manifest.files).length + ' аудиозаписей.';
+        byId('search').disabled = false; render();
+      } catch (error) {
+        byId('status').textContent = 'Откройте страницу через локальный сервер после генерации аудио. ' + error.message;
+      }
+    }
+    load();
+  </script>
+</body>
+</html>

@@ -96200,12 +96200,12 @@ p.a=o===!0
 q=1
 s=1
 break A
-case"stop":if(p.b!==B.hR)v.G.speechSynthesis.cancel()
+case"stop":if(p.b!==B.hR)(v.G.verbalingoSpeech||v.G.speechSynthesis).cancel()
 q=1
 s=1
 break A
 case"pause":o=p.b
-if(o===B.o4||o===B.Dw)v.G.speechSynthesis.pause()
+if(o===B.o4||o===B.Dw)(v.G.verbalingoSpeech||v.G.speechSynthesis).pause()
 q=1
 s=1
 break A
@@ -96258,8 +96258,8 @@ if(s===B.hR||s===B.o5){s=this.d
 s===$&&A.a()
 s.text=a
 r=v.G
-if(this.b===B.o5)r.speechSynthesis.resume()
-else r.speechSynthesis.speak(s)}},
+if(this.b===B.o5)(r.verbalingoSpeech||r.speechSynthesis).resume()
+else (r.verbalingoSpeech||r.speechSynthesis).speak(s)}},
 asw(a){var s,r=v.G.speechSynthesis.getVoices()
 r=t.Lc.b(r)?r:new A.cC(r,A.Y(r).i("cC<1,aD>"))
 s=J.MQ(r,new A.ac8(a))
@@ -96273,7 +96273,7 @@ s=J.MQ(q,new A.ac9(a))
 if(!s.ga9(0)){r=this.d
 r===$&&A.a()
 r.voice=s.gS(0)}},
-ang(a){var s,r,q,p,o=this
+ang(a){if(v.G.verbalingoSpeech&&v.G.verbalingoSpeech.hasRecordings&&/^de(?:[-_]|$)/i.test(a))return!0;var s,r,q,p,o=this
 if(J.nD(o.e))o.Ze()
 if(o.f.length===0)o.Z9()
 for(s=o.f,r=s.length,q=0;q<s.length;s.length===r||(0,A.v)(s),++q){p=s[q]
@@ -96309,8 +96309,8 @@ $S:47}
 A.ac1.prototype={
 $1(a){var s
 if(this.a.b===B.o4){s=v.G
-s.speechSynthesis.pause()
-s.speechSynthesis.resume()}else a.ao()},
+;(s.verbalingoSpeech||s.speechSynthesis).pause();
+;(s.verbalingoSpeech||s.speechSynthesis).resume();}else a.ao()},
 $S:65}
 A.ac3.prototype={
 $1(a){var s,r=this.a
@@ -106123,8 +106123,8 @@ if(r!==B.hU&&r!==B.fh)if(!f){r=!h||a0.d||a3.go
 e=r}if(!f)d=h&&g!=null&&!a0.d&&a3.id
 else d=!0
 c=h&&!a0.d
-if(e){r=p.d
-if(!a0.d){p=$.aPz()
+if(e){r=h&&!a0.d&&a4.c!=null&&a4.c.e!=null?a4.c.e:p.d
+if(!a0.d&&!h){p=$.aPz()
 r=B.c.cr(A.cb(r,p,""))}p=s.ok.w
 b=A.M(r,a1,a1,a1,a1,p==null?a1:p.a0(s.ax.b),a1,a1)}else b=a1
 if(d){r=s.ok.w
@@ -114738,7 +114738,7 @@ B.a0U=new A.b0("\u041f\u043e\u0434\u0441\u043a\u0430\u0437\u043a\u0430 \u2014 \u
 B.a0V=new A.b0("\u0412\u0441\u0442\u0430\u0432\u0438\u0442\u044c journal.csv \u0438\u0437 \u0431\u0443\u0444\u0435\u0440\u0430 \u043e\u0431\u043c\u0435\u043d\u0430. \u0421\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f \u043a\u0430\u0440\u0442\u043e\u0447\u0435\u043a \u043f\u0435\u0440\u0435\u0441\u0447\u0438\u0442\u0430\u044e\u0442\u0441\u044f \u043f\u043e \u0437\u0430\u043f\u0438\u0441\u044f\u043c.",null,null,null,null,null,null,null,null,null)
 B.a0W=new A.b0("\u041e\u0431\u0440\u0430\u0437\u0435\u0446",null,null,null,null,null,null,null,null,null)
 B.Di=new A.b0("\u0432\u0441\u0435",null,null,null,null,null,null,null,null,null)
-B.a0X=new A.b0("\u041f\u043e\u0434\u0441\u043a\u0430\u0437\u043a\u0430 \u2014 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u043f\u0435\u0440\u0435\u0432\u043e\u0434",null,null,null,null,null,null,null,null,null)
+B.a0X=new A.b0("\u041f\u043e\u0434\u0441\u043a\u0430\u0437\u043a\u0430 \u2014 \u043f\u0435\u0440\u0435\u0432\u043e\u0434 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f",null,null,null,null,null,null,null,null,null)
 B.a0Y=new A.b0("\u0412\u0430\u0448\u0430 \u0437\u0430\u043f\u0438\u0441\u044c",null,null,null,null,null,null,null,null,null)
 B.a0Z=new A.b0("\u0423\u0447\u0451\u0442\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c \u0438 \u0432\u0441\u0451, \u0447\u0442\u043e \u0445\u0440\u0430\u043d\u0438\u0442\u0441\u044f \u043d\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0435, \u0431\u0443\u0434\u0443\u0442 \u0443\u0434\u0430\u043b\u0435\u043d\u044b \u0431\u0435\u0437 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u2014 \u0438 \u043d\u0435\u043c\u0435\u0446\u043a\u0438\u0439, \u0438 \u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441: \u0430\u043a\u043a\u0430\u0443\u043d\u0442 \u0443 \u043d\u0438\u0445 \u043e\u0431\u0449\u0438\u0439. \u041f\u0440\u043e\u0433\u0440\u0435\u0441\u0441 \u043d\u0430 \u044d\u0442\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435 \u043e\u0441\u0442\u0430\u043d\u0435\u0442\u0441\u044f: \u043e\u043d \u043b\u0435\u0436\u0438\u0442 \u0437\u0434\u0435\u0441\u044c \u0438 \u043d\u0438\u043a\u0443\u0434\u0430 \u043d\u0435 \u0434\u0435\u043d\u0435\u0442\u0441\u044f.",null,null,null,null,null,null,null,null,null)
 B.a1_=new A.b0("\u0415\u0449\u0451 \u043e\u0434\u043d\u043e \u0437\u0430\u043d\u044f\u0442\u0438\u0435",null,null,null,null,null,null,null,null,null)

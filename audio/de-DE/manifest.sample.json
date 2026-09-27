@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "settings": {
+    "engine": "piper",
+    "voice": "de_DE-thorsten-high",
+    "language": "de-DE",
+    "modelSha256": "9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1",
+    "configSha256": "6de734444e4c3f9e33b7ebe2746dbc19b71e85f613e79c65acf623200b99a76a",
+    "piperVersion": "1.8.0",
+    "encoderVersion": "1.8.4",
+    "lengthScale": 1.08,
+    "bitrateKbps": 64,
+    "pauseSeconds": 0.15,
+    "pipelineVersion": 1
+  },
+  "complete": false,
+  "scope": "Full sentences with canonical answers; alternative accepted answers are not included",
+  "entries": [
+    {
+      "id": "mann-1",
+      "wordId": "mann",
+      "kind": "context",
+      "text": "Der Mann mit dem Bart ist unser Nachbar.",
+      "translation": "Мужчина с бородой — наш сосед.",
+      "file": "346001340d30cd3f891fbe1e71e2b2fb.mp3"
+    },
+    {
+      "id": "mann-2",
+      "wordId": "mann",
+      "kind": "context",
+      "text": "Mein Mann und ich sind seit zehn Jahren verheiratet.",
+      "translation": "Мы с мужем женаты уже десять лет.",
+      "file": "a95cdc207ef411edd6661048fa14de64.mp3"
+    },
+    {
+      "id": "mann-3",
+      "wordId": "mann",
+      "kind": "context",
+      "text": "Im Büro arbeiten drei Frauen und zwei Männer.",
+      "translation": "В офисе работают три женщины и двое мужчин.",
+      "file": "f9150fb7a4bba2f156a3a42923107c93.mp3"
+    },
+    {
+      "id": "mann-4",
+      "wordId": "mann",
+      "kind": "context",
+      "text": "Ein alter Mann sitzt allein auf der Bank.",
+      "translation": "Пожилой мужчина сидит один на скамейке.",
+      "file": "cf47a2ed7b91842a030798ff8f1c8b7b.mp3"
+    },
+    {
+      "id": "mann-5",
+      "wordId": "mann",
+      "kind": "context",
+      "text": "Die Toilette für Männer ist links.",
+      "translation": "Мужской туалет — слева.",
+      "file": "1ffafda76e3110923b33731c2675d5fe.mp3"
+    }
+  ],
+  "files": {
+    "346001340d30cd3f891fbe1e71e2b2fb.mp3": {
+      "durationSeconds": 2.135,
+      "bytes": 17554,
+      "rms": 5699.5,
+      "sha256": "cc5e1fc11c821df9c323e03477b698a9132f3865c64d97f750eda639644efc51"
+    },
+    "a95cdc207ef411edd6661048fa14de64.mp3": {
+      "durationSeconds": 2.762,
+      "bytes": 22569,
+      "rms": 5714.76,
+      "sha256": "48c5a5e50f403b606eeb4af0ab8c0e4bcf16301cd37fe506360b8d9115961b53"
+    },
+    "f9150fb7a4bba2f156a3a42923107c93.mp3": {
+      "durationSeconds": 2.902,
+      "bytes": 23823,
+      "rms": 4924.31,
+      "sha256": "30cafb016df1a707913a8a2cd1f2242f236a0db4e242ddc6733606a74b588ee6"
+    },
+    "cf47a2ed7b91842a030798ff8f1c8b7b.mp3": {
+      "durationSeconds": 2.46,
+      "bytes": 20271,
+      "rms": 5597.24,
+      "sha256": "7984c40069ce0a2fdfaea0ae11e9eb253b7e99cfd6c1d00b4522059db42a096a"
+    },
+    "1ffafda76e3110923b33731c2675d5fe.mp3": {
+      "durationSeconds": 1.891,
+      "bytes": 15673,
+      "rms": 5041.39,
+      "sha256": "fac806f2def1249ecb86cfd9e7f43b9f94d3e9e352661beee1e17bd8c7380f0d"
+    }
+  },
+  "failures": [],
+  "summary": {
+    "exercises": 5,
+    "uniqueTexts": 5,
+    "ready": 5,
+    "durationSeconds": 12.15,
+    "bytes": 99890
+  }
+}
