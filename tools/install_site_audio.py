@@ -15,16 +15,16 @@ HOOKS = {
     'r.speechSynthesis.speak(s)': '(r.verbalingoSpeech||r.speechSynthesis).speak(s)',
     's.speechSynthesis.pause()': ';(s.verbalingoSpeech||s.speechSynthesis).pause();',
     's.speechSynthesis.resume()': ';(s.verbalingoSpeech||s.speechSynthesis).resume();',
-    'ang(a){var s,r,q,p,o=this':
-        'ang(a){if(v.G.verbalingoSpeech&&v.G.verbalingoSpeech.hasRecordings&&/^de(?:[-_]|$)/i.test(a))return!0;var s,r,q,p,o=this',
+    'ano(a){var s,r,q,p,o=this':
+        'ano(a){if(v.G.verbalingoSpeech&&v.G.verbalingoSpeech.hasRecordings&&/^de(?:[-_]|$)/i.test(a))return!0;var s,r,q,p,o=this',
 }
 
 # Keep the existing hint action/scoring; change only the text that it reveals.
 HOOKS.update({
-    'if(e){r=p.d\nif(!a0.d){p=$.aPz()':
-        'if(e){r=h&&!a0.d&&a4.c!=null&&a4.c.e!=null?a4.c.e:p.d\nif(!a0.d&&!h){p=$.aPz()',
-    'B.a0X=new A.b0(' + json.dumps('Подсказка — показать перевод') + ',':
-        'B.a0X=new A.b0(' + json.dumps('Подсказка — перевод предложения') + ',',
+    'if(e){r=p.d\nif(!a0.d){p=$.aPS()':
+        'if(e){r=h&&!a0.d&&a4.c!=null&&a4.c.e!=null?a4.c.e:p.d\nif(!a0.d&&!h){p=$.aPS()',
+    'B.a1c=new A.aP(' + json.dumps('Подсказка — показать перевод') + ',':
+        'B.a1c=new A.aP(' + json.dumps('Подсказка — перевод предложения') + ',',
 })
 
 
