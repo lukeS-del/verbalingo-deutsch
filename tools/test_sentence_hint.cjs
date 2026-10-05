@@ -6,15 +6,15 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const path = require('node:path');
 const source = fs.readFileSync(path.join(__dirname, '..', 'main.dart.js'), 'utf8').replace(/\r\n/g, '\n');
-const start = source.indexOf('A.a02.prototype={\nE(a5){');
+const start = source.indexOf('A.a02.prototype={\nE(a7){');
 const end = source.indexOf('\nA.IU.prototype=', start);
 assert.ok(start >= 0 && end > start, 'Expected the supported exercise widget');
 const widgetSource = source.slice(start, end);
-const hintLabel = JSON.parse(source.match(/B\.a1c=new A\.aP\(("(?:\\.|[^"\\])*")/)[1]);
+const hintLabel = JSON.parse(source.match(/B\.a2a=new A\.aP\(("(?:\\.|[^"\\])*")/)[1]);
 
 function fixture(translation = 'Мой муж работает врачом (в больнице).', sense = null, step = 'e6') {
   const style = new Proxy({}, {get: () => null});
-  const B = new Proxy({b: {F: (a, b) => a.push(...b)}, c: {cc: s => s.trim()}, a1c: hintLabel},
+  const B = new Proxy({b: {F: (a, b) => a.push(...b)}, c: {cc: s => s.trim()}, a2a: hintLabel, a1O: 'Подсказка — первые буквы'},
     {get: (target, name) => name in target ? target[name] : name});
   const A = {
     a02: function () {}, I: () => ({ok: style, ax: {b: 'blue'}}),
@@ -27,9 +27,10 @@ function fixture(translation = 'Мой муж работает врачом (в 
     $: {aPz: () => /\s*\((.+)\)\s*$/}};
   vm.runInNewContext(widgetSource, context);
   const controller = {
-    go: false, id: false,
-    at: {b: B[step], a: {d: 'мужчина, муж', e: sense}, c: {b: 'Mein ___ arbeitet als Arzt.', e: translation}, d: null, w: ''},
+    go: false, id: false, k1: false,
+    at: {b: B[step], a: {d: 'мужчина, муж', e: sense}, c: {b: 'Mein ___ arbeitet als Arzt.', e: translation}, d: null, w: 'Ma'},
     gaGY() { return () => { this.go = true; }; },
+    gQc() { return () => { this.k1 = true; }; },
   };
   const widget = {c: controller, d: false};
   return {controller, widget, render: () => A.a02.prototype.E.call(widget, {})};
@@ -75,4 +76,20 @@ test('contextual task shows the German definition before an answer', () => {
   assert.ok(nodes.some(n => n.text === definition));
   assert.ok(!nodes.some(n => n.text === 'Мой муж работает врачом.'));
   assert.equal(f.controller.id, false);
+});
+
+test('cued recall shows its definition immediately and reveals letters only on request', () => {
+  const definition = 'Ein erwachsener männlicher Mensch.';
+  const f = fixture('Мой муж работает врачом.', definition);
+  let nodes = flatten(f.render());
+  assert.ok(nodes.some(n => n.text === definition));
+  assert.ok(!nodes.some(n => n.text?.startsWith('первые буквы:')));
+  assert.ok(!nodes.some(n => n.text === 'Подсказка использована'));
+  nodes.find(n => n.label === 'Подсказка — первые буквы').click();
+  nodes = flatten(f.render());
+  assert.ok(nodes.some(n => n.text === definition));
+  assert.ok(nodes.some(n => n.text === 'первые буквы: Ma…'));
+  assert.ok(nodes.some(n => n.text === 'Подсказка использована'));
+  assert.ok(!nodes.some(n => n.label === 'Подсказка — первые буквы'));
+  assert.ok(nodes.some(n => n.label === hintLabel));
 });

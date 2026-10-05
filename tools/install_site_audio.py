@@ -19,13 +19,7 @@ HOOKS = {
         'ano(a){if(v.G.verbalingoSpeech&&v.G.verbalingoSpeech.hasRecordings&&/^de(?:[-_]|$)/i.test(a))return!0;var s,r,q,p,o=this',
 }
 
-# Keep the existing hint action/scoring; change only the text that it reveals.
-HOOKS.update({
-    'if(e){r=p.d\nif(!a0.d){p=$.aPS()':
-        'if(e){r=h&&!a0.d&&a4.c!=null&&a4.c.e!=null?a4.c.e:p.d\nif(!a0.d&&!h){p=$.aPS()',
-    'B.a1c=new A.aP(' + json.dumps('Подсказка — показать перевод') + ',':
-        'B.a1c=new A.aP(' + json.dumps('Подсказка — перевод предложения') + ',',
-})
+# Sentence translation and cued-recall hints now come from the Dart source.
 
 
 def patch_bundle(source):
