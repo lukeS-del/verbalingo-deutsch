@@ -15,8 +15,8 @@ HOOKS = {
     'r.speechSynthesis.speak(s)': '(r.verbalingoSpeech||r.speechSynthesis).speak(s)',
     's.speechSynthesis.pause()': ';(s.verbalingoSpeech||s.speechSynthesis).pause();',
     's.speechSynthesis.resume()': ';(s.verbalingoSpeech||s.speechSynthesis).resume();',
-    'ano(a){var s,r,q,p,o=this':
-        'ano(a){if(v.G.verbalingoSpeech&&v.G.verbalingoSpeech.hasRecordings&&/^de(?:[-_]|$)/i.test(a))return!0;var s,r,q,p,o=this',
+    'anO(a){var s,r,q,p,o=this':
+        'anO(a){if(v.G.verbalingoSpeech&&v.G.verbalingoSpeech.hasRecordings&&/^de(?:[-_]|$)/i.test(a))return!0;var s,r,q,p,o=this',
 }
 
 # Sentence translation and cued-recall hints now come from the Dart source.

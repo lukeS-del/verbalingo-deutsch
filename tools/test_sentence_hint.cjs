@@ -6,34 +6,34 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const path = require('node:path');
 const source = fs.readFileSync(path.join(__dirname, '..', 'main.dart.js'), 'utf8').replace(/\r\n/g, '\n');
-const start = source.indexOf('A.a02.prototype={\nE(a7){');
-const end = source.indexOf('\nA.IU.prototype=', start);
+const start = source.indexOf('A.a0v.prototype={\nD(a7){');
+const end = source.indexOf('\nA.Jc.prototype=', start);
 assert.ok(start >= 0 && end > start, 'Expected the supported exercise widget');
 const widgetSource = source.slice(start, end);
-const hintLabel = JSON.parse(source.match(/B\.a2a=new A\.aP\(("(?:\\.|[^"\\])*")/)[1]);
+const hintLabel = JSON.parse(source.match(/B\.a3b=new A\.az\(("(?:\\.|[^"\\])*")/)[1]);
 
-function fixture(translation = 'Мой муж работает врачом (в больнице).', sense = null, step = 'e6') {
+function fixture(translation = 'Мой муж работает врачом (в больнице).', sense = null, step = 'ec') {
   const style = new Proxy({}, {get: () => null});
-  const B = new Proxy({b: {F: (a, b) => a.push(...b)}, c: {cc: s => s.trim()}, a2a: hintLabel, a1O: 'Подсказка — первые буквы'},
+  const B = new Proxy({b: {F: (a, b) => a.push(...b)}, c: {c7: s => s.trim()}, a3b: hintLabel, a2F: 'Подсказка — первые буквы'},
     {get: (target, name) => name in target ? target[name] : name});
   const A = {
-    a02: function () {}, I: () => ({ok: style, ax: {b: 'blue'}}),
-    J: text => ({text}), b: array => array, aY: children => ({children}),
-    c7: (value, pattern, replacement) => value.replace(pattern, replacement),
-    li: (_icon, label, click) => ({label, click}), lr: (_style, children) => ({children}),
-    dH: function (_a, _b, _c, children) { this.children = children; },
+    a0v: function () {}, G: () => ({ok: style, ax: {b: 'blue'}}),
+    y: text => ({text}), b: array => array, aW: children => ({children}),
+    bM: (value, pattern, replacement) => value.replace(pattern, replacement),
+    jd: (_icon, label, click) => ({label, click}), jj: (_style, children) => ({children}),
+    dL: function (_a, _b, _c, children) { this.children = children; },
   };
   const context = {A, B, t: {p: 'widgets'}, u: {N: 'Подсказка использована'},
-    $: {aPz: () => /\s*\((.+)\)\s*$/}};
+    $: {aRe: () => /\s*\((.+)\)\s*$/}};
   vm.runInNewContext(widgetSource, context);
   const controller = {
     go: false, id: false, k1: false,
     at: {b: B[step], a: {d: 'мужчина, муж', e: sense}, c: {b: 'Mein ___ arbeitet als Arzt.', e: translation}, d: null, w: 'Ma'},
-    gaGY() { return () => { this.go = true; }; },
-    gQc() { return () => { this.k1 = true; }; },
+    gaHC() { return () => { this.go = true; }; },
+    gQq() { return () => { this.k1 = true; }; },
   };
   const widget = {c: controller, d: false};
-  return {controller, widget, render: () => A.a02.prototype.E.call(widget, {})};
+  return {controller, widget, render: () => A.a0v.prototype.D.call(widget, {})};
 }
 function flatten(tree) {
   if (Array.isArray(tree)) return tree.flatMap(flatten);
@@ -71,7 +71,7 @@ test('the post-answer word meaning keeps its previous behaviour', () => {
 
 test('contextual task shows the German definition before an answer', () => {
   const definition = 'Ein erwachsener männlicher Mensch.';
-  const f = fixture('Мой муж работает врачом.', definition, 'e7');
+  const f = fixture('Мой муж работает врачом.', definition, 'ed');
   const nodes = flatten(f.render());
   assert.ok(nodes.some(n => n.text === definition));
   assert.ok(!nodes.some(n => n.text === 'Мой муж работает врачом.'));
