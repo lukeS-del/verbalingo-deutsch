@@ -83,13 +83,13 @@ test('a prototype property is never treated as an audio filename', () => {
 test('the compiled Flutter keep-alive calls pause/resume without ASI call chaining', () => {
   const fs = require('node:fs'), path = require('node:path'), vm = require('node:vm');
   const source = fs.readFileSync(path.join(__dirname, '..', 'main.dart.js'), 'utf8');
-  const start = source.indexOf('A.acz.prototype={');
-  const end = source.indexOf('A.acB.prototype=', start);
-  const calls = [], A = {acz: function () {}};
-  const context = {A, B: {ok: 1}, v: {G: {verbalingoSpeech: {
+  const start = source.indexOf('A.acC.prototype={');
+  const end = source.indexOf('A.acE.prototype=', start);
+  const calls = [], A = {acC: function () {}};
+  const context = {A, B: {on: 1}, v: {G: {verbalingoSpeech: {
     pause: () => calls.push('pause'), resume: () => calls.push('resume'),
   }}}};
   vm.runInNewContext(source.slice(start, end), context);
-  A.acz.prototype.$1.call({a: {b: 1}}, {});
+  A.acC.prototype.$1.call({a: {b: 1}}, {});
   assert.deepEqual(calls, ['pause', 'resume']);
 });
