@@ -29,7 +29,7 @@ function fixture(translation = 'Мой муж работает врачом (в 
   const controller = {
     id: false, k2: false,
     ax: {b: B[step], a: {d: 'мужчина, муж', e: sense}, c: {b: 'Mein ___ arbeitet als Arzt.', e: translation}, d: null, w: 'Ma'},
-    gaIm() { return () => { this.id = true; }; },
+    gaIn() { return () => { this.id = true; }; },
     gH8() { return () => { this.k2 = true; }; },
   };
   const widget = {c: controller, d: false};
