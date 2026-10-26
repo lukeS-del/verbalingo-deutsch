@@ -10,27 +10,27 @@ const start = source.indexOf('A.a0U.prototype={\nE(a5){');
 const end = source.indexOf('\nA.', start);
 assert.ok(start >= 0 && end > start, 'Expected the supported exercise widget');
 const widgetSource = source.slice(start, end);
-const hintLabel = JSON.parse(source.match(/B\.a3S=new A\.aa\(("(?:\\.|[^"\\])*")/)[1]);
+const hintLabel = JSON.parse(source.match(/B\.a3T=new A\.aa\(("(?:\\.|[^"\\])*")/)[1]);
 
 function fixture(translation = 'Мой муж работает врачом (в больнице).', sense = null, step = 'ej') {
   const style = new Proxy({}, {get: () => null});
-  const B = new Proxy({b: {C: (a, b) => a.push(...b)}, c: {by: s => s.trim()}, a3S: hintLabel, a3c: 'Подсказка — первые буквы', a3H: 'Подсказка — первая буква'},
+  const B = new Proxy({b: {C: (a, b) => a.push(...b)}, c: {by: s => s.trim()}, a3T: hintLabel, a3d: 'Подсказка — первые буквы', a3I: 'Подсказка — первая буква'},
     {get: (target, name) => name in target ? target[name] : name});
   const A = {
     a0U: function () {}, AI: () => false, F: () => ({ok: style, ax: {b: 'blue'}}),
-    w: text => ({text}), b: array => array, aR: children => ({children}),
-    bp: (value, pattern, replacement) => value.replace(pattern, replacement),
-    iC: (_icon, label, click) => ({label, click}), jt: (_style, children) => ({children}),
+    w: text => ({text}), b: array => array, aS: children => ({children}),
+    bn: (value, pattern, replacement) => value.replace(pattern, replacement),
+    iD: (_icon, label, click) => ({label, click}), jv: (_style, children) => ({children}),
     dD: function (_a, _b, _c, children) { this.children = children; },
   };
   const context = {A, B, t: {p: 'widgets'}, u: {N: 'Подсказка использована'},
-    $: {aSk: () => /\s*\((.+)\)\s*$/}};
+    $: {aSp: () => /\s*\((.+)\)\s*$/}};
   vm.runInNewContext(widgetSource, context);
   const controller = {
-    id: false, k2: false,
+    k2: false, k4: false,
     ax: {b: B[step], a: {d: 'мужчина, муж', e: sense}, c: {b: 'Mein ___ arbeitet als Arzt.', e: translation}, d: null, w: 'Ma'},
-    gaIn() { return () => { this.id = true; }; },
-    gH8() { return () => { this.k2 = true; }; },
+    gaIn() { return () => { this.k2 = true; }; },
+    gH8() { return () => { this.k4 = true; }; },
   };
   const widget = {c: controller, d: false};
   return {controller, widget, render: () => A.a0U.prototype.E.call(widget, {})};
@@ -57,10 +57,10 @@ test('clicking the existing hint reveals the full current sentence, including pa
 });
 
 test('the next exercise begins with its own translation hidden', () => {
-  const first = fixture(); first.controller.id = true; first.render();
+  const first = fixture(); first.controller.k2 = true; first.render();
   const next = fixture('У мужчины есть машина.');
   assert.ok(!flatten(next.render()).some(n => n.text === 'У мужчины есть машина.'));
-  next.controller.id = true;
+  next.controller.k2 = true;
   assert.ok(flatten(next.render()).some(n => n.text === 'У мужчины есть машина.'));
 });
 
@@ -75,7 +75,7 @@ test('contextual task never shows a definition', () => {
   const nodes = flatten(f.render());
   assert.ok(!nodes.some(n => n.text === definition));
   assert.ok(!nodes.some(n => n.text === 'Мой муж работает врачом.'));
-  assert.equal(f.controller.id, false);
+  assert.equal(f.controller.k2, false);
 });
 
 test('cued recall has no definition and reveals letters only on request', () => {
@@ -103,6 +103,6 @@ test('everyday cloze shows translation and reveals only the first letter on requ
   assert.ok(!nodes.some(n => n.text === 'old definition'));
   nodes.find(n => n.label === 'Подсказка — первая буква').click();
   nodes = flatten(f.render());
-  assert.equal(f.controller.k2, true);
+  assert.equal(f.controller.k4, true);
   assert.ok(nodes.some(n => n.text === 'Первая буква: M'));
 });

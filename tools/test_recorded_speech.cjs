@@ -86,7 +86,7 @@ test('the compiled Flutter keep-alive calls pause/resume without ASI call chaini
   const start = source.indexOf('A.ad8.prototype={');
   const end = source.indexOf('\nA.', start + 1);
   const calls = [], A = {ad8: function () {}};
-  const context = {A, B: {oo: 1}, v: {G: {verbalingoSpeech: {
+  const context = {A, B: {op: 1}, v: {G: {verbalingoSpeech: {
     pause: () => calls.push('pause'), resume: () => calls.push('resume'),
   }}}};
   vm.runInNewContext(source.slice(start, end), context);
