@@ -15162,6 +15162,1224 @@
       "ru": "Здесь ты можешь познакомиться с новыми друзьями.",
       "de": "Hier kannst du neue Freunde kennenlernen.",
       "alternatives": []
+    },
+    {
+      "id": "aus-1",
+      "wordId": "aus",
+      "lemma": "aus",
+      "ru": "Я из Испании.",
+      "de": "Ich komme aus Spanien.",
+      "alternatives": []
+    },
+    {
+      "id": "aus-2",
+      "wordId": "aus",
+      "lemma": "aus",
+      "ru": "Она пьёт из чашки.",
+      "de": "Sie trinkt aus einer Tasse.",
+      "alternatives": []
+    },
+    {
+      "id": "aus-4",
+      "wordId": "aus",
+      "lemma": "aus",
+      "ru": "Этот стол сделан из дерева.",
+      "de": "Dieser Tisch ist aus Holz.",
+      "alternatives": []
+    },
+    {
+      "id": "bei-1",
+      "wordId": "bei",
+      "lemma": "bei",
+      "ru": "Я живу у своей тёти.",
+      "de": "Ich wohne bei meiner Tante.",
+      "alternatives": []
+    },
+    {
+      "id": "bei-2",
+      "wordId": "bei",
+      "lemma": "bei",
+      "ru": "Мы ждём возле аптеки.",
+      "de": "Wir warten bei der Apotheke.",
+      "alternatives": []
+    },
+    {
+      "id": "bei-3",
+      "wordId": "bei",
+      "lemma": "bei",
+      "ru": "Она работает в банке.",
+      "de": "Sie arbeitet bei einer Bank.",
+      "alternatives": []
+    },
+    {
+      "id": "nach-1",
+      "wordId": "nach",
+      "lemma": "nach",
+      "ru": "Мы едем в Гамбург.",
+      "de": "Wir fahren nach Hamburg.",
+      "alternatives": []
+    },
+    {
+      "id": "nach-2",
+      "wordId": "nach",
+      "lemma": "nach",
+      "ru": "После еды мы спим.",
+      "de": "Nach dem Essen schlafen wir.",
+      "alternatives": []
+    },
+    {
+      "id": "nach-3",
+      "wordId": "nach",
+      "lemma": "nach",
+      "ru": "Я приду после работы.",
+      "de": "Ich komme nach der Arbeit.",
+      "alternatives": []
+    },
+    {
+      "id": "ohne-1",
+      "wordId": "ohne",
+      "lemma": "ohne",
+      "ru": "Я пью чай без сахара.",
+      "de": "Ich trinke Tee ohne Zucker.",
+      "alternatives": []
+    },
+    {
+      "id": "ohne-3",
+      "wordId": "ohne",
+      "lemma": "ohne",
+      "ru": "Мы едим суп без хлеба.",
+      "de": "Wir essen Suppe ohne Brot.",
+      "alternatives": []
+    },
+    {
+      "id": "ohne-4",
+      "wordId": "ohne",
+      "lemma": "ohne",
+      "ru": "Она никогда не ездит без билета.",
+      "de": "Sie fährt nie ohne Fahrkarte.",
+      "alternatives": []
+    },
+    {
+      "id": "bis-1",
+      "wordId": "bis",
+      "lemma": "bis",
+      "ru": "Я работаю до шести часов.",
+      "de": "Ich arbeite bis sechs Uhr.",
+      "alternatives": []
+    },
+    {
+      "id": "bis-2",
+      "wordId": "bis",
+      "lemma": "bis",
+      "ru": "Мы остаёмся здесь до вторника.",
+      "de": "Wir bleiben bis Dienstag hier.",
+      "alternatives": []
+    },
+    {
+      "id": "bis-3",
+      "wordId": "bis",
+      "lemma": "bis",
+      "ru": "Поезд идёт до Кёльна.",
+      "de": "Der Zug fährt bis Köln.",
+      "alternatives": []
+    },
+    {
+      "id": "an-3",
+      "wordId": "an",
+      "lemma": "an",
+      "ru": "Она стоит у окна.",
+      "de": "Sie steht am Fenster.",
+      "alternatives": []
+    },
+    {
+      "id": "an-4",
+      "wordId": "an",
+      "lemma": "an",
+      "ru": "Я иду к морю.",
+      "de": "Ich gehe ans Meer.",
+      "alternatives": []
+    },
+    {
+      "id": "an-1",
+      "wordId": "an",
+      "lemma": "an",
+      "ru": "Мы ждём у двери.",
+      "de": "Wir warten an der Tür.",
+      "alternatives": []
+    },
+    {
+      "id": "vor-2",
+      "wordId": "vor",
+      "lemma": "vor",
+      "ru": "Перед завтраком я принимаю душ.",
+      "de": "Vor dem Frühstück dusche ich.",
+      "alternatives": []
+    },
+    {
+      "id": "vor-3",
+      "wordId": "vor",
+      "lemma": "vor",
+      "ru": "Он стоит перед школой.",
+      "de": "Er steht vor der Schule.",
+      "alternatives": []
+    },
+    {
+      "id": "vor-1",
+      "wordId": "vor",
+      "lemma": "vor",
+      "ru": "Автобус останавливается перед отелем.",
+      "de": "Der Bus hält vor dem Hotel.",
+      "alternatives": []
+    },
+    {
+      "id": "ueber-2",
+      "wordId": "ueber",
+      "lemma": "über",
+      "ru": "Мы говорим о погоде.",
+      "de": "Wir sprechen über das Wetter.",
+      "alternatives": []
+    },
+    {
+      "id": "ueber-4",
+      "wordId": "ueber",
+      "lemma": "über",
+      "ru": "Она пишет о своей семье.",
+      "de": "Sie schreibt über ihre Familie.",
+      "alternatives": []
+    },
+    {
+      "id": "ueber-1",
+      "wordId": "ueber",
+      "lemma": "über",
+      "ru": "Лампа висит над столом.",
+      "de": "Die Lampe hängt über dem Tisch.",
+      "alternatives": []
+    },
+    {
+      "id": "unter-1",
+      "wordId": "unter",
+      "lemma": "unter",
+      "ru": "Кошка спит под кроватью.",
+      "de": "Die Katze schläft unter dem Bett.",
+      "alternatives": []
+    },
+    {
+      "id": "unter-2",
+      "wordId": "unter",
+      "lemma": "unter",
+      "ru": "Моя сумка лежит под стулом.",
+      "de": "Meine Tasche liegt unter dem Stuhl.",
+      "alternatives": []
+    },
+    {
+      "id": "unter-3",
+      "wordId": "unter",
+      "lemma": "unter",
+      "ru": "Обувь стоит под столом.",
+      "de": "Die Schuhe stehen unter dem Tisch.",
+      "alternatives": []
+    },
+    {
+      "id": "hinter-2",
+      "wordId": "hinter",
+      "lemma": "hinter",
+      "ru": "Он ждёт за дверью.",
+      "de": "Er wartet hinter der Tür.",
+      "alternatives": []
+    },
+    {
+      "id": "hinter-1",
+      "wordId": "hinter",
+      "lemma": "hinter",
+      "ru": "Сад находится за домом.",
+      "de": "Der Garten liegt hinter dem Haus.",
+      "alternatives": []
+    },
+    {
+      "id": "hinter-3",
+      "wordId": "hinter",
+      "lemma": "hinter",
+      "ru": "Банк находится за школой.",
+      "de": "Die Bank ist hinter der Schule.",
+      "alternatives": []
+    },
+    {
+      "id": "neben-1",
+      "wordId": "neben",
+      "lemma": "neben",
+      "ru": "Я сижу рядом со своим братом.",
+      "de": "Ich sitze neben meinem Bruder.",
+      "alternatives": []
+    },
+    {
+      "id": "neben-2",
+      "wordId": "neben",
+      "lemma": "neben",
+      "ru": "Пекарня находится рядом с почтой.",
+      "de": "Die Bäckerei ist neben der Post.",
+      "alternatives": []
+    },
+    {
+      "id": "neben-3",
+      "wordId": "neben",
+      "lemma": "neben",
+      "ru": "Поставь стул рядом с кроватью.",
+      "de": "Stell den Stuhl neben das Bett.",
+      "alternatives": []
+    },
+    {
+      "id": "zwischen-1",
+      "wordId": "zwischen",
+      "lemma": "zwischen",
+      "ru": "Я сижу между своими родителями.",
+      "de": "Ich sitze zwischen meinen Eltern.",
+      "alternatives": []
+    },
+    {
+      "id": "zwischen-2",
+      "wordId": "zwischen",
+      "lemma": "zwischen",
+      "ru": "Кошка лежит между стульями.",
+      "de": "Die Katze liegt zwischen den Stühlen.",
+      "alternatives": []
+    },
+    {
+      "id": "zwischen-3",
+      "wordId": "zwischen",
+      "lemma": "zwischen",
+      "ru": "Магазин находится между двумя домами.",
+      "de": "Der Laden ist zwischen zwei Häusern.",
+      "alternatives": []
+    },
+    {
+      "id": "um-3",
+      "wordId": "um",
+      "lemma": "um",
+      "ru": "Я приду в половине восьмого.",
+      "de": "Ich komme um halb acht.",
+      "alternatives": []
+    },
+    {
+      "id": "um-5",
+      "wordId": "um",
+      "lemma": "um",
+      "ru": "Она обходит дом.",
+      "de": "Sie geht um das Haus.",
+      "alternatives": []
+    },
+    {
+      "id": "um-1",
+      "wordId": "um",
+      "lemma": "um",
+      "ru": "Курс немецкого начинается в девять часов.",
+      "de": "Der Deutschkurs beginnt um neun Uhr.",
+      "alternatives": []
+    },
+    {
+      "id": "seit-1",
+      "wordId": "seit",
+      "lemma": "seit",
+      "ru": "Я живу здесь с мая.",
+      "de": "Ich wohne seit Mai hier.",
+      "alternatives": []
+    },
+    {
+      "id": "seit-2",
+      "wordId": "seit",
+      "lemma": "seit",
+      "ru": "Он ждёт уже час.",
+      "de": "Er wartet seit einer Stunde.",
+      "alternatives": []
+    },
+    {
+      "id": "seit-3",
+      "wordId": "seit",
+      "lemma": "seit",
+      "ru": "Мы учим немецкий с понедельника.",
+      "de": "Wir lernen seit Montag Deutsch.",
+      "alternatives": []
+    },
+    {
+      "id": "gegen-2",
+      "wordId": "gegen",
+      "lemma": "gegen",
+      "ru": "Я приду около восьми часов.",
+      "de": "Ich komme gegen acht Uhr.",
+      "alternatives": []
+    },
+    {
+      "id": "gegen-3",
+      "wordId": "gegen",
+      "lemma": "gegen",
+      "ru": "Это помогает от моей головной боли.",
+      "de": "Das hilft gegen meine Kopfschmerzen.",
+      "alternatives": []
+    },
+    {
+      "id": "gegen-4",
+      "wordId": "gegen",
+      "lemma": "gegen",
+      "ru": "Он врезается в дерево.",
+      "de": "Er fährt gegen einen Baum.",
+      "alternatives": []
+    },
+    {
+      "id": "durch-3",
+      "wordId": "durch",
+      "lemma": "durch",
+      "ru": "Она смотрит через окно.",
+      "de": "Sie schaut durch das Fenster.",
+      "alternatives": []
+    },
+    {
+      "id": "durch-4",
+      "wordId": "durch",
+      "lemma": "durch",
+      "ru": "Я бегу через город.",
+      "de": "Ich laufe durch die Stadt.",
+      "alternatives": []
+    },
+    {
+      "id": "durch-1",
+      "wordId": "durch",
+      "lemma": "durch",
+      "ru": "Дорога ведёт через парк.",
+      "de": "Der Weg führt durch den Park.",
+      "alternatives": []
+    },
+    {
+      "id": "mein-1",
+      "wordId": "mein",
+      "lemma": "mein",
+      "ru": "Это мой рюкзак.",
+      "de": "Das ist mein Rucksack.",
+      "alternatives": []
+    },
+    {
+      "id": "mein-2",
+      "wordId": "mein",
+      "lemma": "mein",
+      "ru": "Здесь живёт моя сестра.",
+      "de": "Hier wohnt meine Schwester.",
+      "alternatives": []
+    },
+    {
+      "id": "mein-3",
+      "wordId": "mein",
+      "lemma": "mein",
+      "ru": "Я ищу свой ключ.",
+      "de": "Ich suche meinen Schlüssel.",
+      "alternatives": []
+    },
+    {
+      "id": "dein-1",
+      "wordId": "dein",
+      "lemma": "dein",
+      "ru": "Это твой велосипед?",
+      "de": "Ist das dein Fahrrad?",
+      "alternatives": []
+    },
+    {
+      "id": "dein-2",
+      "wordId": "dein",
+      "lemma": "dein",
+      "ru": "Где живёт твоя мама?",
+      "de": "Wo wohnt deine Mutter?",
+      "alternatives": []
+    },
+    {
+      "id": "dein-3",
+      "wordId": "dein",
+      "lemma": "dein",
+      "ru": "Я вижу твоего брата.",
+      "de": "Ich sehe deinen Bruder.",
+      "alternatives": []
+    },
+    {
+      "id": "unser-1",
+      "wordId": "unser",
+      "lemma": "unser",
+      "ru": "Это наш сад.",
+      "de": "Das ist unser Garten.",
+      "alternatives": []
+    },
+    {
+      "id": "unser-2",
+      "wordId": "unser",
+      "lemma": "unser",
+      "ru": "Здесь стоит наша машина.",
+      "de": "Hier steht unser Auto.",
+      "alternatives": []
+    },
+    {
+      "id": "unser-3",
+      "wordId": "unser",
+      "lemma": "unser",
+      "ru": "Наши дети уже спят.",
+      "de": "Unsere Kinder schlafen schon.",
+      "alternatives": []
+    },
+    {
+      "id": "euer-1",
+      "wordId": "euer",
+      "lemma": "euer",
+      "ru": "Это ваша комната?",
+      "de": "Ist das euer Zimmer?",
+      "alternatives": []
+    },
+    {
+      "id": "euer-2",
+      "wordId": "euer",
+      "lemma": "euer",
+      "ru": "Где стоит ваша машина?",
+      "de": "Wo steht euer Auto?",
+      "alternatives": []
+    },
+    {
+      "id": "euer-4",
+      "wordId": "euer",
+      "lemma": "euer",
+      "ru": "Я знаю вашего учителя.",
+      "de": "Ich kenne euren Lehrer.",
+      "alternatives": []
+    },
+    {
+      "id": "dieser-2",
+      "wordId": "dieser",
+      "lemma": "dieser",
+      "ru": "Я возьму эту куртку.",
+      "de": "Ich nehme diese Jacke.",
+      "alternatives": []
+    },
+    {
+      "id": "dieser-4",
+      "wordId": "dieser",
+      "lemma": "dieser",
+      "ru": "Ты знаешь этого мужчину?",
+      "de": "Kennst du diesen Mann?",
+      "alternatives": []
+    },
+    {
+      "id": "dieser-1",
+      "wordId": "dieser",
+      "lemma": "dieser",
+      "ru": "Этот автобус едет в аэропорт.",
+      "de": "Dieser Bus fährt zum Flughafen.",
+      "alternatives": []
+    },
+    {
+      "id": "jeder-1",
+      "wordId": "jeder",
+      "lemma": "jeder",
+      "ru": "Каждый гость получает кофе.",
+      "de": "Jeder Gast bekommt einen Kaffee.",
+      "alternatives": []
+    },
+    {
+      "id": "jeder-2",
+      "wordId": "jeder",
+      "lemma": "jeder",
+      "ru": "Я учу немецкий каждый день.",
+      "de": "Ich lerne jeden Tag Deutsch.",
+      "alternatives": [
+        "Jeden Tag lerne ich Deutsch."
+      ]
+    },
+    {
+      "id": "jeder-3",
+      "wordId": "jeder",
+      "lemma": "jeder",
+      "ru": "Каждый ребёнок получает яблоко.",
+      "de": "Jedes Kind bekommt einen Apfel.",
+      "alternatives": []
+    },
+    {
+      "id": "alle-2",
+      "wordId": "alle",
+      "lemma": "alle",
+      "ru": "Я всё понял.",
+      "de": "Ich habe alles verstanden.",
+      "alternatives": []
+    },
+    {
+      "id": "alle-4",
+      "wordId": "alle",
+      "lemma": "alle",
+      "ru": "Она знает всех соседей.",
+      "de": "Sie kennt alle Nachbarn.",
+      "alternatives": []
+    },
+    {
+      "id": "alle-5",
+      "wordId": "alle",
+      "lemma": "alle",
+      "ru": "Всё в порядке?",
+      "de": "Ist alles in Ordnung?",
+      "alternatives": []
+    },
+    {
+      "id": "man-4",
+      "wordId": "man",
+      "lemma": "man",
+      "ru": "Здесь говорят по-немецки.",
+      "de": "Hier spricht man Deutsch.",
+      "alternatives": []
+    },
+    {
+      "id": "man-1",
+      "wordId": "man",
+      "lemma": "man",
+      "ru": "Здесь нельзя курить.",
+      "de": "Hier darf man nicht rauchen.",
+      "alternatives": []
+    },
+    {
+      "id": "man-5",
+      "wordId": "man",
+      "lemma": "man",
+      "ru": "Где можно купить билеты?",
+      "de": "Wo kann man Fahrkarten kaufen?",
+      "alternatives": []
+    },
+    {
+      "id": "etwas-1",
+      "wordId": "etwas",
+      "lemma": "etwas",
+      "ru": "Я хочу что-нибудь выпить.",
+      "de": "Ich möchte etwas trinken.",
+      "alternatives": []
+    },
+    {
+      "id": "etwas-2",
+      "wordId": "etwas",
+      "lemma": "etwas",
+      "ru": "У тебя есть немного времени?",
+      "de": "Hast du etwas Zeit?",
+      "alternatives": []
+    },
+    {
+      "id": "etwas-3",
+      "wordId": "etwas",
+      "lemma": "etwas",
+      "ru": "Он что-то ищет в саду.",
+      "de": "Er sucht etwas im Garten.",
+      "alternatives": []
+    },
+    {
+      "id": "nichts-1",
+      "wordId": "nichts",
+      "lemma": "nichts",
+      "ru": "Я здесь ничего не слышу.",
+      "de": "Ich höre hier nichts.",
+      "alternatives": []
+    },
+    {
+      "id": "nichts-3",
+      "wordId": "nichts",
+      "lemma": "nichts",
+      "ru": "Это тебе ничего не стоит.",
+      "de": "Das kostet dich nichts.",
+      "alternatives": []
+    },
+    {
+      "id": "nichts-4",
+      "wordId": "nichts",
+      "lemma": "nichts",
+      "ru": "В шкафу ничего не лежит.",
+      "de": "Im Schrank liegt nichts.",
+      "alternatives": []
+    },
+    {
+      "id": "mehr-1",
+      "wordId": "mehr",
+      "lemma": "mehr",
+      "ru": "Мне нужно больше времени.",
+      "de": "Ich brauche mehr Zeit.",
+      "alternatives": []
+    },
+    {
+      "id": "mehr-2",
+      "wordId": "mehr",
+      "lemma": "mehr",
+      "ru": "Сегодня мы покупаем больше хлеба.",
+      "de": "Wir kaufen heute mehr Brot.",
+      "alternatives": [
+        "Heute kaufen wir mehr Brot."
+      ]
+    },
+    {
+      "id": "mehr-3",
+      "wordId": "mehr",
+      "lemma": "mehr",
+      "ru": "Он хочет выпить больше воды.",
+      "de": "Er möchte mehr Wasser trinken.",
+      "alternatives": []
+    },
+    {
+      "id": "weiss-1",
+      "wordId": "weiss",
+      "lemma": "weiß",
+      "ru": "Стена белая.",
+      "de": "Die Wand ist weiß.",
+      "alternatives": []
+    },
+    {
+      "id": "weiss-3",
+      "wordId": "weiss",
+      "lemma": "weiß",
+      "ru": "Она носит белые туфли.",
+      "de": "Sie trägt weiße Schuhe.",
+      "alternatives": []
+    },
+    {
+      "id": "weiss-2",
+      "wordId": "weiss",
+      "lemma": "weiß",
+      "ru": "Я покупаю белую рубашку.",
+      "de": "Ich kaufe ein weißes Hemd.",
+      "alternatives": []
+    },
+    {
+      "id": "mittag-1",
+      "wordId": "mittag",
+      "lemma": "Mittag",
+      "ru": "В полдень я ем рис.",
+      "de": "Am Mittag esse ich Reis.",
+      "alternatives": [
+        "Ich esse am Mittag Reis."
+      ]
+    },
+    {
+      "id": "mittag-2",
+      "wordId": "mittag",
+      "lemma": "Mittag",
+      "ru": "Мы встречаемся около полудня.",
+      "de": "Wir treffen uns gegen Mittag.",
+      "alternatives": []
+    },
+    {
+      "id": "mittag-4",
+      "wordId": "mittag",
+      "lemma": "Mittag",
+      "ru": "Сегодня в полдень придёт мой брат.",
+      "de": "Heute Mittag kommt mein Bruder.",
+      "alternatives": []
+    },
+    {
+      "id": "nachmittag-1",
+      "wordId": "nachmittag",
+      "lemma": "Nachmittag",
+      "ru": "После полудня я иду плавать.",
+      "de": "Am Nachmittag gehe ich schwimmen.",
+      "alternatives": [
+        "Ich gehe am Nachmittag schwimmen."
+      ]
+    },
+    {
+      "id": "nachmittag-2",
+      "wordId": "nachmittag",
+      "lemma": "Nachmittag",
+      "ru": "Сегодня во второй половине дня мы навещаем друзей.",
+      "de": "Heute Nachmittag besuchen wir Freunde.",
+      "alternatives": []
+    },
+    {
+      "id": "nachmittag-3",
+      "wordId": "nachmittag",
+      "lemma": "Nachmittag",
+      "ru": "У тебя есть время завтра после полудня?",
+      "de": "Hast du morgen Nachmittag Zeit?",
+      "alternatives": []
+    },
+    {
+      "id": "vormittag-3",
+      "wordId": "vormittag",
+      "lemma": "Vormittag",
+      "ru": "Мы встретимся завтра в первой половине дня.",
+      "de": "Wir treffen uns morgen Vormittag.",
+      "alternatives": []
+    },
+    {
+      "id": "vormittag-4",
+      "wordId": "vormittag",
+      "lemma": "Vormittag",
+      "ru": "Первая половина дня уже прошла.",
+      "de": "Der Vormittag ist schon vorbei.",
+      "alternatives": []
+    },
+    {
+      "id": "vormittag-1",
+      "wordId": "vormittag",
+      "lemma": "Vormittag",
+      "ru": "В первой половине дня я учусь дома.",
+      "de": "Am Vormittag lerne ich zu Hause.",
+      "alternatives": []
+    },
+    {
+      "id": "sekunde-1",
+      "wordId": "sekunde",
+      "lemma": "Sekunde",
+      "ru": "Подожди, пожалуйста, одну секунду.",
+      "de": "Warte bitte eine Sekunde.",
+      "alternatives": []
+    },
+    {
+      "id": "sekunde-2",
+      "wordId": "sekunde",
+      "lemma": "Sekunde",
+      "ru": "Минута длится шестьдесят секунд.",
+      "de": "Eine Minute dauert sechzig Sekunden.",
+      "alternatives": []
+    },
+    {
+      "id": "sekunde-3",
+      "wordId": "sekunde",
+      "lemma": "Sekunde",
+      "ru": "Реклама длится тридцать секунд.",
+      "de": "Die Werbung dauert dreißig Sekunden.",
+      "alternatives": []
+    },
+    {
+      "id": "halb-1",
+      "wordId": "halb",
+      "lemma": "halb",
+      "ru": "Сейчас половина седьмого.",
+      "de": "Es ist halb sieben.",
+      "alternatives": []
+    },
+    {
+      "id": "halb-2",
+      "wordId": "halb",
+      "lemma": "halb",
+      "ru": "Я жду полчаса.",
+      "de": "Ich warte eine halbe Stunde.",
+      "alternatives": []
+    },
+    {
+      "id": "halb-3",
+      "wordId": "halb",
+      "lemma": "halb",
+      "ru": "Мы покупаем половину буханки хлеба.",
+      "de": "Wir kaufen ein halbes Brot.",
+      "alternatives": []
+    },
+    {
+      "id": "viertel-1",
+      "wordId": "viertel",
+      "lemma": "Viertel",
+      "ru": "Сейчас четверть четвёртого.",
+      "de": "Es ist Viertel nach drei.",
+      "alternatives": []
+    },
+    {
+      "id": "viertel-5",
+      "wordId": "viertel",
+      "lemma": "Viertel",
+      "ru": "Четыре четверти составляют одно целое.",
+      "de": "Vier Viertel ergeben ein Ganzes.",
+      "alternatives": []
+    },
+    {
+      "id": "viertel-3",
+      "wordId": "viertel",
+      "lemma": "Viertel",
+      "ru": "Мы придём без четверти восемь.",
+      "de": "Wir kommen um Viertel vor acht.",
+      "alternatives": []
+    },
+    {
+      "id": "datum-1",
+      "wordId": "datum",
+      "lemma": "Datum",
+      "ru": "Какое сегодня число?",
+      "de": "Welches Datum haben wir heute?",
+      "alternatives": []
+    },
+    {
+      "id": "datum-4",
+      "wordId": "datum",
+      "lemma": "Datum",
+      "ru": "Я забыл дату.",
+      "de": "Ich habe das Datum vergessen.",
+      "alternatives": []
+    },
+    {
+      "id": "datum-2",
+      "wordId": "datum",
+      "lemma": "Datum",
+      "ru": "Пожалуйста, напишите здесь дату.",
+      "de": "Bitte schreiben Sie das Datum hier.",
+      "alternatives": []
+    },
+    {
+      "id": "geburtsort-1",
+      "wordId": "geburtsort",
+      "lemma": "Geburtsort",
+      "ru": "Моё место рождения — Берлин.",
+      "de": "Mein Geburtsort ist Berlin.",
+      "alternatives": []
+    },
+    {
+      "id": "geburtsort-2",
+      "wordId": "geburtsort",
+      "lemma": "Geburtsort",
+      "ru": "Где вы родились?",
+      "de": "Was ist Ihr Geburtsort?",
+      "alternatives": []
+    },
+    {
+      "id": "geburtsort-3",
+      "wordId": "geburtsort",
+      "lemma": "Geburtsort",
+      "ru": "Пожалуйста, назовите своё место рождения.",
+      "de": "Bitte nennen Sie Ihren Geburtsort.",
+      "alternatives": []
+    },
+    {
+      "id": "vorname-1",
+      "wordId": "vorname",
+      "lemma": "Vorname",
+      "ru": "Меня зовут Антон.",
+      "de": "Mein Vorname ist Anton.",
+      "alternatives": []
+    },
+    {
+      "id": "vorname-2",
+      "wordId": "vorname",
+      "lemma": "Vorname",
+      "ru": "Как ваше имя?",
+      "de": "Wie ist Ihr Vorname?",
+      "alternatives": []
+    },
+    {
+      "id": "vorname-4",
+      "wordId": "vorname",
+      "lemma": "Vorname",
+      "ru": "У неё два личных имени.",
+      "de": "Sie hat zwei Vornamen.",
+      "alternatives": []
+    },
+    {
+      "id": "familienname-1",
+      "wordId": "familienname",
+      "lemma": "Familienname",
+      "ru": "Моя фамилия — Вебер.",
+      "de": "Mein Familienname ist Weber.",
+      "alternatives": []
+    },
+    {
+      "id": "familienname-2",
+      "wordId": "familienname",
+      "lemma": "Familienname",
+      "ru": "Как ваша фамилия?",
+      "de": "Wie lautet Ihr Familienname?",
+      "alternatives": []
+    },
+    {
+      "id": "familienname-3",
+      "wordId": "familienname",
+      "lemma": "Familienname",
+      "ru": "Пожалуйста, напишите свою фамилию.",
+      "de": "Bitte schreiben Sie Ihren Familiennamen.",
+      "alternatives": []
+    },
+    {
+      "id": "deutsch-1",
+      "wordId": "deutsch",
+      "lemma": "Deutsch",
+      "ru": "Я каждый день учу немецкий язык.",
+      "de": "Ich lerne jeden Tag Deutsch.",
+      "alternatives": [
+        "Jeden Tag lerne ich Deutsch."
+      ]
+    },
+    {
+      "id": "deutsch-2",
+      "wordId": "deutsch",
+      "lemma": "Deutsch",
+      "ru": "Дома мы говорим по-немецки.",
+      "de": "Wir sprechen zu Hause Deutsch.",
+      "alternatives": []
+    },
+    {
+      "id": "deutsch-3",
+      "wordId": "deutsch",
+      "lemma": "Deutsch",
+      "ru": "Ты немного понимаешь по-немецки?",
+      "de": "Verstehst du ein bisschen Deutsch?",
+      "alternatives": []
+    },
+    {
+      "id": "deutschland-4",
+      "wordId": "deutschland",
+      "lemma": "Deutschland",
+      "ru": "Он из Германии.",
+      "de": "Er kommt aus Deutschland.",
+      "alternatives": []
+    },
+    {
+      "id": "deutschland-1",
+      "wordId": "deutschland",
+      "lemma": "Deutschland",
+      "ru": "Моя сестра живёт в Германии.",
+      "de": "Meine Schwester lebt in Deutschland.",
+      "alternatives": []
+    },
+    {
+      "id": "deutschland-2",
+      "wordId": "deutschland",
+      "lemma": "Deutschland",
+      "ru": "Завтра мы едем в Германию.",
+      "de": "Wir fahren morgen nach Deutschland.",
+      "alternatives": [
+        "Morgen fahren wir nach Deutschland."
+      ]
+    },
+    {
+      "id": "licht-1",
+      "wordId": "licht",
+      "lemma": "Licht",
+      "ru": "Выключи, пожалуйста, свет.",
+      "de": "Mach bitte das Licht aus.",
+      "alternatives": []
+    },
+    {
+      "id": "licht-2",
+      "wordId": "licht",
+      "lemma": "Licht",
+      "ru": "В комнате ещё горит свет.",
+      "de": "Im Zimmer brennt noch Licht.",
+      "alternatives": []
+    },
+    {
+      "id": "licht-4",
+      "wordId": "licht",
+      "lemma": "Licht",
+      "ru": "Свет слишком яркий.",
+      "de": "Das Licht ist zu hell.",
+      "alternatives": []
+    },
+    {
+      "id": "ecke-4",
+      "wordId": "ecke",
+      "lemma": "Ecke",
+      "ru": "У книги четыре угла.",
+      "de": "Das Buch hat vier Ecken.",
+      "alternatives": []
+    },
+    {
+      "id": "ecke-1",
+      "wordId": "ecke",
+      "lemma": "Ecke",
+      "ru": "Стул стоит в углу.",
+      "de": "Der Stuhl steht in der Ecke.",
+      "alternatives": []
+    },
+    {
+      "id": "ecke-2",
+      "wordId": "ecke",
+      "lemma": "Ecke",
+      "ru": "Почта находится за углом.",
+      "de": "Die Post ist um die Ecke.",
+      "alternatives": []
+    },
+    {
+      "id": "dorf-1",
+      "wordId": "dorf",
+      "lemma": "Dorf",
+      "ru": "Моя бабушка живёт в деревне.",
+      "de": "Meine Oma wohnt im Dorf.",
+      "alternatives": []
+    },
+    {
+      "id": "dorf-3",
+      "wordId": "dorf",
+      "lemma": "Dorf",
+      "ru": "Сегодня мы посещаем две деревни.",
+      "de": "Wir besuchen heute zwei Dörfer.",
+      "alternatives": [
+        "Heute besuchen wir zwei Dörfer."
+      ]
+    },
+    {
+      "id": "dorf-2",
+      "wordId": "dorf",
+      "lemma": "Dorf",
+      "ru": "В деревне есть маленькая школа.",
+      "de": "Das Dorf hat eine kleine Schule.",
+      "alternatives": []
+    },
+    {
+      "id": "bahnsteig-1",
+      "wordId": "bahnsteig",
+      "lemma": "Bahnsteig",
+      "ru": "Мы ждём на платформе.",
+      "de": "Wir warten auf dem Bahnsteig.",
+      "alternatives": []
+    },
+    {
+      "id": "bahnsteig-2",
+      "wordId": "bahnsteig",
+      "lemma": "Bahnsteig",
+      "ru": "На платформе сегодня много людей.",
+      "de": "Der Bahnsteig ist heute voll.",
+      "alternatives": []
+    },
+    {
+      "id": "bahnsteig-3",
+      "wordId": "bahnsteig",
+      "lemma": "Bahnsteig",
+      "ru": "Где нужная платформа?",
+      "de": "Wo ist der richtige Bahnsteig?",
+      "alternatives": []
+    },
+    {
+      "id": "unterricht-1",
+      "wordId": "unterricht",
+      "lemma": "Unterricht",
+      "ru": "Занятия начинаются в восемь.",
+      "de": "Der Unterricht beginnt um acht.",
+      "alternatives": []
+    },
+    {
+      "id": "unterricht-2",
+      "wordId": "unterricht",
+      "lemma": "Unterricht",
+      "ru": "Сегодня у нас нет занятий.",
+      "de": "Heute haben wir keinen Unterricht.",
+      "alternatives": [
+        "Wir haben heute keinen Unterricht."
+      ]
+    },
+    {
+      "id": "unterricht-3",
+      "wordId": "unterricht",
+      "lemma": "Unterricht",
+      "ru": "На занятиях мы говорим по-немецки.",
+      "de": "Im Unterricht sprechen wir Deutsch.",
+      "alternatives": []
+    },
+    {
+      "id": "hausaufgabe-1",
+      "wordId": "hausaufgabe",
+      "lemma": "Hausaufgabe",
+      "ru": "Я сейчас делаю домашние задания.",
+      "de": "Ich mache gerade meine Hausaufgaben.",
+      "alternatives": []
+    },
+    {
+      "id": "hausaufgabe-2",
+      "wordId": "hausaufgabe",
+      "lemma": "Hausaufgabe",
+      "ru": "Сегодня домашнее задание лёгкое.",
+      "de": "Die Hausaufgabe ist heute leicht.",
+      "alternatives": []
+    },
+    {
+      "id": "hausaufgabe-4",
+      "wordId": "hausaufgabe",
+      "lemma": "Hausaufgabe",
+      "ru": "Мы каждый день получаем домашние задания.",
+      "de": "Wir bekommen jeden Tag Hausaufgaben.",
+      "alternatives": [
+        "Jeden Tag bekommen wir Hausaufgaben."
+      ]
+    },
+    {
+      "id": "aufgabe-1",
+      "wordId": "aufgabe",
+      "lemma": "Aufgabe",
+      "ru": "Пожалуйста, прочитайте задание.",
+      "de": "Bitte lesen Sie die Aufgabe.",
+      "alternatives": []
+    },
+    {
+      "id": "aufgabe-2",
+      "wordId": "aufgabe",
+      "lemma": "Aufgabe",
+      "ru": "Это задание несложное.",
+      "de": "Diese Aufgabe ist nicht schwer.",
+      "alternatives": []
+    },
+    {
+      "id": "aufgabe-3",
+      "wordId": "aufgabe",
+      "lemma": "Aufgabe",
+      "ru": "У нас осталось ещё три задания.",
+      "de": "Wir haben noch drei Aufgaben.",
+      "alternatives": []
+    },
+    {
+      "id": "beispiel-1",
+      "wordId": "beispiel",
+      "lemma": "Beispiel",
+      "ru": "Мне нужен пример.",
+      "de": "Ich brauche ein Beispiel.",
+      "alternatives": []
+    },
+    {
+      "id": "beispiel-2",
+      "wordId": "beispiel",
+      "lemma": "Beispiel",
+      "ru": "Можешь привести пример?",
+      "de": "Kannst du ein Beispiel nennen?",
+      "alternatives": []
+    },
+    {
+      "id": "beispiel-3",
+      "wordId": "beispiel",
+      "lemma": "Beispiel",
+      "ru": "Это хороший пример.",
+      "de": "Das ist ein gutes Beispiel.",
+      "alternatives": []
+    },
+    {
+      "id": "papier-1",
+      "wordId": "papier",
+      "lemma": "Papier",
+      "ru": "Мне нужен лист бумаги.",
+      "de": "Ich brauche ein Blatt Papier.",
+      "alternatives": []
+    },
+    {
+      "id": "papier-2",
+      "wordId": "papier",
+      "lemma": "Papier",
+      "ru": "Бумага ещё чистая.",
+      "de": "Das Papier ist noch leer.",
+      "alternatives": []
+    },
+    {
+      "id": "papier-5",
+      "wordId": "papier",
+      "lemma": "Papier",
+      "ru": "Пакет сделан из бумаги.",
+      "de": "Die Tüte ist aus Papier.",
+      "alternatives": []
+    },
+    {
+      "id": "problem-2",
+      "wordId": "problem",
+      "lemma": "Problem",
+      "ru": "Это не проблема.",
+      "de": "Das ist kein Problem.",
+      "alternatives": []
+    },
+    {
+      "id": "problem-1",
+      "wordId": "problem",
+      "lemma": "Problem",
+      "ru": "У нас небольшая проблема.",
+      "de": "Wir haben ein kleines Problem.",
+      "alternatives": []
+    },
+    {
+      "id": "problem-3",
+      "wordId": "problem",
+      "lemma": "Problem",
+      "ru": "Ты можешь решить эту проблему?",
+      "de": "Kannst du dieses Problem lösen?",
+      "alternatives": []
     }
   ]
 }
