@@ -6,34 +6,34 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const path = require('node:path');
 const source = fs.readFileSync(path.join(__dirname, '..', 'main.dart.js'), 'utf8').replace(/\r\n/g, '\n');
-const start = source.indexOf('A.a0U.prototype={\nE(a5){');
+const start = source.indexOf('A.a0V.prototype={\nE(a5){');
 const end = source.indexOf('\nA.', start);
 assert.ok(start >= 0 && end > start, 'Expected the supported exercise widget');
 const widgetSource = source.slice(start, end);
 const hintLabel = JSON.parse(source.match(/B\.a3T=new A\.aa\(("(?:\\.|[^"\\])*")/)[1]);
 
-function fixture(translation = 'Мой муж работает врачом (в больнице).', sense = null, step = 'ej') {
+function fixture(translation = 'Мой муж работает врачом (в больнице).', sense = null, step = 'ek') {
   const style = new Proxy({}, {get: () => null});
-  const B = new Proxy({b: {C: (a, b) => a.push(...b)}, c: {by: s => s.trim()}, a3T: hintLabel, a3d: 'Подсказка — первые буквы', a3I: 'Подсказка — первая буква'},
+  const B = new Proxy({b: {C: (a, b) => a.push(...b)}, c: {bp: s => s.trim()}, a3T: hintLabel, a3b: 'Подсказка — первые буквы', a3I: 'Подсказка — первая буква'},
     {get: (target, name) => name in target ? target[name] : name});
   const A = {
-    a0U: function () {}, AI: () => false, F: () => ({ok: style, ax: {b: 'blue'}}),
+    a0V: function () {}, AJ: () => false, F: () => ({ok: style, ax: {b: 'blue'}}),
     w: text => ({text}), b: array => array, aS: children => ({children}),
     bn: (value, pattern, replacement) => value.replace(pattern, replacement),
     iD: (_icon, label, click) => ({label, click}), jv: (_style, children) => ({children}),
     dD: function (_a, _b, _c, children) { this.children = children; },
   };
   const context = {A, B, t: {p: 'widgets'}, u: {N: 'Подсказка использована'},
-    $: {aSp: () => /\s*\((.+)\)\s*$/}};
+    $: {aSr: () => /\s*\((.+)\)\s*$/}};
   vm.runInNewContext(widgetSource, context);
   const controller = {
     k2: false, k4: false,
     ax: {b: B[step], a: {d: 'мужчина, муж', e: sense}, c: {b: 'Mein ___ arbeitet als Arzt.', e: translation}, d: null, w: 'Ma'},
-    gaIn() { return () => { this.k2 = true; }; },
+    gaIl() { return () => { this.k2 = true; }; },
     gH8() { return () => { this.k4 = true; }; },
   };
   const widget = {c: controller, d: false};
-  return {controller, widget, render: () => A.a0U.prototype.E.call(widget, {})};
+  return {controller, widget, render: () => A.a0V.prototype.E.call(widget, {})};
 }
 function flatten(tree) {
   if (Array.isArray(tree)) return tree.flatMap(flatten);
@@ -95,7 +95,7 @@ test('cued recall has no definition and reveals letters only on request', () => 
 });
 
 test('everyday cloze shows translation and reveals only the first letter on request', () => {
-  const f = fixture('Мой муж работает врачом.', 'old definition', 'ei');
+  const f = fixture('Мой муж работает врачом.', 'old definition', 'ej');
   f.controller.ax.w = 'M';
   let nodes = flatten(f.render());
   assert.ok(nodes.some(n => n.text === 'Мой муж работает врачом.'));
