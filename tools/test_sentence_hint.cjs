@@ -17,7 +17,7 @@ function fixture(translation = 'Мой муж работает врачом (в 
   const B = new Proxy({b: {F: (a, b) => a.push(...b)}, c: {bW: s => s.trim()}, a1T: hintLabel, a1k: 'Подсказка — первые буквы', a1K: 'Подсказка — первая буква'},
     {get: (target, name) => name in target ? target[name] : name});
   const A = {
-    a_3: function () {}, zU: () => false, I: () => ({ok: style, ax: {b: 'blue'}}),
+    a_3: function () {}, uJ: () => false, I: () => ({ok: style, ax: {b: 'blue'}}),
     y: text => ({text}), b: array => array, aR: children => ({children}),
     bI: (value, pattern, replacement) => value.replace(pattern, replacement),
     jT: (_icon, label, click) => ({label, click}), li: (_style, children) => ({children}),
@@ -29,8 +29,8 @@ function fixture(translation = 'Мой муж работает врачом (в 
   const controller = {
     k2: false, k4: false,
     ax: {b: B[step], a: {d: 'мужчина, муж', e: sense}, c: {b: 'Mein ___ arbeitet als Arzt.', e: translation}, d: null, w: 'Ma'},
-    gaEL() { return () => { this.k2 = true; }; },
-    gFJ() { return () => { this.k4 = true; }; },
+    gaEM() { return () => { this.k2 = true; }; },
+    gFK() { return () => { this.k4 = true; }; },
   };
   const widget = {c: controller, d: false};
   return {controller, widget, render: () => A.a_3.prototype.C.call(widget, {})};
