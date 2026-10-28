@@ -10,11 +10,11 @@ const start = source.indexOf('A.a1m.prototype={\nD(a5){');
 const end = source.indexOf('\nA.', start);
 assert.ok(start >= 0 && end > start, 'Expected the supported exercise widget');
 const widgetSource = source.slice(start, end);
-const hintLabel = JSON.parse(source.match(/B\.a4s=new A\.am\(("(?:\\.|[^"\\])*")/)[1]);
+const hintLabel = JSON.parse(source.match(/B\.a4p=new A\.aq\(("(?:\\.|[^"\\])*")/)[1]);
 
 function fixture(translation = 'Мой муж работает врачом (в больнице).', sense = null, step = 'ek') {
   const style = new Proxy({}, {get: () => null});
-  const B = new Proxy({b: {E: (a, b) => a.push(...b)}, c: {bz: s => s.trim()}, a4s: hintLabel, a3U: 'Подсказка — первые буквы', a4j: 'Подсказка — первая буква'},
+  const B = new Proxy({b: {E: (a, b) => a.push(...b)}, c: {bz: s => s.trim()}, a4p: hintLabel, a3T: 'Подсказка — первые буквы', a4g: 'Подсказка — первая буква'},
     {get: (target, name) => name in target ? target[name] : name});
   const A = {
     a1m: function () {}, vz: () => false, G: () => ({ok: style, ax: {b: 'blue'}}),
@@ -24,13 +24,13 @@ function fixture(translation = 'Мой муж работает врачом (в 
     dw: function (_a, _b, _c, children) { this.children = children; },
   };
   const context = {A, B, t: {p: 'widgets'}, u: {N: 'Подсказка использована'},
-    $: {aSU: () => /\s*\((.+)\)\s*$/}};
+    $: {aST: () => /\s*\((.+)\)\s*$/}};
   vm.runInNewContext(widgetSource, context);
   const controller = {
     k2: false, k4: false,
     ax: {b: B[step], a: {d: 'мужчина, муж', e: sense}, c: {b: 'Mein ___ arbeitet als Arzt.', e: translation}, d: null, w: 'Ma'},
-    gaID() { return () => { this.k2 = true; }; },
-    gHd() { return () => { this.k4 = true; }; },
+    gaIy() { return () => { this.k2 = true; }; },
+    gHc() { return () => { this.k4 = true; }; },
   };
   const widget = {c: controller, d: false};
   return {controller, widget, render: () => A.a1m.prototype.D.call(widget, {})};
