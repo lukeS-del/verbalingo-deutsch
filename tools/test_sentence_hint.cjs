@@ -17,14 +17,14 @@ function fixture(translation = 'Мой муж работает врачом (в 
   const B = new Proxy({b: {F: (a, b) => a.push(...b)}, c: {bZ: s => s.trim()}, a3h: hintLabel, a2J: 'Подсказка — первые буквы', a38: 'Подсказка — первая буква'},
     {get: (target, name) => name in target ? target[name] : name});
   const A = {
-    a_K: function () {}, v0: () => false, F: () => ({ok: style, ax: {b: 'blue'}}),
+    a_K: function () {}, v_: () => false, F: () => ({ok: style, ax: {b: 'blue'}}),
     y: text => ({text}), b: array => array, aQ: children => ({children}),
     bK: (value, pattern, replacement) => value.replace(pattern, replacement),
     k2: (_icon, label, click) => ({label, click}), ls: (_style, children) => ({children}),
     du: function (_a, _b, _c, children) { this.children = children; },
   };
   const context = {A, B, t: {p: 'widgets'}, u: {N: 'Подсказка использована'},
-    $: {aPk: () => /\s*\((.+)\)\s*$/}};
+    $: {aPi: () => /\s*\((.+)\)\s*$/}};
   vm.runInNewContext(widgetSource, context);
   const controller = {
     k2: false, k4: false,
@@ -95,7 +95,7 @@ test('cued recall has no definition and reveals letters only on request', () => 
 });
 
 test('everyday cloze shows translation and reveals only the first letter on request', () => {
-  const f = fixture('Мой муж работает врачом.', 'old definition', 'ed');
+  const f = fixture('Мой муж работает врачом.', 'old definition', 'dp');
   f.controller.ax.w = 'M';
   let nodes = flatten(f.render());
   assert.ok(nodes.some(n => n.text === 'Мой муж работает врачом.'));
