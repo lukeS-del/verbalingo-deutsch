@@ -6,7 +6,7 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const path = require('node:path');
 const source = fs.readFileSync(path.join(__dirname, '..', 'main.dart.js'), 'utf8').replace(/\r\n/g, '\n');
-const start = source.indexOf('A.a1n.prototype={\nD(a5){');
+const start = source.indexOf('A.a1o.prototype={\nD(a5){');
 const end = source.indexOf('\nA.', start);
 assert.ok(start >= 0 && end > start, 'Expected the supported exercise widget');
 const widgetSource = source.slice(start, end);
@@ -17,23 +17,23 @@ function fixture(translation = 'Мой муж работает врачом (в 
   const B = new Proxy({b: {E: (a, b) => a.push(...b)}, c: {bz: s => s.trim()}, a4p: hintLabel, a3U: 'Подсказка — первые буквы', a4h: 'Подсказка — первая буква'},
     {get: (target, name) => name in target ? target[name] : name});
   const A = {
-    a1n: function () {}, vz: () => false, G: () => ({ok: style, ax: {b: 'blue'}}),
+    a1o: function () {}, vz: () => false, G: () => ({ok: style, ax: {b: 'blue'}}),
     y: text => ({text}), b: array => array, aS: children => ({children}),
     bI: (value, pattern, replacement) => value.replace(pattern, replacement),
     kp: (_icon, label, click) => ({label, click}), ky: (_style, children) => ({children}),
     dw: function (_a, _b, _c, children) { this.children = children; },
   };
   const context = {A, B, t: {p: 'widgets'}, u: {N: 'Подсказка использована'},
-    $: {aSZ: () => /\s*\((.+)\)\s*$/}};
+    $: {aT_: () => /\s*\((.+)\)\s*$/}};
   vm.runInNewContext(widgetSource, context);
   const controller = {
     k2: false, k4: false,
     ax: {b: B[step], a: {d: 'мужчина, муж', e: sense}, c: {b: 'Mein ___ arbeitet als Arzt.', e: translation}, d: null, w: 'Ma'},
-    gaIB() { return () => { this.k2 = true; }; },
+    gaID() { return () => { this.k2 = true; }; },
     gHc() { return () => { this.k4 = true; }; },
   };
   const widget = {c: controller, d: false};
-  return {controller, widget, render: () => A.a1n.prototype.D.call(widget, {})};
+  return {controller, widget, render: () => A.a1o.prototype.D.call(widget, {})};
 }
 function flatten(tree) {
   if (Array.isArray(tree)) return tree.flatMap(flatten);
