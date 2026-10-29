@@ -893,7 +893,9 @@
       "ru": "Перед домом стоит много машин.",
       "de": "Vor dem Haus parken viele Autos.",
       "alternatives": [
-        "Viele Autos parken vor dem Haus."
+        "Viele Autos parken vor dem Haus.",
+        "Viele Autos stehen vor dem Haus.",
+        "Vor dem Haus stehen viele Autos."
       ]
     },
     {
