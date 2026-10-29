@@ -24,12 +24,12 @@ function fixture(translation = 'Мой муж работает врачом (в 
     dw: function (_a, _b, _c, children) { this.children = children; },
   };
   const context = {A, B, t: {p: 'widgets'}, u: {N: 'Подсказка использована'},
-    $: {aT3: () => /\s*\((.+)\)\s*$/}};
+    $: {aT5: () => /\s*\((.+)\)\s*$/}};
   vm.runInNewContext(widgetSource, context);
   const controller = {
     k2: false, k4: false,
     ax: {b: B[step], a: {d: 'мужчина, муж', e: sense}, c: {b: 'Mein ___ arbeitet als Arzt.', e: translation}, d: null, w: 'Ma'},
-    gaIH() { return () => { this.k2 = true; }; },
+    gaII() { return () => { this.k2 = true; }; },
     gHd() { return () => { this.k4 = true; }; },
   };
   const widget = {c: controller, d: false};
