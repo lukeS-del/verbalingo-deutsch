@@ -105936,7 +105936,7 @@ $0(){var s=0,r=A.l(t.u0),q,p
 var $async$$0=A.m(function(a,b){if(a===1)return A.i(b,r)
 for(;;)switch(s){case 0:p=A
 s=3
-return A.f($.o4().vf("assets/translations/A1.json"),$async$$0)
+return A.f($.o4().vf("assets/translations/de.json"),$async$$0)
 case 3:q=p.bay(b)
 s=1
 break
