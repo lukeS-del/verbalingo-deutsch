@@ -1,0 +1,421 @@
+{
+ "version": 1,
+ "levels": [
+  {
+   "level": 1,
+   "title": "Самое начало",
+   "blocks": [
+    {
+     "id": "1-01",
+     "topic": "Быть: ich bin, du bist, er ist",
+     "sentences": [
+      {
+       "id": "1-01-1",
+       "ru": "Я устал.",
+       "de": "Ich bin müde.",
+       "alternatives": []
+      },
+      {
+       "id": "1-01-2",
+       "ru": "Ты устал.",
+       "de": "Du bist müde.",
+       "alternatives": []
+      },
+      {
+       "id": "1-01-3",
+       "ru": "Он устал.",
+       "de": "Er ist müde.",
+       "alternatives": []
+      },
+      {
+       "id": "1-01-4",
+       "ru": "Она устала.",
+       "de": "Sie ist müde.",
+       "alternatives": []
+      },
+      {
+       "id": "1-01-5",
+       "ru": "Мы устали.",
+       "de": "Wir sind müde.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "1-02",
+     "topic": "Где кто: zu Hause",
+     "sentences": [
+      {
+       "id": "1-02-1",
+       "ru": "Я дома.",
+       "de": "Ich bin zu Hause.",
+       "alternatives": [
+        "Ich bin daheim.",
+        "Ich bin zuhause."
+       ]
+      },
+      {
+       "id": "1-02-2",
+       "ru": "Ты дома.",
+       "de": "Du bist zu Hause.",
+       "alternatives": [
+        "Du bist daheim.",
+        "Du bist zuhause."
+       ]
+      },
+      {
+       "id": "1-02-3",
+       "ru": "Он дома.",
+       "de": "Er ist zu Hause.",
+       "alternatives": [
+        "Er ist daheim.",
+        "Er ist zuhause."
+       ]
+      },
+      {
+       "id": "1-02-4",
+       "ru": "Мы дома.",
+       "de": "Wir sind zu Hause.",
+       "alternatives": [
+        "Wir sind daheim.",
+        "Wir sind zuhause."
+       ]
+      },
+      {
+       "id": "1-02-5",
+       "ru": "Они дома.",
+       "de": "Sie sind zu Hause.",
+       "alternatives": [
+        "Sie sind daheim.",
+        "Sie sind zuhause."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "1-03",
+     "topic": "Это…: das ist",
+     "sentences": [
+      {
+       "id": "1-03-1",
+       "ru": "Это дом.",
+       "de": "Das ist ein Haus.",
+       "alternatives": [
+        "Das ist das Haus."
+       ]
+      },
+      {
+       "id": "1-03-2",
+       "ru": "Это машина.",
+       "de": "Das ist ein Auto.",
+       "alternatives": [
+        "Das ist das Auto."
+       ]
+      },
+      {
+       "id": "1-03-3",
+       "ru": "Это кошка.",
+       "de": "Das ist eine Katze.",
+       "alternatives": [
+        "Das ist die Katze."
+       ]
+      },
+      {
+       "id": "1-03-4",
+       "ru": "Это мой дом.",
+       "de": "Das ist mein Haus.",
+       "alternatives": []
+      },
+      {
+       "id": "1-03-5",
+       "ru": "Это моя кошка.",
+       "de": "Das ist meine Katze.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "1-04",
+     "topic": "Пить: ich trinke, du trinkst",
+     "sentences": [
+      {
+       "id": "1-04-1",
+       "ru": "Я пью воду.",
+       "de": "Ich trinke Wasser.",
+       "alternatives": []
+      },
+      {
+       "id": "1-04-2",
+       "ru": "Я пью кофе.",
+       "de": "Ich trinke Kaffee.",
+       "alternatives": []
+      },
+      {
+       "id": "1-04-3",
+       "ru": "Ты пьёшь кофе.",
+       "de": "Du trinkst Kaffee.",
+       "alternatives": []
+      },
+      {
+       "id": "1-04-4",
+       "ru": "Он пьёт чай.",
+       "de": "Er trinkt Tee.",
+       "alternatives": []
+      },
+      {
+       "id": "1-04-5",
+       "ru": "Мы пьём чай.",
+       "de": "Wir trinken Tee.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "1-05",
+     "topic": "Есть (кушать): ich esse, du isst",
+     "sentences": [
+      {
+       "id": "1-05-1",
+       "ru": "Я ем хлеб.",
+       "de": "Ich esse Brot.",
+       "alternatives": []
+      },
+      {
+       "id": "1-05-2",
+       "ru": "Ты ешь хлеб.",
+       "de": "Du isst Brot.",
+       "alternatives": []
+      },
+      {
+       "id": "1-05-3",
+       "ru": "Она ест суп.",
+       "de": "Sie isst Suppe.",
+       "alternatives": [
+        "Sie isst eine Suppe."
+       ]
+      },
+      {
+       "id": "1-05-4",
+       "ru": "Мы едим суп.",
+       "de": "Wir essen Suppe.",
+       "alternatives": [
+        "Wir essen eine Suppe."
+       ]
+      },
+      {
+       "id": "1-05-5",
+       "ru": "Они едят рыбу.",
+       "de": "Sie essen Fisch.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "1-06",
+     "topic": "Жить: ich wohne in …",
+     "sentences": [
+      {
+       "id": "1-06-1",
+       "ru": "Я живу в Берлине.",
+       "de": "Ich wohne in Berlin.",
+       "alternatives": [
+        "Ich lebe in Berlin."
+       ]
+      },
+      {
+       "id": "1-06-2",
+       "ru": "Ты живёшь в Берлине.",
+       "de": "Du wohnst in Berlin.",
+       "alternatives": [
+        "Du lebst in Berlin."
+       ]
+      },
+      {
+       "id": "1-06-3",
+       "ru": "Он живёт в Вене.",
+       "de": "Er wohnt in Wien.",
+       "alternatives": [
+        "Er lebt in Wien."
+       ]
+      },
+      {
+       "id": "1-06-4",
+       "ru": "Мы живём в Мюнхене.",
+       "de": "Wir wohnen in München.",
+       "alternatives": [
+        "Wir leben in München."
+       ]
+      },
+      {
+       "id": "1-06-5",
+       "ru": "Они живут в Гамбурге.",
+       "de": "Sie wohnen in Hamburg.",
+       "alternatives": [
+        "Sie leben in Hamburg."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "1-07",
+     "topic": "У меня есть: ich habe",
+     "sentences": [
+      {
+       "id": "1-07-1",
+       "ru": "У меня есть машина.",
+       "de": "Ich habe ein Auto.",
+       "alternatives": []
+      },
+      {
+       "id": "1-07-2",
+       "ru": "У тебя есть машина.",
+       "de": "Du hast ein Auto.",
+       "alternatives": []
+      },
+      {
+       "id": "1-07-3",
+       "ru": "У него есть собака.",
+       "de": "Er hat einen Hund.",
+       "alternatives": []
+      },
+      {
+       "id": "1-07-4",
+       "ru": "У нас есть собака.",
+       "de": "Wir haben einen Hund.",
+       "alternatives": []
+      },
+      {
+       "id": "1-07-5",
+       "ru": "У неё есть кошка.",
+       "de": "Sie hat eine Katze.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "1-08",
+     "topic": "Вопрос: глагол впереди",
+     "sentences": [
+      {
+       "id": "1-08-1",
+       "ru": "Ты устал?",
+       "de": "Bist du müde?",
+       "alternatives": []
+      },
+      {
+       "id": "1-08-2",
+       "ru": "Ты дома?",
+       "de": "Bist du zu Hause?",
+       "alternatives": [
+        "Bist du daheim?",
+        "Bist du zuhause?"
+       ]
+      },
+      {
+       "id": "1-08-3",
+       "ru": "Ты пьёшь кофе?",
+       "de": "Trinkst du Kaffee?",
+       "alternatives": []
+      },
+      {
+       "id": "1-08-4",
+       "ru": "Он живёт в Берлине?",
+       "de": "Wohnt er in Berlin?",
+       "alternatives": [
+        "Lebt er in Berlin?"
+       ]
+      },
+      {
+       "id": "1-08-5",
+       "ru": "У тебя есть собака?",
+       "de": "Hast du einen Hund?",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "1-09",
+     "topic": "Не: nicht",
+     "sentences": [
+      {
+       "id": "1-09-1",
+       "ru": "Я не устал.",
+       "de": "Ich bin nicht müde.",
+       "alternatives": []
+      },
+      {
+       "id": "1-09-2",
+       "ru": "Мы не устали.",
+       "de": "Wir sind nicht müde.",
+       "alternatives": []
+      },
+      {
+       "id": "1-09-3",
+       "ru": "Он не дома.",
+       "de": "Er ist nicht zu Hause.",
+       "alternatives": [
+        "Er ist nicht daheim.",
+        "Er ist nicht zuhause."
+       ]
+      },
+      {
+       "id": "1-09-4",
+       "ru": "Она не дома.",
+       "de": "Sie ist nicht zu Hause.",
+       "alternatives": [
+        "Sie ist nicht daheim.",
+        "Sie ist nicht zuhause."
+       ]
+      },
+      {
+       "id": "1-09-5",
+       "ru": "Я не живу в Берлине.",
+       "de": "Ich wohne nicht in Berlin.",
+       "alternatives": [
+        "Ich lebe nicht in Berlin."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "1-10",
+     "topic": "Вопросительные слова: wo, was, wie",
+     "sentences": [
+      {
+       "id": "1-10-1",
+       "ru": "Где ты?",
+       "de": "Wo bist du?",
+       "alternatives": []
+      },
+      {
+       "id": "1-10-2",
+       "ru": "Где ты живёшь?",
+       "de": "Wo wohnst du?",
+       "alternatives": [
+        "Wo lebst du?"
+       ]
+      },
+      {
+       "id": "1-10-3",
+       "ru": "Что ты пьёшь?",
+       "de": "Was trinkst du?",
+       "alternatives": []
+      },
+      {
+       "id": "1-10-4",
+       "ru": "Что это?",
+       "de": "Was ist das?",
+       "alternatives": []
+      },
+      {
+       "id": "1-10-5",
+       "ru": "Как тебя зовут?",
+       "de": "Wie heißt du?",
+       "alternatives": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
