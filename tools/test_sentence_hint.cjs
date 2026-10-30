@@ -14,17 +14,17 @@ const hintLabel = JSON.parse(source.match(/B\.a3e=new A\.at\(("(?:\\.|[^"\\])*")
 
 function fixture(translation = 'Мой муж работает врачом (в больнице).', sense = null, step = 'eh') {
   const style = new Proxy({}, {get: () => null});
-  const B = new Proxy({b: {D: (a, b) => a.push(...b)}, c: {bx: s => s.trim()}, a3e: hintLabel, a2H: 'Подсказка — первые буквы', a35: 'Подсказка — первая буква'},
+  const B = new Proxy({b: {D: (a, b) => a.push(...b)}, c: {bp: s => s.trim()}, a3e: hintLabel, a2H: 'Подсказка — первые буквы', a35: 'Подсказка — первая буква'},
     {get: (target, name) => name in target ? target[name] : name});
   const A = {
-    a0T: function () {}, vp: () => false, I: () => ({ok: style, ax: {b: 'blue'}}),
+    a0T: function () {}, vq: () => false, I: () => ({ok: style, ax: {b: 'blue'}}),
     x: text => ({text}), b: array => array, aS: children => ({children}),
     bb: (value, pattern, replacement) => value.replace(pattern, replacement),
     kg: (_icon, label, click) => ({label, click}), jq: (_style, children) => ({children}),
     dz: function (_a, _b, _c, children) { this.children = children; },
   };
   const context = {A, B, t: {p: 'widgets'}, u: {N: 'Подсказка использована'},
-    $: {aRZ: () => /\s*\((.+)\)\s*$/}};
+    $: {aS1: () => /\s*\((.+)\)\s*$/}};
   vm.runInNewContext(widgetSource, context);
   const controller = {
     k2: false, k4: false,
@@ -95,7 +95,7 @@ test('cued recall has no definition and reveals letters only on request', () => 
 });
 
 test('everyday cloze shows translation and reveals only the first letter on request', () => {
-  const f = fixture('Мой муж работает врачом.', 'old definition', 'dr');
+  const f = fixture('Мой муж работает врачом.', 'old definition', 'ds');
   f.controller.ax.w = 'M';
   let nodes = flatten(f.render());
   assert.ok(nodes.some(n => n.text === 'Мой муж работает врачом.'));
