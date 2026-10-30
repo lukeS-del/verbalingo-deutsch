@@ -10,11 +10,11 @@ const start = source.indexOf('A.a0T.prototype={\nE(a5){');
 const end = source.indexOf('\nA.', start);
 assert.ok(start >= 0 && end > start, 'Expected the supported exercise widget');
 const widgetSource = source.slice(start, end);
-const hintLabel = JSON.parse(source.match(/B\.a3e=new A\.at\(("(?:\\.|[^"\\])*")/)[1]);
+const hintLabel = JSON.parse(source.match(/B\.a3g=new A\.at\(("(?:\\.|[^"\\])*")/)[1]);
 
 function fixture(translation = 'Мой муж работает врачом (в больнице).', sense = null, step = 'eh') {
   const style = new Proxy({}, {get: () => null});
-  const B = new Proxy({b: {D: (a, b) => a.push(...b)}, c: {bp: s => s.trim()}, a3e: hintLabel, a2H: 'Подсказка — первые буквы', a35: 'Подсказка — первая буква'},
+  const B = new Proxy({b: {D: (a, b) => a.push(...b)}, c: {bp: s => s.trim()}, a3g: hintLabel, a2J: 'Подсказка — первые буквы', a37: 'Подсказка — первая буква'},
     {get: (target, name) => name in target ? target[name] : name});
   const A = {
     a0T: function () {}, vq: () => false, I: () => ({ok: style, ax: {b: 'blue'}}),
