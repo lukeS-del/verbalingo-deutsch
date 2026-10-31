@@ -4,6 +4,7 @@ Run again after replacing main.dart.js with a new Flutter build. Unknown build
 shapes fail without writing the bundle, rather than silently patching wrong code.
 """
 import json
+import re
 from pathlib import Path
 
 from generate_audio import ROOT, read_json
@@ -15,9 +16,21 @@ HOOKS = {
     'r.speechSynthesis.speak(s)': '(r.verbalingoSpeech||r.speechSynthesis).speak(s)',
     's.speechSynthesis.pause()': ';(s.verbalingoSpeech||s.speechSynthesis).pause();',
     's.speechSynthesis.resume()': ';(s.verbalingoSpeech||s.speechSynthesis).resume();',
-    'aoh(a){var s,r,q,p,o=this':
-        'aoh(a){if(v.G.verbalingoSpeech&&v.G.verbalingoSpeech.hasRecordings&&/^de(?:[-_]|$)/i.test(a))return!0;var s,r,q,p,o=this',
 }
+
+# The one hook that is a method rather than a call. dart2js renames methods on
+# every build — `aoh` in one, `aop` in the next — and keying on the name failed
+# the whole install over a name that carries no meaning. Keyed on the body
+# instead: the voice lookup that answers whether a language can be spoken,
+# which German can answer for itself once there are recordings of it. Still
+# exactly one match in the bundle, or nothing is written.
+VOICE_LOOKUP = re.compile(
+    r'(\w+\(a\)\{)(var s,r,q,p,o=this\nif\(J\.\w+\(o\.e\)\))'
+)
+SPEAKS_GERMAN = (
+    'if(v.G.verbalingoSpeech&&v.G.verbalingoSpeech.hasRecordings'
+    '&&/^de(?:[-_]|$)/i.test(a))return!0;'
+)
 
 # Sentence translation and cued-recall hints now come from the Dart source.
 
@@ -30,6 +43,12 @@ def patch_bundle(source):
         if result.count(old) != 1:
             raise ValueError(f'Unsupported Flutter build: expected exactly one {old!r}')
         result = result.replace(old, new)
+    if SPEAKS_GERMAN not in result:
+        if len(VOICE_LOOKUP.findall(result)) != 1:
+            raise ValueError('Unsupported Flutter build: no single voice lookup')
+        result = VOICE_LOOKUP.sub(
+            lambda m: m.group(1) + SPEAKS_GERMAN + m.group(2), result, count=1
+        )
     return result
 
 
