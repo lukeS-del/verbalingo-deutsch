@@ -810,6 +810,886 @@
   },
   {
    "level": 3,
+   "title": "Люди и вещи",
+   "blocks": [
+    {
+     "id": "6-01",
+     "topic": "Знакомство: heißen, kommen aus",
+     "sentences": [
+      {
+       "id": "6-01-1",
+       "ru": "Меня зовут Анна.",
+       "de": "Ich heiße Anna.",
+       "alternatives": [
+        "Mein Name ist Anna."
+       ]
+      },
+      {
+       "id": "6-01-2",
+       "ru": "Его зовут Макс.",
+       "de": "Er heißt Max.",
+       "alternatives": [
+        "Sein Name ist Max."
+       ]
+      },
+      {
+       "id": "6-01-3",
+       "ru": "Откуда ты?",
+       "de": "Woher kommst du?",
+       "alternatives": [
+        "Woher bist du?"
+       ]
+      },
+      {
+       "id": "6-01-4",
+       "ru": "Я из России.",
+       "de": "Ich komme aus Russland.",
+       "alternatives": [
+        "Ich bin aus Russland."
+       ]
+      },
+      {
+       "id": "6-01-5",
+       "ru": "Мы говорим по-русски.",
+       "de": "Wir sprechen Russisch.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "6-02",
+     "topic": "Семья: Vater, Mutter, Kinder",
+     "sentences": [
+      {
+       "id": "6-02-1",
+       "ru": "Мой отец врач.",
+       "de": "Mein Vater ist Arzt.",
+       "alternatives": []
+      },
+      {
+       "id": "6-02-2",
+       "ru": "У меня двое детей.",
+       "de": "Ich habe zwei Kinder.",
+       "alternatives": [
+        "Ich habe 2 Kinder."
+       ]
+      },
+      {
+       "id": "6-02-3",
+       "ru": "Моя бабушка живёт в Вене.",
+       "de": "Meine Oma wohnt in Wien.",
+       "alternatives": [
+        "Meine Großmutter wohnt in Wien.",
+        "Meine Oma lebt in Wien.",
+        "Meine Großmutter lebt in Wien."
+       ]
+      },
+      {
+       "id": "6-02-4",
+       "ru": "Его сын ходит в школу.",
+       "de": "Sein Sohn geht in die Schule.",
+       "alternatives": [
+        "Sein Sohn geht zur Schule."
+       ]
+      },
+      {
+       "id": "6-02-5",
+       "ru": "Это наши родители.",
+       "de": "Das sind unsere Eltern.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "6-03",
+     "topic": "Числа и возраст",
+     "sentences": [
+      {
+       "id": "6-03-1",
+       "ru": "Мне двадцать лет.",
+       "de": "Ich bin zwanzig Jahre alt.",
+       "alternatives": [
+        "Ich bin 20 Jahre alt.",
+        "Ich bin zwanzig.",
+        "Ich bin 20."
+       ]
+      },
+      {
+       "id": "6-03-2",
+       "ru": "Моей дочери пять лет.",
+       "de": "Meine Tochter ist fünf Jahre alt.",
+       "alternatives": [
+        "Meine Tochter ist 5 Jahre alt.",
+        "Meine Tochter ist fünf.",
+        "Meine Tochter ist 5."
+       ]
+      },
+      {
+       "id": "6-03-3",
+       "ru": "Сколько лет твоему брату?",
+       "de": "Wie alt ist dein Bruder?",
+       "alternatives": []
+      },
+      {
+       "id": "6-03-4",
+       "ru": "У меня три сестры.",
+       "de": "Ich habe drei Schwestern.",
+       "alternatives": [
+        "Ich habe 3 Schwestern."
+       ]
+      },
+      {
+       "id": "6-03-5",
+       "ru": "В группе десять человек.",
+       "de": "In der Gruppe sind zehn Leute.",
+       "alternatives": [
+        "In der Gruppe sind 10 Leute.",
+        "Die Gruppe hat zehn Leute."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "6-04",
+     "topic": "Дни недели: am Montag",
+     "sentences": [
+      {
+       "id": "6-04-1",
+       "ru": "В понедельник я работаю.",
+       "de": "Am Montag arbeite ich.",
+       "alternatives": [
+        "Ich arbeite am Montag."
+       ]
+      },
+      {
+       "id": "6-04-2",
+       "ru": "Во вторник у нас урок немецкого.",
+       "de": "Am Dienstag haben wir Deutschunterricht.",
+       "alternatives": [
+        "Wir haben am Dienstag Deutschunterricht."
+       ]
+      },
+      {
+       "id": "6-04-3",
+       "ru": "В среду магазин закрыт.",
+       "de": "Am Mittwoch ist der Laden geschlossen.",
+       "alternatives": [
+        "Der Laden ist am Mittwoch geschlossen.",
+        "Am Mittwoch ist das Geschäft geschlossen.",
+        "Das Geschäft ist am Mittwoch geschlossen."
+       ]
+      },
+      {
+       "id": "6-04-4",
+       "ru": "В воскресенье я долго сплю.",
+       "de": "Am Sonntag schlafe ich lange.",
+       "alternatives": [
+        "Ich schlafe am Sonntag lange."
+       ]
+      },
+      {
+       "id": "6-04-5",
+       "ru": "Какой сегодня день?",
+       "de": "Welcher Tag ist heute?",
+       "alternatives": [
+        "Was ist heute für ein Tag?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "6-05",
+     "topic": "Много: Bücher, Kinder, Katzen",
+     "sentences": [
+      {
+       "id": "6-05-1",
+       "ru": "Это мои книги.",
+       "de": "Das sind meine Bücher.",
+       "alternatives": []
+      },
+      {
+       "id": "6-05-2",
+       "ru": "У нас две кошки.",
+       "de": "Wir haben zwei Katzen.",
+       "alternatives": [
+        "Wir haben 2 Katzen."
+       ]
+      },
+      {
+       "id": "6-05-3",
+       "ru": "Дети в школе.",
+       "de": "Die Kinder sind in der Schule.",
+       "alternatives": []
+      },
+      {
+       "id": "6-05-4",
+       "ru": "Я покупаю три банана.",
+       "de": "Ich kaufe drei Bananen.",
+       "alternatives": [
+        "Ich kaufe 3 Bananen."
+       ]
+      },
+      {
+       "id": "6-05-5",
+       "ru": "Где мои ключи?",
+       "de": "Wo sind meine Schlüssel?",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "6-06",
+     "topic": "Цвета и одежда",
+     "sentences": [
+      {
+       "id": "6-06-1",
+       "ru": "Моя куртка синяя.",
+       "de": "Meine Jacke ist blau.",
+       "alternatives": []
+      },
+      {
+       "id": "6-06-2",
+       "ru": "Машина красная.",
+       "de": "Das Auto ist rot.",
+       "alternatives": []
+      },
+      {
+       "id": "6-06-3",
+       "ru": "Эти туфли новые.",
+       "de": "Diese Schuhe sind neu.",
+       "alternatives": [
+        "Die Schuhe sind neu."
+       ]
+      },
+      {
+       "id": "6-06-4",
+       "ru": "Какого цвета твоя сумка?",
+       "de": "Welche Farbe hat deine Tasche?",
+       "alternatives": []
+      },
+      {
+       "id": "6-06-5",
+       "ru": "Брюки слишком длинные.",
+       "de": "Die Hose ist zu lang.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "6-07",
+     "topic": "Люблю: mögen",
+     "sentences": [
+      {
+       "id": "6-07-1",
+       "ru": "Я люблю кошек.",
+       "de": "Ich mag Katzen.",
+       "alternatives": []
+      },
+      {
+       "id": "6-07-2",
+       "ru": "Ты любишь рыбу?",
+       "de": "Magst du Fisch?",
+       "alternatives": []
+      },
+      {
+       "id": "6-07-3",
+       "ru": "Он не любит молоко.",
+       "de": "Er mag keine Milch.",
+       "alternatives": []
+      },
+      {
+       "id": "6-07-4",
+       "ru": "Мы любим музыку.",
+       "de": "Wir mögen Musik.",
+       "alternatives": []
+      },
+      {
+       "id": "6-07-5",
+       "ru": "Она любит шоколад.",
+       "de": "Sie mag Schokolade.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "6-08",
+     "topic": "Хочу: wollen",
+     "sentences": [
+      {
+       "id": "6-08-1",
+       "ru": "Я хочу спать.",
+       "de": "Ich will schlafen.",
+       "alternatives": [
+        "Ich möchte schlafen."
+       ]
+      },
+      {
+       "id": "6-08-2",
+       "ru": "Ты хочешь пойти в кино?",
+       "de": "Willst du ins Kino gehen?",
+       "alternatives": [
+        "Möchtest du ins Kino gehen?"
+       ]
+      },
+      {
+       "id": "6-08-3",
+       "ru": "Он хочет новый телефон.",
+       "de": "Er will ein neues Handy.",
+       "alternatives": [
+        "Er will ein neues Telefon.",
+        "Er möchte ein neues Handy.",
+        "Er möchte ein neues Telefon."
+       ]
+      },
+      {
+       "id": "6-08-4",
+       "ru": "Мы хотим учить немецкий.",
+       "de": "Wir wollen Deutsch lernen.",
+       "alternatives": [
+        "Wir möchten Deutsch lernen."
+       ]
+      },
+      {
+       "id": "6-08-5",
+       "ru": "Дети хотят играть.",
+       "de": "Die Kinder wollen spielen.",
+       "alternatives": [
+        "Die Kinder möchten spielen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "6-09",
+     "topic": "Можно и нельзя: dürfen",
+     "sentences": [
+      {
+       "id": "6-09-1",
+       "ru": "Можно войти?",
+       "de": "Darf ich reinkommen?",
+       "alternatives": [
+        "Darf ich hereinkommen?",
+        "Kann ich reinkommen?"
+       ]
+      },
+      {
+       "id": "6-09-2",
+       "ru": "Здесь нельзя курить.",
+       "de": "Hier darf man nicht rauchen.",
+       "alternatives": [
+        "Man darf hier nicht rauchen."
+       ]
+      },
+      {
+       "id": "6-09-3",
+       "ru": "Можно я открою окно?",
+       "de": "Darf ich das Fenster öffnen?",
+       "alternatives": [
+        "Darf ich das Fenster aufmachen?",
+        "Kann ich das Fenster öffnen?",
+        "Kann ich das Fenster aufmachen?"
+       ]
+      },
+      {
+       "id": "6-09-4",
+       "ru": "Детям нельзя пить кофе.",
+       "de": "Kinder dürfen keinen Kaffee trinken.",
+       "alternatives": [
+        "Die Kinder dürfen keinen Kaffee trinken."
+       ]
+      },
+      {
+       "id": "6-09-5",
+       "ru": "Сегодня тебе можно прийти позже.",
+       "de": "Du darfst heute später kommen.",
+       "alternatives": [
+        "Heute darfst du später kommen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "6-10",
+     "topic": "Меня, тебя, его: mich, dich, ihn",
+     "sentences": [
+      {
+       "id": "6-10-1",
+       "ru": "Я тебя люблю.",
+       "de": "Ich liebe dich.",
+       "alternatives": []
+      },
+      {
+       "id": "6-10-2",
+       "ru": "Ты меня слышишь?",
+       "de": "Hörst du mich?",
+       "alternatives": []
+      },
+      {
+       "id": "6-10-3",
+       "ru": "Я его не знаю.",
+       "de": "Ich kenne ihn nicht.",
+       "alternatives": []
+      },
+      {
+       "id": "6-10-4",
+       "ru": "Мы её видим.",
+       "de": "Wir sehen sie.",
+       "alternatives": []
+      },
+      {
+       "id": "6-10-5",
+       "ru": "Он нас понимает.",
+       "de": "Er versteht uns.",
+       "alternatives": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 4,
+   "title": "Мой город и мой день",
+   "blocks": [
+    {
+     "id": "7-01",
+     "topic": "Дорога: links, rechts, geradeaus",
+     "sentences": [
+      {
+       "id": "7-01-1",
+       "ru": "Где вокзал?",
+       "de": "Wo ist der Bahnhof?",
+       "alternatives": []
+      },
+      {
+       "id": "7-01-2",
+       "ru": "Идите прямо.",
+       "de": "Gehen Sie geradeaus.",
+       "alternatives": [
+        "Geht geradeaus."
+       ]
+      },
+      {
+       "id": "7-01-3",
+       "ru": "Потом налево.",
+       "de": "Dann links.",
+       "alternatives": [
+        "Dann nach links.",
+        "Dann gehen Sie links.",
+        "Dann gehen Sie nach links."
+       ]
+      },
+      {
+       "id": "7-01-4",
+       "ru": "Банк рядом с почтой.",
+       "de": "Die Bank ist neben der Post.",
+       "alternatives": []
+      },
+      {
+       "id": "7-01-5",
+       "ru": "Это далеко?",
+       "de": "Ist das weit?",
+       "alternatives": [
+        "Ist es weit?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "7-02",
+     "topic": "В городе: es gibt",
+     "sentences": [
+      {
+       "id": "7-02-1",
+       "ru": "Здесь есть супермаркет?",
+       "de": "Gibt es hier einen Supermarkt?",
+       "alternatives": []
+      },
+      {
+       "id": "7-02-2",
+       "ru": "В нашем городе есть музей.",
+       "de": "In unserer Stadt gibt es ein Museum.",
+       "alternatives": [
+        "Es gibt ein Museum in unserer Stadt."
+       ]
+      },
+      {
+       "id": "7-02-3",
+       "ru": "Здесь нет аптеки.",
+       "de": "Hier gibt es keine Apotheke.",
+       "alternatives": [
+        "Es gibt hier keine Apotheke."
+       ]
+      },
+      {
+       "id": "7-02-4",
+       "ru": "В парке много деревьев.",
+       "de": "Im Park gibt es viele Bäume.",
+       "alternatives": [
+        "Im Park sind viele Bäume."
+       ]
+      },
+      {
+       "id": "7-02-5",
+       "ru": "Рядом есть кафе.",
+       "de": "In der Nähe gibt es ein Café.",
+       "alternatives": [
+        "Es gibt ein Café in der Nähe."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "7-03",
+     "topic": "Мой день: morgens, abends",
+     "sentences": [
+      {
+       "id": "7-03-1",
+       "ru": "Утром я пью кофе.",
+       "de": "Morgens trinke ich Kaffee.",
+       "alternatives": [
+        "Am Morgen trinke ich Kaffee.",
+        "Ich trinke morgens Kaffee.",
+        "Ich trinke am Morgen Kaffee."
+       ]
+      },
+      {
+       "id": "7-03-2",
+       "ru": "В обед я ем суп.",
+       "de": "Mittags esse ich Suppe.",
+       "alternatives": [
+        "Mittags esse ich eine Suppe.",
+        "Ich esse mittags Suppe.",
+        "Ich esse mittags eine Suppe."
+       ]
+      },
+      {
+       "id": "7-03-3",
+       "ru": "Вечером я смотрю телевизор.",
+       "de": "Abends sehe ich fern.",
+       "alternatives": [
+        "Am Abend sehe ich fern.",
+        "Ich sehe abends fern.",
+        "Ich sehe am Abend fern."
+       ]
+      },
+      {
+       "id": "7-03-4",
+       "ru": "Ночью я сплю.",
+       "de": "Nachts schlafe ich.",
+       "alternatives": [
+        "In der Nacht schlafe ich.",
+        "Ich schlafe nachts.",
+        "Ich schlafe in der Nacht."
+       ]
+      },
+      {
+       "id": "7-03-5",
+       "ru": "Я завтракаю в восемь.",
+       "de": "Ich frühstücke um acht.",
+       "alternatives": [
+        "Ich frühstücke um acht Uhr.",
+        "Um acht frühstücke ich.",
+        "Um acht Uhr frühstücke ich."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "7-04",
+     "topic": "Самочувствие: mir ist kalt",
+     "sentences": [
+      {
+       "id": "7-04-1",
+       "ru": "Мне холодно.",
+       "de": "Mir ist kalt.",
+       "alternatives": []
+      },
+      {
+       "id": "7-04-2",
+       "ru": "Мне жарко.",
+       "de": "Mir ist heiß.",
+       "alternatives": [
+        "Mir ist warm."
+       ]
+      },
+      {
+       "id": "7-04-3",
+       "ru": "У меня болит живот.",
+       "de": "Ich habe Bauchschmerzen.",
+       "alternatives": [
+        "Mein Bauch tut weh."
+       ]
+      },
+      {
+       "id": "7-04-4",
+       "ru": "У неё болит нога.",
+       "de": "Ihr Bein tut weh.",
+       "alternatives": [
+        "Ihr tut das Bein weh."
+       ]
+      },
+      {
+       "id": "7-04-5",
+       "ru": "Ты болен?",
+       "de": "Bist du krank?",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "7-05",
+     "topic": "Покупки: brauchen",
+     "sentences": [
+      {
+       "id": "7-05-1",
+       "ru": "Нам нужно молоко.",
+       "de": "Wir brauchen Milch.",
+       "alternatives": []
+      },
+      {
+       "id": "7-05-2",
+       "ru": "Мне нужен зонт.",
+       "de": "Ich brauche einen Regenschirm.",
+       "alternatives": [
+        "Ich brauche einen Schirm."
+       ]
+      },
+      {
+       "id": "7-05-3",
+       "ru": "Что тебе нужно?",
+       "de": "Was brauchst du?",
+       "alternatives": []
+      },
+      {
+       "id": "7-05-4",
+       "ru": "Я беру два килограмма картошки.",
+       "de": "Ich nehme zwei Kilo Kartoffeln.",
+       "alternatives": [
+        "Ich nehme 2 Kilo Kartoffeln."
+       ]
+      },
+      {
+       "id": "7-05-5",
+       "ru": "Хлеба больше нет.",
+       "de": "Es gibt kein Brot mehr.",
+       "alternatives": [
+        "Wir haben kein Brot mehr."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "7-06",
+     "topic": "Свободное время",
+     "sentences": [
+      {
+       "id": "7-06-1",
+       "ru": "Я играю на гитаре.",
+       "de": "Ich spiele Gitarre.",
+       "alternatives": []
+      },
+      {
+       "id": "7-06-2",
+       "ru": "Ты занимаешься спортом?",
+       "de": "Machst du Sport?",
+       "alternatives": [
+        "Treibst du Sport?"
+       ]
+      },
+      {
+       "id": "7-06-3",
+       "ru": "Мы часто ходим гулять.",
+       "de": "Wir gehen oft spazieren.",
+       "alternatives": []
+      },
+      {
+       "id": "7-06-4",
+       "ru": "Он слушает музыку.",
+       "de": "Er hört Musik.",
+       "alternatives": []
+      },
+      {
+       "id": "7-06-5",
+       "ru": "Она рисует.",
+       "de": "Sie malt.",
+       "alternatives": [
+        "Sie zeichnet."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "7-07",
+     "topic": "Обо всех: man",
+     "sentences": [
+      {
+       "id": "7-07-1",
+       "ru": "Здесь можно парковаться.",
+       "de": "Hier kann man parken.",
+       "alternatives": [
+        "Man kann hier parken."
+       ]
+      },
+      {
+       "id": "7-07-2",
+       "ru": "Как это пишется?",
+       "de": "Wie schreibt man das?",
+       "alternatives": []
+      },
+      {
+       "id": "7-07-3",
+       "ru": "Как сказать это по-немецки?",
+       "de": "Wie sagt man das auf Deutsch?",
+       "alternatives": []
+      },
+      {
+       "id": "7-07-4",
+       "ru": "В Германии говорят по-немецки.",
+       "de": "In Deutschland spricht man Deutsch.",
+       "alternatives": [
+        "Man spricht in Deutschland Deutsch."
+       ]
+      },
+      {
+       "id": "7-07-5",
+       "ru": "Здесь нужно ждать.",
+       "de": "Hier muss man warten.",
+       "alternatives": [
+        "Man muss hier warten."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "7-08",
+     "topic": "Месяцы: im Mai",
+     "sentences": [
+      {
+       "id": "7-08-1",
+       "ru": "Мой день рождения в мае.",
+       "de": "Mein Geburtstag ist im Mai.",
+       "alternatives": [
+        "Ich habe im Mai Geburtstag."
+       ]
+      },
+      {
+       "id": "7-08-2",
+       "ru": "Когда у тебя день рождения?",
+       "de": "Wann hast du Geburtstag?",
+       "alternatives": [
+        "Wann ist dein Geburtstag?"
+       ]
+      },
+      {
+       "id": "7-08-3",
+       "ru": "В январе холодно.",
+       "de": "Im Januar ist es kalt.",
+       "alternatives": [
+        "Es ist im Januar kalt."
+       ]
+      },
+      {
+       "id": "7-08-4",
+       "ru": "В августе мы едем в отпуск.",
+       "de": "Im August fahren wir in den Urlaub.",
+       "alternatives": [
+        "Wir fahren im August in den Urlaub."
+       ]
+      },
+      {
+       "id": "7-08-5",
+       "ru": "С днём рождения!",
+       "de": "Alles Gute zum Geburtstag!",
+       "alternatives": [
+        "Herzlichen Glückwunsch zum Geburtstag!"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "7-09",
+     "topic": "Какой: sehr, zu, ziemlich",
+     "sentences": [
+      {
+       "id": "7-09-1",
+       "ru": "Кофе слишком горячий.",
+       "de": "Der Kaffee ist zu heiß.",
+       "alternatives": []
+      },
+      {
+       "id": "7-09-2",
+       "ru": "Город очень красивый.",
+       "de": "Die Stadt ist sehr schön.",
+       "alternatives": []
+      },
+      {
+       "id": "7-09-3",
+       "ru": "Квартира довольно большая.",
+       "de": "Die Wohnung ist ziemlich groß.",
+       "alternatives": []
+      },
+      {
+       "id": "7-09-4",
+       "ru": "Этот фильм интересный.",
+       "de": "Dieser Film ist interessant.",
+       "alternatives": [
+        "Der Film ist interessant."
+       ]
+      },
+      {
+       "id": "7-09-5",
+       "ru": "Тест не трудный.",
+       "de": "Der Test ist nicht schwer.",
+       "alternatives": [
+        "Der Test ist nicht schwierig."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "7-10",
+     "topic": "Вопросы: wer, welcher, wie oft",
+     "sentences": [
+      {
+       "id": "7-10-1",
+       "ru": "Кто это?",
+       "de": "Wer ist das?",
+       "alternatives": []
+      },
+      {
+       "id": "7-10-2",
+       "ru": "Кто идёт с нами?",
+       "de": "Wer kommt mit?",
+       "alternatives": [
+        "Wer kommt mit uns?"
+       ]
+      },
+      {
+       "id": "7-10-3",
+       "ru": "Какой автобус едет в центр?",
+       "de": "Welcher Bus fährt ins Zentrum?",
+       "alternatives": [
+        "Welcher Bus fährt in die Stadt?"
+       ]
+      },
+      {
+       "id": "7-10-4",
+       "ru": "Какую книгу ты читаешь?",
+       "de": "Welches Buch liest du?",
+       "alternatives": []
+      },
+      {
+       "id": "7-10-5",
+       "ru": "Как часто ты ходишь в спортзал?",
+       "de": "Wie oft gehst du ins Fitnessstudio?",
+       "alternatives": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 5,
    "title": "Вчера и завтра",
    "blocks": [
     {
@@ -1200,7 +2080,7 @@
    ]
   },
   {
-   "level": 4,
+   "level": 6,
    "title": "Жизнь вокруг",
    "blocks": [
     {
@@ -1619,7 +2499,7 @@
    ]
   },
   {
-   "level": 5,
+   "level": 7,
    "title": "Рассказываю о себе",
    "blocks": [
     {
@@ -2015,6 +2895,3563 @@
        "ru": "Я позвоню тебе позже.",
        "de": "Ich rufe dich später an.",
        "alternatives": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 8,
+   "title": "В дороге",
+   "blocks": [
+    {
+     "id": "8-01",
+     "topic": "Поезд и гостиница",
+     "sentences": [
+      {
+       "id": "8-01-1",
+       "ru": "Мне нужен билет до Гамбурга.",
+       "de": "Ich brauche eine Fahrkarte nach Hamburg.",
+       "alternatives": [
+        "Ich brauche ein Ticket nach Hamburg."
+       ]
+      },
+      {
+       "id": "8-01-2",
+       "ru": "С какой платформы отправляется поезд?",
+       "de": "Von welchem Gleis fährt der Zug ab?",
+       "alternatives": [
+        "Von welchem Gleis fährt der Zug?",
+        "Auf welchem Gleis fährt der Zug ab?"
+       ]
+      },
+      {
+       "id": "8-01-3",
+       "ru": "Поезд опаздывает на десять минут.",
+       "de": "Der Zug hat zehn Minuten Verspätung.",
+       "alternatives": [
+        "Der Zug hat 10 Minuten Verspätung."
+       ]
+      },
+      {
+       "id": "8-01-4",
+       "ru": "Мы забронировали номер в гостинице.",
+       "de": "Wir haben ein Zimmer im Hotel reserviert.",
+       "alternatives": [
+        "Wir haben ein Hotelzimmer reserviert.",
+        "Wir haben ein Zimmer im Hotel gebucht.",
+        "Wir haben ein Hotelzimmer gebucht."
+       ]
+      },
+      {
+       "id": "8-01-5",
+       "ru": "Во сколько завтрак?",
+       "de": "Wann gibt es Frühstück?",
+       "alternatives": [
+        "Um wie viel Uhr gibt es Frühstück?",
+        "Wann ist das Frühstück?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "8-02",
+     "topic": "Куда: legen, stellen, hängen",
+     "sentences": [
+      {
+       "id": "8-02-1",
+       "ru": "Я кладу книгу на стол.",
+       "de": "Ich lege das Buch auf den Tisch.",
+       "alternatives": []
+      },
+      {
+       "id": "8-02-2",
+       "ru": "Поставь бутылку в холодильник!",
+       "de": "Stell die Flasche in den Kühlschrank!",
+       "alternatives": []
+      },
+      {
+       "id": "8-02-3",
+       "ru": "Он вешает картину на стену.",
+       "de": "Er hängt das Bild an die Wand.",
+       "alternatives": []
+      },
+      {
+       "id": "8-02-4",
+       "ru": "Куда ты положил ключи?",
+       "de": "Wohin hast du die Schlüssel gelegt?",
+       "alternatives": [
+        "Wo hast du die Schlüssel hingelegt?"
+       ]
+      },
+      {
+       "id": "8-02-5",
+       "ru": "Мы ставим машину в гараж.",
+       "de": "Wir stellen das Auto in die Garage.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "8-03",
+     "topic": "Где: liegen, stehen, hängen",
+     "sentences": [
+      {
+       "id": "8-03-1",
+       "ru": "Бутылка стоит в холодильнике.",
+       "de": "Die Flasche steht im Kühlschrank.",
+       "alternatives": []
+      },
+      {
+       "id": "8-03-2",
+       "ru": "Картина висит на стене.",
+       "de": "Das Bild hängt an der Wand.",
+       "alternatives": []
+      },
+      {
+       "id": "8-03-3",
+       "ru": "Ключи лежат в сумке.",
+       "de": "Die Schlüssel liegen in der Tasche.",
+       "alternatives": []
+      },
+      {
+       "id": "8-03-4",
+       "ru": "Кошка спит под кроватью.",
+       "de": "Die Katze schläft unter dem Bett.",
+       "alternatives": []
+      },
+      {
+       "id": "8-03-5",
+       "ru": "Машина стоит перед домом.",
+       "de": "Das Auto steht vor dem Haus.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "8-04",
+     "topic": "Самый: am schnellsten, das beste",
+     "sentences": [
+      {
+       "id": "8-04-1",
+       "ru": "Это самый высокий дом в городе.",
+       "de": "Das ist das höchste Haus in der Stadt.",
+       "alternatives": [
+        "Das ist das höchste Haus der Stadt."
+       ]
+      },
+      {
+       "id": "8-04-2",
+       "ru": "Моя сестра бегает быстрее всех.",
+       "de": "Meine Schwester läuft am schnellsten.",
+       "alternatives": []
+      },
+      {
+       "id": "8-04-3",
+       "ru": "Зимой дни самые короткие.",
+       "de": "Im Winter sind die Tage am kürzesten.",
+       "alternatives": []
+      },
+      {
+       "id": "8-04-4",
+       "ru": "Это лучший ресторан в городе.",
+       "de": "Das ist das beste Restaurant in der Stadt.",
+       "alternatives": [
+        "Das ist das beste Restaurant der Stadt."
+       ]
+      },
+      {
+       "id": "8-04-5",
+       "ru": "Больше всего мне нравится лето.",
+       "de": "Der Sommer gefällt mir am besten.",
+       "alternatives": [
+        "Am besten gefällt mir der Sommer."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "8-05",
+     "topic": "Ли: ob",
+     "sentences": [
+      {
+       "id": "8-05-1",
+       "ru": "Я не знаю, придёт ли он.",
+       "de": "Ich weiß nicht, ob er kommt.",
+       "alternatives": []
+      },
+      {
+       "id": "8-05-2",
+       "ru": "Спроси, есть ли у неё время.",
+       "de": "Frag, ob sie Zeit hat.",
+       "alternatives": [
+        "Frag sie, ob sie Zeit hat."
+       ]
+      },
+      {
+       "id": "8-05-3",
+       "ru": "Ты знаешь, открыт ли магазин?",
+       "de": "Weißt du, ob der Laden offen ist?",
+       "alternatives": [
+        "Weißt du, ob das Geschäft offen ist?",
+        "Weißt du, ob der Laden geöffnet ist?",
+        "Weißt du, ob das Geschäft geöffnet ist?"
+       ]
+      },
+      {
+       "id": "8-05-4",
+       "ru": "Он спрашивает, можно ли здесь курить.",
+       "de": "Er fragt, ob man hier rauchen darf.",
+       "alternatives": [
+        "Er fragt, ob man hier rauchen kann."
+       ]
+      },
+      {
+       "id": "8-05-5",
+       "ru": "Я не уверен, что это правильно.",
+       "de": "Ich bin nicht sicher, ob das richtig ist.",
+       "alternatives": [
+        "Ich bin mir nicht sicher, ob das richtig ist."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "8-06",
+     "topic": "Поэтому и всё равно: deshalb, trotzdem",
+     "sentences": [
+      {
+       "id": "8-06-1",
+       "ru": "Я болен, поэтому остаюсь дома.",
+       "de": "Ich bin krank, deshalb bleibe ich zu Hause.",
+       "alternatives": [
+        "Ich bin krank, darum bleibe ich zu Hause.",
+        "Ich bin krank, deswegen bleibe ich zu Hause."
+       ]
+      },
+      {
+       "id": "8-06-2",
+       "ru": "Идёт дождь, поэтому мы едем на автобусе.",
+       "de": "Es regnet, deshalb fahren wir mit dem Bus.",
+       "alternatives": [
+        "Es regnet, darum fahren wir mit dem Bus.",
+        "Es regnet, deswegen fahren wir mit dem Bus."
+       ]
+      },
+      {
+       "id": "8-06-3",
+       "ru": "Он устал, но всё равно работает.",
+       "de": "Er ist müde, aber er arbeitet trotzdem.",
+       "alternatives": [
+        "Er ist müde, trotzdem arbeitet er.",
+        "Er ist müde, aber trotzdem arbeitet er."
+       ]
+      },
+      {
+       "id": "8-06-4",
+       "ru": "У меня нет денег, поэтому я не еду в отпуск.",
+       "de": "Ich habe kein Geld, deshalb fahre ich nicht in den Urlaub.",
+       "alternatives": [
+        "Ich habe kein Geld, darum fahre ich nicht in den Urlaub.",
+        "Ich habe kein Geld, deswegen fahre ich nicht in den Urlaub."
+       ]
+      },
+      {
+       "id": "8-06-5",
+       "ru": "Было холодно, но мы всё равно пошли гулять.",
+       "de": "Es war kalt, aber wir sind trotzdem spazieren gegangen.",
+       "alternatives": [
+        "Es war kalt, trotzdem sind wir spazieren gegangen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "8-07",
+     "topic": "Инфинитив с zu",
+     "sentences": [
+      {
+       "id": "8-07-1",
+       "ru": "У меня нет времени заниматься спортом.",
+       "de": "Ich habe keine Zeit, Sport zu machen.",
+       "alternatives": []
+      },
+      {
+       "id": "8-07-2",
+       "ru": "Учить немецкий нелегко.",
+       "de": "Es ist nicht leicht, Deutsch zu lernen.",
+       "alternatives": [
+        "Deutsch zu lernen ist nicht leicht.",
+        "Es ist nicht einfach, Deutsch zu lernen.",
+        "Deutsch zu lernen ist nicht einfach."
+       ]
+      },
+      {
+       "id": "8-07-3",
+       "ru": "Не забудь купить молоко!",
+       "de": "Vergiss nicht, Milch zu kaufen!",
+       "alternatives": []
+      },
+      {
+       "id": "8-07-4",
+       "ru": "Я стараюсь говорить медленно.",
+       "de": "Ich versuche, langsam zu sprechen.",
+       "alternatives": []
+      },
+      {
+       "id": "8-07-5",
+       "ru": "Мне не хочется убираться.",
+       "de": "Ich habe keine Lust, aufzuräumen.",
+       "alternatives": [
+        "Ich habe keine Lust aufzuräumen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "8-08",
+     "topic": "Кому: helfen, gehören, schmecken",
+     "sentences": [
+      {
+       "id": "8-08-1",
+       "ru": "Эта сумка моя.",
+       "de": "Diese Tasche gehört mir.",
+       "alternatives": [
+        "Die Tasche gehört mir."
+       ]
+      },
+      {
+       "id": "8-08-2",
+       "ru": "Я помогаю маме.",
+       "de": "Ich helfe meiner Mutter.",
+       "alternatives": [
+        "Ich helfe meiner Mama."
+       ]
+      },
+      {
+       "id": "8-08-3",
+       "ru": "Тебе нравится пирог?",
+       "de": "Schmeckt dir der Kuchen?",
+       "alternatives": []
+      },
+      {
+       "id": "8-08-4",
+       "ru": "Платье мне очень нравится.",
+       "de": "Das Kleid gefällt mir sehr gut.",
+       "alternatives": [
+        "Das Kleid gefällt mir sehr."
+       ]
+      },
+      {
+       "id": "8-08-5",
+       "ru": "Спасибо тебе за помощь.",
+       "de": "Ich danke dir für deine Hilfe.",
+       "alternatives": [
+        "Ich danke dir für die Hilfe.",
+        "Danke für deine Hilfe.",
+        "Danke für die Hilfe."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "8-09",
+     "topic": "Скажи, где: косвенный вопрос",
+     "sentences": [
+      {
+       "id": "8-09-1",
+       "ru": "Ты знаешь, где вокзал?",
+       "de": "Weißt du, wo der Bahnhof ist?",
+       "alternatives": []
+      },
+      {
+       "id": "8-09-2",
+       "ru": "Скажите, пожалуйста, когда отправляется автобус.",
+       "de": "Sagen Sie bitte, wann der Bus abfährt.",
+       "alternatives": [
+        "Sagen Sie mir bitte, wann der Bus abfährt.",
+        "Bitte sagen Sie mir, wann der Bus abfährt."
+       ]
+      },
+      {
+       "id": "8-09-3",
+       "ru": "Я не знаю, как его зовут.",
+       "de": "Ich weiß nicht, wie er heißt.",
+       "alternatives": []
+      },
+      {
+       "id": "8-09-4",
+       "ru": "Она спрашивает, сколько стоит билет.",
+       "de": "Sie fragt, wie viel die Fahrkarte kostet.",
+       "alternatives": [
+        "Sie fragt, was die Fahrkarte kostet.",
+        "Sie fragt, wie viel das Ticket kostet.",
+        "Sie fragt, was das Ticket kostet."
+       ]
+      },
+      {
+       "id": "8-09-5",
+       "ru": "Я не понимаю, что он говорит.",
+       "de": "Ich verstehe nicht, was er sagt.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "8-10",
+     "topic": "Вежливо: könnten, würde",
+     "sentences": [
+      {
+       "id": "8-10-1",
+       "ru": "Не могли бы вы мне помочь?",
+       "de": "Könnten Sie mir helfen?",
+       "alternatives": [
+        "Können Sie mir helfen?"
+       ]
+      },
+      {
+       "id": "8-10-2",
+       "ru": "Не могли бы вы говорить медленнее?",
+       "de": "Könnten Sie bitte langsamer sprechen?",
+       "alternatives": [
+        "Könnten Sie langsamer sprechen?"
+       ]
+      },
+      {
+       "id": "8-10-3",
+       "ru": "Я бы с удовольствием поехал в Италию.",
+       "de": "Ich würde gern nach Italien fahren.",
+       "alternatives": [
+        "Ich würde gerne nach Italien fahren.",
+        "Ich würde gern nach Italien reisen.",
+        "Ich würde gerne nach Italien reisen."
+       ]
+      },
+      {
+       "id": "8-10-4",
+       "ru": "У вас есть свободный номер?",
+       "de": "Haben Sie ein Zimmer frei?",
+       "alternatives": [
+        "Haben Sie noch ein Zimmer frei?",
+        "Haben Sie ein freies Zimmer?"
+       ]
+      },
+      {
+       "id": "8-10-5",
+       "ru": "Можно мне ещё кофе?",
+       "de": "Könnte ich noch einen Kaffee haben?",
+       "alternatives": [
+        "Kann ich noch einen Kaffee haben?",
+        "Könnte ich bitte noch einen Kaffee haben?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 9,
+   "title": "Работа и время",
+   "blocks": [
+    {
+     "id": "9-01",
+     "topic": "Профессия: als, werden",
+     "sentences": [
+      {
+       "id": "9-01-1",
+       "ru": "Я работаю учителем.",
+       "de": "Ich arbeite als Lehrer.",
+       "alternatives": [
+        "Ich arbeite als Lehrerin."
+       ]
+      },
+      {
+       "id": "9-01-2",
+       "ru": "Она уже три года работает в банке.",
+       "de": "Sie arbeitet seit drei Jahren in einer Bank.",
+       "alternatives": [
+        "Sie arbeitet schon seit drei Jahren in einer Bank.",
+        "Sie arbeitet seit drei Jahren bei einer Bank.",
+        "Sie arbeitet seit 3 Jahren in einer Bank."
+       ]
+      },
+      {
+       "id": "9-01-3",
+       "ru": "Я хочу стать врачом.",
+       "de": "Ich möchte Arzt werden.",
+       "alternatives": [
+        "Ich möchte Ärztin werden.",
+        "Ich will Arzt werden.",
+        "Ich will Ärztin werden."
+       ]
+      },
+      {
+       "id": "9-01-4",
+       "ru": "Мой брат ищет работу.",
+       "de": "Mein Bruder sucht Arbeit.",
+       "alternatives": [
+        "Mein Bruder sucht eine Arbeit.",
+        "Mein Bruder sucht einen Job."
+       ]
+      },
+      {
+       "id": "9-01-5",
+       "ru": "Сколько ты зарабатываешь?",
+       "de": "Wie viel verdienst du?",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "9-02",
+     "topic": "Когда: seit, vor, für",
+     "sentences": [
+      {
+       "id": "9-02-1",
+       "ru": "Я живу здесь с прошлого года.",
+       "de": "Ich wohne seit letztem Jahr hier.",
+       "alternatives": [
+        "Ich wohne hier seit letztem Jahr."
+       ]
+      },
+      {
+       "id": "9-02-2",
+       "ru": "Два года назад я переехал в Германию.",
+       "de": "Vor zwei Jahren bin ich nach Deutschland gezogen.",
+       "alternatives": [
+        "Ich bin vor zwei Jahren nach Deutschland gezogen.",
+        "Vor zwei Jahren bin ich nach Deutschland gekommen.",
+        "Ich bin vor zwei Jahren nach Deutschland gekommen."
+       ]
+      },
+      {
+       "id": "9-02-3",
+       "ru": "Мы едем в Италию на неделю.",
+       "de": "Wir fahren für eine Woche nach Italien.",
+       "alternatives": [
+        "Wir fahren eine Woche nach Italien."
+       ]
+      },
+      {
+       "id": "9-02-4",
+       "ru": "Я учу немецкий уже полгода.",
+       "de": "Ich lerne seit einem halben Jahr Deutsch.",
+       "alternatives": [
+        "Ich lerne schon seit einem halben Jahr Deutsch."
+       ]
+      },
+      {
+       "id": "9-02-5",
+       "ru": "Неделю назад он был болен.",
+       "de": "Vor einer Woche war er krank.",
+       "alternatives": [
+        "Er war vor einer Woche krank."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "9-03",
+     "topic": "Уже и ещё не: schon, noch nicht",
+     "sentences": [
+      {
+       "id": "9-03-1",
+       "ru": "Ты уже поел?",
+       "de": "Hast du schon gegessen?",
+       "alternatives": []
+      },
+      {
+       "id": "9-03-2",
+       "ru": "Я ещё никогда не был в Берлине.",
+       "de": "Ich war noch nie in Berlin.",
+       "alternatives": []
+      },
+      {
+       "id": "9-03-3",
+       "ru": "Фильм ещё не начался.",
+       "de": "Der Film hat noch nicht angefangen.",
+       "alternatives": [
+        "Der Film hat noch nicht begonnen."
+       ]
+      },
+      {
+       "id": "9-03-4",
+       "ru": "Она уже ушла.",
+       "de": "Sie ist schon gegangen.",
+       "alternatives": [
+        "Sie ist schon weg."
+       ]
+      },
+      {
+       "id": "9-03-5",
+       "ru": "Мы ещё не решили.",
+       "de": "Wir haben uns noch nicht entschieden.",
+       "alternatives": [
+        "Wir haben noch nicht entschieden."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "9-04",
+     "topic": "С каким: mit dem neuen Auto",
+     "sentences": [
+      {
+       "id": "9-04-1",
+       "ru": "Я еду на новой машине.",
+       "de": "Ich fahre mit dem neuen Auto.",
+       "alternatives": [
+        "Ich fahre mit meinem neuen Auto.",
+        "Ich fahre mit einem neuen Auto."
+       ]
+      },
+      {
+       "id": "9-04-2",
+       "ru": "Он живёт в маленьком городе.",
+       "de": "Er wohnt in einer kleinen Stadt.",
+       "alternatives": [
+        "Er lebt in einer kleinen Stadt."
+       ]
+      },
+      {
+       "id": "9-04-3",
+       "ru": "Мы разговариваем с новым коллегой.",
+       "de": "Wir sprechen mit dem neuen Kollegen.",
+       "alternatives": [
+        "Wir sprechen mit einem neuen Kollegen.",
+        "Wir reden mit dem neuen Kollegen."
+       ]
+      },
+      {
+       "id": "9-04-4",
+       "ru": "Я пью кофе с горячим молоком.",
+       "de": "Ich trinke Kaffee mit heißer Milch.",
+       "alternatives": []
+      },
+      {
+       "id": "9-04-5",
+       "ru": "В этом красивом парке много людей.",
+       "de": "In diesem schönen Park sind viele Leute.",
+       "alternatives": [
+        "In diesem schönen Park sind viele Menschen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "9-05",
+     "topic": "Радоваться, заботиться: sich + предлог",
+     "sentences": [
+      {
+       "id": "9-05-1",
+       "ru": "Я с нетерпением жду выходных.",
+       "de": "Ich freue mich auf das Wochenende.",
+       "alternatives": [
+        "Ich freue mich aufs Wochenende."
+       ]
+      },
+      {
+       "id": "9-05-2",
+       "ru": "Она интересуется искусством.",
+       "de": "Sie interessiert sich für Kunst.",
+       "alternatives": []
+      },
+      {
+       "id": "9-05-3",
+       "ru": "Мы рады подарку.",
+       "de": "Wir freuen uns über das Geschenk.",
+       "alternatives": []
+      },
+      {
+       "id": "9-05-4",
+       "ru": "Он часто злится на брата.",
+       "de": "Er ärgert sich oft über seinen Bruder.",
+       "alternatives": []
+      },
+      {
+       "id": "9-05-5",
+       "ru": "Мне нужно позаботиться о детях.",
+       "de": "Ich muss mich um die Kinder kümmern.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "9-06",
+     "topic": "Ждать чего: warten auf, denken an",
+     "sentences": [
+      {
+       "id": "9-06-1",
+       "ru": "Я жду автобус.",
+       "de": "Ich warte auf den Bus.",
+       "alternatives": []
+      },
+      {
+       "id": "9-06-2",
+       "ru": "Я часто думаю о тебе.",
+       "de": "Ich denke oft an dich.",
+       "alternatives": []
+      },
+      {
+       "id": "9-06-3",
+       "ru": "Он мечтает о собаке.",
+       "de": "Er träumt von einem Hund.",
+       "alternatives": []
+      },
+      {
+       "id": "9-06-4",
+       "ru": "Мы говорим о фильме.",
+       "de": "Wir sprechen über den Film.",
+       "alternatives": [
+        "Wir reden über den Film."
+       ]
+      },
+      {
+       "id": "9-06-5",
+       "ru": "Она спрашивает дорогу.",
+       "de": "Sie fragt nach dem Weg.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "9-07",
+     "topic": "Когда в прошлом: als",
+     "sentences": [
+      {
+       "id": "9-07-1",
+       "ru": "Когда я был ребёнком, я жил в Москве.",
+       "de": "Als ich ein Kind war, habe ich in Moskau gewohnt.",
+       "alternatives": [
+        "Als ich Kind war, habe ich in Moskau gewohnt.",
+        "Als ich ein Kind war, wohnte ich in Moskau.",
+        "Als ich ein Kind war, habe ich in Moskau gelebt."
+       ]
+      },
+      {
+       "id": "9-07-2",
+       "ru": "Когда я пришёл домой, никого не было.",
+       "de": "Als ich nach Hause kam, war niemand da.",
+       "alternatives": [
+        "Als ich nach Hause gekommen bin, war niemand da.",
+        "Als ich nach Hause kam, war keiner da."
+       ]
+      },
+      {
+       "id": "9-07-3",
+       "ru": "Когда он позвонил, я спал.",
+       "de": "Als er angerufen hat, habe ich geschlafen.",
+       "alternatives": [
+        "Als er anrief, habe ich geschlafen.",
+        "Als er anrief, schlief ich."
+       ]
+      },
+      {
+       "id": "9-07-4",
+       "ru": "Когда мы приехали в Берлин, шёл дождь.",
+       "de": "Als wir in Berlin ankamen, hat es geregnet.",
+       "alternatives": [
+        "Als wir in Berlin angekommen sind, hat es geregnet.",
+        "Als wir in Berlin ankamen, regnete es."
+       ]
+      },
+      {
+       "id": "9-07-5",
+       "ru": "Когда мне было десять лет, у меня была кошка.",
+       "de": "Als ich zehn Jahre alt war, hatte ich eine Katze.",
+       "alternatives": [
+        "Als ich zehn war, hatte ich eine Katze.",
+        "Als ich 10 Jahre alt war, hatte ich eine Katze.",
+        "Als ich 10 war, hatte ich eine Katze."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "9-08",
+     "topic": "Даты: am ersten Juni",
+     "sentences": [
+      {
+       "id": "9-08-1",
+       "ru": "Сегодня третье мая.",
+       "de": "Heute ist der dritte Mai.",
+       "alternatives": [
+        "Heute ist der 3. Mai."
+       ]
+      },
+      {
+       "id": "9-08-2",
+       "ru": "Мой день рождения первого июня.",
+       "de": "Mein Geburtstag ist am ersten Juni.",
+       "alternatives": [
+        "Mein Geburtstag ist am 1. Juni.",
+        "Ich habe am ersten Juni Geburtstag.",
+        "Ich habe am 1. Juni Geburtstag."
+       ]
+      },
+      {
+       "id": "9-08-3",
+       "ru": "Какое сегодня число?",
+       "de": "Der Wievielte ist heute?",
+       "alternatives": [
+        "Welches Datum ist heute?",
+        "Welches Datum haben wir heute?",
+        "Den Wievielten haben wir heute?"
+       ]
+      },
+      {
+       "id": "9-08-4",
+       "ru": "Курс начинается десятого октября.",
+       "de": "Der Kurs beginnt am zehnten Oktober.",
+       "alternatives": [
+        "Der Kurs beginnt am 10. Oktober.",
+        "Der Kurs fängt am zehnten Oktober an.",
+        "Der Kurs fängt am 10. Oktober an."
+       ]
+      },
+      {
+       "id": "9-08-5",
+       "ru": "Я живу на втором этаже.",
+       "de": "Ich wohne im zweiten Stock.",
+       "alternatives": [
+        "Ich wohne im 2. Stock."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "9-09",
+     "topic": "Запись и встреча: der Termin",
+     "sentences": [
+      {
+       "id": "9-09-1",
+       "ru": "Я хотел бы записаться к врачу.",
+       "de": "Ich möchte einen Termin beim Arzt.",
+       "alternatives": [
+        "Ich hätte gern einen Termin beim Arzt.",
+        "Ich möchte einen Termin beim Arzt machen.",
+        "Ich möchte einen Termin beim Arzt vereinbaren."
+       ]
+      },
+      {
+       "id": "9-09-2",
+       "ru": "У вас есть время в четверг?",
+       "de": "Haben Sie am Donnerstag Zeit?",
+       "alternatives": []
+      },
+      {
+       "id": "9-09-3",
+       "ru": "Мне нужно перенести встречу.",
+       "de": "Ich muss den Termin verschieben.",
+       "alternatives": []
+      },
+      {
+       "id": "9-09-4",
+       "ru": "Встреча в два часа дня.",
+       "de": "Der Termin ist um zwei Uhr.",
+       "alternatives": [
+        "Der Termin ist um vierzehn Uhr.",
+        "Der Termin ist um 14 Uhr."
+       ]
+      },
+      {
+       "id": "9-09-5",
+       "ru": "Я отменяю встречу.",
+       "de": "Ich sage den Termin ab.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "9-10",
+     "topic": "Знать: kennen и wissen",
+     "sentences": [
+      {
+       "id": "9-10-1",
+       "ru": "Ты знаешь мою сестру?",
+       "de": "Kennst du meine Schwester?",
+       "alternatives": []
+      },
+      {
+       "id": "9-10-2",
+       "ru": "Я не знаю, где он живёт.",
+       "de": "Ich weiß nicht, wo er wohnt.",
+       "alternatives": [
+        "Ich weiß nicht, wo er lebt."
+       ]
+      },
+      {
+       "id": "9-10-3",
+       "ru": "Мы знаем этот город.",
+       "de": "Wir kennen diese Stadt.",
+       "alternatives": [
+        "Wir kennen die Stadt."
+       ]
+      },
+      {
+       "id": "9-10-4",
+       "ru": "Ты знаешь ответ?",
+       "de": "Weißt du die Antwort?",
+       "alternatives": [
+        "Kennst du die Antwort?"
+       ]
+      },
+      {
+       "id": "9-10-5",
+       "ru": "Откуда ты это знаешь?",
+       "de": "Woher weißt du das?",
+       "alternatives": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 10,
+   "title": "Мнения и истории",
+   "blocks": [
+    {
+     "id": "10-01",
+     "topic": "Мнение: finden, glauben",
+     "sentences": [
+      {
+       "id": "10-01-1",
+       "ru": "Мне кажется, фильм хороший.",
+       "de": "Ich finde den Film gut.",
+       "alternatives": [
+        "Ich finde, dass der Film gut ist.",
+        "Ich finde, der Film ist gut."
+       ]
+      },
+      {
+       "id": "10-01-2",
+       "ru": "Как тебе новая квартира?",
+       "de": "Wie findest du die neue Wohnung?",
+       "alternatives": []
+      },
+      {
+       "id": "10-01-3",
+       "ru": "По-моему, это слишком дорого.",
+       "de": "Meiner Meinung nach ist das zu teuer.",
+       "alternatives": [
+        "Ich finde das zu teuer."
+       ]
+      },
+      {
+       "id": "10-01-4",
+       "ru": "Я думаю, ты прав.",
+       "de": "Ich glaube, du hast recht.",
+       "alternatives": [
+        "Ich glaube, du hast Recht.",
+        "Ich denke, du hast recht.",
+        "Ich denke, du hast Recht."
+       ]
+      },
+      {
+       "id": "10-01-5",
+       "ru": "Я с тобой согласен.",
+       "de": "Ich stimme dir zu.",
+       "alternatives": [
+        "Ich bin mit dir einverstanden."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "10-02",
+     "topic": "Совет: sollte",
+     "sentences": [
+      {
+       "id": "10-02-1",
+       "ru": "Тебе следует больше спать.",
+       "de": "Du solltest mehr schlafen.",
+       "alternatives": []
+      },
+      {
+       "id": "10-02-2",
+       "ru": "Вам стоит пойти к врачу.",
+       "de": "Sie sollten zum Arzt gehen.",
+       "alternatives": []
+      },
+      {
+       "id": "10-02-3",
+       "ru": "Нам следует уйти пораньше.",
+       "de": "Wir sollten früher gehen.",
+       "alternatives": [
+        "Wir sollten früher losgehen."
+       ]
+      },
+      {
+       "id": "10-02-4",
+       "ru": "Ему не стоит так много работать.",
+       "de": "Er sollte nicht so viel arbeiten.",
+       "alternatives": []
+      },
+      {
+       "id": "10-02-5",
+       "ru": "Что мне делать?",
+       "de": "Was soll ich machen?",
+       "alternatives": [
+        "Was soll ich tun?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "10-03",
+     "topic": "Желания: hätte gern, wäre gern",
+     "sentences": [
+      {
+       "id": "10-03-1",
+       "ru": "Я бы хотел иметь больше времени.",
+       "de": "Ich hätte gern mehr Zeit.",
+       "alternatives": [
+        "Ich hätte gerne mehr Zeit."
+       ]
+      },
+      {
+       "id": "10-03-2",
+       "ru": "Я бы хотел сейчас быть на море.",
+       "de": "Ich wäre jetzt gern am Meer.",
+       "alternatives": [
+        "Ich wäre jetzt gerne am Meer."
+       ]
+      },
+      {
+       "id": "10-03-3",
+       "ru": "Было бы здорово!",
+       "de": "Das wäre toll!",
+       "alternatives": [
+        "Das wäre super!",
+        "Das wäre schön!"
+       ]
+      },
+      {
+       "id": "10-03-4",
+       "ru": "Мы бы с удовольствием пришли.",
+       "de": "Wir würden gern kommen.",
+       "alternatives": [
+        "Wir würden gerne kommen."
+       ]
+      },
+      {
+       "id": "10-03-5",
+       "ru": "Что ты хочешь на день рождения?",
+       "de": "Was wünschst du dir zum Geburtstag?",
+       "alternatives": [
+        "Was möchtest du zum Geburtstag?",
+        "Was hättest du gern zum Geburtstag?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "10-04",
+     "topic": "По порядку: zuerst, dann, danach",
+     "sentences": [
+      {
+       "id": "10-04-1",
+       "ru": "Сначала я принимаю душ.",
+       "de": "Zuerst dusche ich.",
+       "alternatives": [
+        "Ich dusche zuerst."
+       ]
+      },
+      {
+       "id": "10-04-2",
+       "ru": "Потом я завтракаю.",
+       "de": "Dann frühstücke ich.",
+       "alternatives": []
+      },
+      {
+       "id": "10-04-3",
+       "ru": "После этого я иду на работу.",
+       "de": "Danach gehe ich zur Arbeit.",
+       "alternatives": [
+        "Danach gehe ich arbeiten."
+       ]
+      },
+      {
+       "id": "10-04-4",
+       "ru": "В конце мы пили кофе.",
+       "de": "Zum Schluss haben wir Kaffee getrunken.",
+       "alternatives": [
+        "Am Ende haben wir Kaffee getrunken."
+       ]
+      },
+      {
+       "id": "10-04-5",
+       "ru": "Сначала мы поели, а потом пошли в кино.",
+       "de": "Zuerst haben wir gegessen, und dann sind wir ins Kino gegangen.",
+       "alternatives": [
+        "Zuerst haben wir gegessen, dann sind wir ins Kino gegangen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "10-05",
+     "topic": "Выходные: рассказ в Perfekt",
+     "sentences": [
+      {
+       "id": "10-05-1",
+       "ru": "На выходных мы навестили друзей.",
+       "de": "Am Wochenende haben wir Freunde besucht.",
+       "alternatives": [
+        "Am Wochenende haben wir unsere Freunde besucht.",
+        "Wir haben am Wochenende Freunde besucht.",
+        "Wir haben am Wochenende unsere Freunde besucht."
+       ]
+      },
+      {
+       "id": "10-05-2",
+       "ru": "Вчера вечером я посмотрел интересный фильм.",
+       "de": "Gestern Abend habe ich einen interessanten Film gesehen.",
+       "alternatives": [
+        "Ich habe gestern Abend einen interessanten Film gesehen."
+       ]
+      },
+      {
+       "id": "10-05-3",
+       "ru": "В субботу мы долго спали.",
+       "de": "Am Samstag haben wir lange geschlafen.",
+       "alternatives": [
+        "Wir haben am Samstag lange geschlafen."
+       ]
+      },
+      {
+       "id": "10-05-4",
+       "ru": "Что ты делал в воскресенье?",
+       "de": "Was hast du am Sonntag gemacht?",
+       "alternatives": []
+      },
+      {
+       "id": "10-05-5",
+       "ru": "Мы гуляли в парке.",
+       "de": "Wir sind im Park spazieren gegangen.",
+       "alternatives": [
+        "Wir haben im Park einen Spaziergang gemacht."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "10-06",
+     "topic": "В магазине одежды: anprobieren",
+     "sentences": [
+      {
+       "id": "10-06-1",
+       "ru": "Можно это примерить?",
+       "de": "Kann ich das anprobieren?",
+       "alternatives": [
+        "Darf ich das anprobieren?"
+       ]
+      },
+      {
+       "id": "10-06-2",
+       "ru": "У вас есть это на размер больше?",
+       "de": "Haben Sie das eine Nummer größer?",
+       "alternatives": [
+        "Haben Sie das eine Größe größer?",
+        "Gibt es das eine Nummer größer?"
+       ]
+      },
+      {
+       "id": "10-06-3",
+       "ru": "Брюки мне малы.",
+       "de": "Die Hose ist mir zu klein.",
+       "alternatives": [
+        "Die Hose ist mir zu eng."
+       ]
+      },
+      {
+       "id": "10-06-4",
+       "ru": "Эта рубашка тебе идёт.",
+       "de": "Dieses Hemd steht dir.",
+       "alternatives": [
+        "Das Hemd steht dir."
+       ]
+      },
+      {
+       "id": "10-06-5",
+       "ru": "Я возьму синее платье.",
+       "de": "Ich nehme das blaue Kleid.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "10-07",
+     "topic": "Переезд и квартира",
+     "sentences": [
+      {
+       "id": "10-07-1",
+       "ru": "Мы переехали в прошлом месяце.",
+       "de": "Wir sind letzten Monat umgezogen.",
+       "alternatives": [
+        "Letzten Monat sind wir umgezogen.",
+        "Wir sind im letzten Monat umgezogen."
+       ]
+      },
+      {
+       "id": "10-07-2",
+       "ru": "Квартплата слишком высокая.",
+       "de": "Die Miete ist zu hoch.",
+       "alternatives": []
+      },
+      {
+       "id": "10-07-3",
+       "ru": "Квартира находится в центре.",
+       "de": "Die Wohnung liegt im Zentrum.",
+       "alternatives": [
+        "Die Wohnung ist im Zentrum.",
+        "Die Wohnung liegt in der Stadtmitte."
+       ]
+      },
+      {
+       "id": "10-07-4",
+       "ru": "Соседи очень приятные.",
+       "de": "Die Nachbarn sind sehr nett.",
+       "alternatives": []
+      },
+      {
+       "id": "10-07-5",
+       "ru": "Нам нужна квартира с балконом.",
+       "de": "Wir brauchen eine Wohnung mit Balkon.",
+       "alternatives": [
+        "Wir brauchen eine Wohnung mit einem Balkon."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "10-08",
+     "topic": "Праздники",
+     "sentences": [
+      {
+       "id": "10-08-1",
+       "ru": "С Рождеством!",
+       "de": "Frohe Weihnachten!",
+       "alternatives": [
+        "Fröhliche Weihnachten!"
+       ]
+      },
+      {
+       "id": "10-08-2",
+       "ru": "Мы встречаем Новый год с семьёй.",
+       "de": "Wir feiern Silvester mit der Familie.",
+       "alternatives": [
+        "Wir feiern Neujahr mit der Familie.",
+        "Wir feiern Silvester mit unserer Familie.",
+        "Wir feiern Neujahr mit unserer Familie."
+       ]
+      },
+      {
+       "id": "10-08-3",
+       "ru": "Я пригласил всех друзей.",
+       "de": "Ich habe alle Freunde eingeladen.",
+       "alternatives": [
+        "Ich habe alle meine Freunde eingeladen."
+       ]
+      },
+      {
+       "id": "10-08-4",
+       "ru": "Что ты подаришь маме?",
+       "de": "Was schenkst du deiner Mutter?",
+       "alternatives": [
+        "Was schenkst du deiner Mama?"
+       ]
+      },
+      {
+       "id": "10-08-5",
+       "ru": "Этот подарок для тебя.",
+       "de": "Das Geschenk ist für dich.",
+       "alternatives": [
+        "Dieses Geschenk ist für dich."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "10-09",
+     "topic": "Связь: schreiben, schicken",
+     "sentences": [
+      {
+       "id": "10-09-1",
+       "ru": "Я напишу тебе сообщение.",
+       "de": "Ich schreibe dir eine Nachricht.",
+       "alternatives": []
+      },
+      {
+       "id": "10-09-2",
+       "ru": "Отправь мне фото!",
+       "de": "Schick mir ein Foto!",
+       "alternatives": [
+        "Schick mir das Foto!"
+       ]
+      },
+      {
+       "id": "10-09-3",
+       "ru": "Он не отвечает на мои сообщения.",
+       "de": "Er antwortet nicht auf meine Nachrichten.",
+       "alternatives": []
+      },
+      {
+       "id": "10-09-4",
+       "ru": "У меня нет интернета.",
+       "de": "Ich habe kein Internet.",
+       "alternatives": []
+      },
+      {
+       "id": "10-09-5",
+       "ru": "Я посмотрю в интернете.",
+       "de": "Ich schaue im Internet nach.",
+       "alternatives": [
+        "Ich sehe im Internet nach.",
+        "Ich suche im Internet."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "10-10",
+     "topic": "Спорт и здоровье",
+     "sentences": [
+      {
+       "id": "10-10-1",
+       "ru": "Я хожу в спортзал два раза в неделю.",
+       "de": "Ich gehe zweimal pro Woche ins Fitnessstudio.",
+       "alternatives": [
+        "Ich gehe zweimal in der Woche ins Fitnessstudio.",
+        "Ich gehe zweimal die Woche ins Fitnessstudio."
+       ]
+      },
+      {
+       "id": "10-10-2",
+       "ru": "Мне нужно больше двигаться.",
+       "de": "Ich muss mich mehr bewegen.",
+       "alternatives": []
+      },
+      {
+       "id": "10-10-3",
+       "ru": "Он бросил курить.",
+       "de": "Er hat mit dem Rauchen aufgehört.",
+       "alternatives": [
+        "Er hat aufgehört zu rauchen.",
+        "Er hat aufgehört, zu rauchen."
+       ]
+      },
+      {
+       "id": "10-10-4",
+       "ru": "Каждое утро она бегает в парке.",
+       "de": "Jeden Morgen joggt sie im Park.",
+       "alternatives": [
+        "Sie joggt jeden Morgen im Park.",
+        "Jeden Morgen läuft sie im Park.",
+        "Sie läuft jeden Morgen im Park."
+       ]
+      },
+      {
+       "id": "10-10-5",
+       "ru": "Здоровое питание важно.",
+       "de": "Gesundes Essen ist wichtig.",
+       "alternatives": [
+        "Gesunde Ernährung ist wichtig."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 11,
+   "title": "Который и чтобы",
+   "blocks": [
+    {
+     "id": "11-01",
+     "topic": "Который: der, die, das",
+     "sentences": [
+      {
+       "id": "11-01-1",
+       "ru": "Это мужчина, который живёт рядом.",
+       "de": "Das ist der Mann, der nebenan wohnt.",
+       "alternatives": []
+      },
+      {
+       "id": "11-01-2",
+       "ru": "Я ищу женщину, которая здесь работает.",
+       "de": "Ich suche die Frau, die hier arbeitet.",
+       "alternatives": []
+      },
+      {
+       "id": "11-01-3",
+       "ru": "У меня есть друг, который говорит по-немецки.",
+       "de": "Ich habe einen Freund, der Deutsch spricht.",
+       "alternatives": []
+      },
+      {
+       "id": "11-01-4",
+       "ru": "Это книга, которая мне нравится.",
+       "de": "Das ist das Buch, das mir gefällt.",
+       "alternatives": []
+      },
+      {
+       "id": "11-01-5",
+       "ru": "Дети, которые играют в саду, мои.",
+       "de": "Die Kinder, die im Garten spielen, sind meine.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "11-02",
+     "topic": "Которого, которому: den, dem, der",
+     "sentences": [
+      {
+       "id": "11-02-1",
+       "ru": "Это фильм, который я видел вчера.",
+       "de": "Das ist der Film, den ich gestern gesehen habe.",
+       "alternatives": []
+      },
+      {
+       "id": "11-02-2",
+       "ru": "Женщина, которой я помог, была очень благодарна.",
+       "de": "Die Frau, der ich geholfen habe, war sehr dankbar.",
+       "alternatives": []
+      },
+      {
+       "id": "11-02-3",
+       "ru": "Где сумка, которую я купил?",
+       "de": "Wo ist die Tasche, die ich gekauft habe?",
+       "alternatives": []
+      },
+      {
+       "id": "11-02-4",
+       "ru": "Друг, с которым я живу, из Испании.",
+       "de": "Der Freund, mit dem ich wohne, kommt aus Spanien.",
+       "alternatives": [
+        "Der Freund, mit dem ich wohne, ist aus Spanien."
+       ]
+      },
+      {
+       "id": "11-02-5",
+       "ru": "Город, в котором я родился, маленький.",
+       "de": "Die Stadt, in der ich geboren bin, ist klein.",
+       "alternatives": [
+        "Die Stadt, in der ich geboren wurde, ist klein."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "11-03",
+     "topic": "Präteritum: arbeitete, wohnte",
+     "sentences": [
+      {
+       "id": "11-03-1",
+       "ru": "Раньше он работал в Мюнхене.",
+       "de": "Früher arbeitete er in München.",
+       "alternatives": [
+        "Er arbeitete früher in München.",
+        "Früher hat er in München gearbeitet.",
+        "Er hat früher in München gearbeitet."
+       ]
+      },
+      {
+       "id": "11-03-2",
+       "ru": "Тогда мы жили в маленькой квартире.",
+       "de": "Damals wohnten wir in einer kleinen Wohnung.",
+       "alternatives": [
+        "Wir wohnten damals in einer kleinen Wohnung.",
+        "Damals haben wir in einer kleinen Wohnung gewohnt."
+       ]
+      },
+      {
+       "id": "11-03-3",
+       "ru": "Она ждала целый час.",
+       "de": "Sie wartete eine ganze Stunde.",
+       "alternatives": [
+        "Sie hat eine ganze Stunde gewartet."
+       ]
+      },
+      {
+       "id": "11-03-4",
+       "ru": "Дети смеялись.",
+       "de": "Die Kinder lachten.",
+       "alternatives": [
+        "Die Kinder haben gelacht."
+       ]
+      },
+      {
+       "id": "11-03-5",
+       "ru": "Никто ничего не сказал.",
+       "de": "Niemand sagte etwas.",
+       "alternatives": [
+        "Keiner sagte etwas.",
+        "Niemand hat etwas gesagt.",
+        "Keiner hat etwas gesagt."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "11-04",
+     "topic": "Präteritum: kam, fuhr, nahm",
+     "sentences": [
+      {
+       "id": "11-04-1",
+       "ru": "Он пришёл поздно вечером.",
+       "de": "Er kam spät am Abend.",
+       "alternatives": [
+        "Er kam spätabends.",
+        "Er ist spät am Abend gekommen."
+       ]
+      },
+      {
+       "id": "11-04-2",
+       "ru": "Мы поехали в горы.",
+       "de": "Wir fuhren in die Berge.",
+       "alternatives": [
+        "Wir sind in die Berge gefahren."
+       ]
+      },
+      {
+       "id": "11-04-3",
+       "ru": "Она взяла зонт и ушла.",
+       "de": "Sie nahm den Regenschirm und ging.",
+       "alternatives": [
+        "Sie nahm den Schirm und ging.",
+        "Sie hat den Regenschirm genommen und ist gegangen."
+       ]
+      },
+      {
+       "id": "11-04-4",
+       "ru": "Я видел его на вокзале.",
+       "de": "Ich sah ihn am Bahnhof.",
+       "alternatives": [
+        "Ich habe ihn am Bahnhof gesehen."
+       ]
+      },
+      {
+       "id": "11-04-5",
+       "ru": "Жила-была принцесса.",
+       "de": "Es war einmal eine Prinzessin.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "11-05",
+     "topic": "Хотя: obwohl",
+     "sentences": [
+      {
+       "id": "11-05-1",
+       "ru": "Хотя идёт дождь, мы идём гулять.",
+       "de": "Obwohl es regnet, gehen wir spazieren.",
+       "alternatives": []
+      },
+      {
+       "id": "11-05-2",
+       "ru": "Он работает, хотя он болен.",
+       "de": "Er arbeitet, obwohl er krank ist.",
+       "alternatives": []
+      },
+      {
+       "id": "11-05-3",
+       "ru": "Хотя я устал, я не могу уснуть.",
+       "de": "Obwohl ich müde bin, kann ich nicht einschlafen.",
+       "alternatives": []
+      },
+      {
+       "id": "11-05-4",
+       "ru": "Она купила платье, хотя оно было дорогим.",
+       "de": "Sie hat das Kleid gekauft, obwohl es teuer war.",
+       "alternatives": [
+        "Sie kaufte das Kleid, obwohl es teuer war."
+       ]
+      },
+      {
+       "id": "11-05-5",
+       "ru": "Хотя он живёт в Германии, он плохо говорит по-немецки.",
+       "de": "Obwohl er in Deutschland lebt, spricht er schlecht Deutsch.",
+       "alternatives": [
+        "Obwohl er in Deutschland wohnt, spricht er schlecht Deutsch."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "11-06",
+     "topic": "Чтобы: um … zu",
+     "sentences": [
+      {
+       "id": "11-06-1",
+       "ru": "Я учу немецкий, чтобы работать в Германии.",
+       "de": "Ich lerne Deutsch, um in Deutschland zu arbeiten.",
+       "alternatives": []
+      },
+      {
+       "id": "11-06-2",
+       "ru": "Он рано встаёт, чтобы успеть на поезд.",
+       "de": "Er steht früh auf, um den Zug zu erreichen.",
+       "alternatives": [
+        "Er steht früh auf, um den Zug zu bekommen.",
+        "Er steht früh auf, um den Zug zu schaffen."
+       ]
+      },
+      {
+       "id": "11-06-3",
+       "ru": "Мы копим деньги, чтобы купить машину.",
+       "de": "Wir sparen Geld, um ein Auto zu kaufen.",
+       "alternatives": [
+        "Wir sparen, um ein Auto zu kaufen."
+       ]
+      },
+      {
+       "id": "11-06-4",
+       "ru": "Она пошла в магазин, чтобы купить хлеб.",
+       "de": "Sie ist in den Laden gegangen, um Brot zu kaufen.",
+       "alternatives": [
+        "Sie ging in den Laden, um Brot zu kaufen."
+       ]
+      },
+      {
+       "id": "11-06-5",
+       "ru": "Я позвонил, чтобы извиниться.",
+       "de": "Ich habe angerufen, um mich zu entschuldigen.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "11-07",
+     "topic": "Чтобы: damit",
+     "sentences": [
+      {
+       "id": "11-07-1",
+       "ru": "Я говорю медленно, чтобы ты меня понял.",
+       "de": "Ich spreche langsam, damit du mich verstehst.",
+       "alternatives": []
+      },
+      {
+       "id": "11-07-2",
+       "ru": "Мама готовит, чтобы дети не были голодны.",
+       "de": "Mama kocht, damit die Kinder keinen Hunger haben.",
+       "alternatives": [
+        "Die Mutter kocht, damit die Kinder keinen Hunger haben."
+       ]
+      },
+      {
+       "id": "11-07-3",
+       "ru": "Закрой окно, чтобы не стало холодно.",
+       "de": "Mach das Fenster zu, damit es nicht kalt wird.",
+       "alternatives": [
+        "Schließ das Fenster, damit es nicht kalt wird."
+       ]
+      },
+      {
+       "id": "11-07-4",
+       "ru": "Я даю тебе ключ, чтобы ты мог войти.",
+       "de": "Ich gebe dir den Schlüssel, damit du hereinkommen kannst.",
+       "alternatives": [
+        "Ich gebe dir den Schlüssel, damit du reinkommen kannst."
+       ]
+      },
+      {
+       "id": "11-07-5",
+       "ru": "Он пишет список, чтобы ничего не забыть.",
+       "de": "Er schreibt eine Liste, damit er nichts vergisst.",
+       "alternatives": [
+        "Er schreibt eine Liste, um nichts zu vergessen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "11-08",
+     "topic": "Без и вместо: ohne zu, statt zu",
+     "sentences": [
+      {
+       "id": "11-08-1",
+       "ru": "Он ушёл, не попрощавшись.",
+       "de": "Er ist gegangen, ohne sich zu verabschieden.",
+       "alternatives": [
+        "Er ging, ohne sich zu verabschieden."
+       ]
+      },
+      {
+       "id": "11-08-2",
+       "ru": "Вместо того чтобы работать, он играет.",
+       "de": "Statt zu arbeiten, spielt er.",
+       "alternatives": [
+        "Anstatt zu arbeiten, spielt er."
+       ]
+      },
+      {
+       "id": "11-08-3",
+       "ru": "Она ответила, не подумав.",
+       "de": "Sie hat geantwortet, ohne nachzudenken.",
+       "alternatives": [
+        "Sie antwortete, ohne nachzudenken."
+       ]
+      },
+      {
+       "id": "11-08-4",
+       "ru": "Вместо того чтобы ехать на машине, я иду пешком.",
+       "de": "Statt mit dem Auto zu fahren, gehe ich zu Fuß.",
+       "alternatives": [
+        "Anstatt mit dem Auto zu fahren, gehe ich zu Fuß."
+       ]
+      },
+      {
+       "id": "11-08-5",
+       "ru": "Он взял мою книгу, не спросив.",
+       "de": "Er hat mein Buch genommen, ohne zu fragen.",
+       "alternatives": [
+        "Er nahm mein Buch, ohne zu fragen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "11-09",
+     "topic": "Не нужно: brauchen nicht zu",
+     "sentences": [
+      {
+       "id": "11-09-1",
+       "ru": "Тебе не нужно приходить.",
+       "de": "Du brauchst nicht zu kommen.",
+       "alternatives": [
+        "Du musst nicht kommen."
+       ]
+      },
+      {
+       "id": "11-09-2",
+       "ru": "Вам не нужно платить.",
+       "de": "Sie brauchen nicht zu bezahlen.",
+       "alternatives": [
+        "Sie müssen nicht bezahlen."
+       ]
+      },
+      {
+       "id": "11-09-3",
+       "ru": "Завтра мне не нужно рано вставать.",
+       "de": "Ich brauche morgen nicht früh aufzustehen.",
+       "alternatives": [
+        "Morgen brauche ich nicht früh aufzustehen.",
+        "Ich muss morgen nicht früh aufstehen.",
+        "Morgen muss ich nicht früh aufstehen."
+       ]
+      },
+      {
+       "id": "11-09-4",
+       "ru": "Тебе нужно только позвонить.",
+       "de": "Du brauchst nur anzurufen.",
+       "alternatives": [
+        "Du musst nur anrufen."
+       ]
+      },
+      {
+       "id": "11-09-5",
+       "ru": "Нам не нужно спешить.",
+       "de": "Wir brauchen uns nicht zu beeilen.",
+       "alternatives": [
+        "Wir müssen uns nicht beeilen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "11-10",
+     "topic": "До, после, пока: bevor, nachdem, während",
+     "sentences": [
+      {
+       "id": "11-10-1",
+       "ru": "Перед тем как уйти, я выключаю свет.",
+       "de": "Bevor ich gehe, mache ich das Licht aus.",
+       "alternatives": [
+        "Bevor ich gehe, schalte ich das Licht aus."
+       ]
+      },
+      {
+       "id": "11-10-2",
+       "ru": "После того как я поел, я пошёл гулять.",
+       "de": "Nachdem ich gegessen hatte, bin ich spazieren gegangen.",
+       "alternatives": [
+        "Nachdem ich gegessen hatte, ging ich spazieren."
+       ]
+      },
+      {
+       "id": "11-10-3",
+       "ru": "Мой руки, прежде чем есть.",
+       "de": "Wasch dir die Hände, bevor du isst.",
+       "alternatives": [
+        "Wasch deine Hände, bevor du isst."
+       ]
+      },
+      {
+       "id": "11-10-4",
+       "ru": "После того как фильм закончился, мы пошли домой.",
+       "de": "Nachdem der Film zu Ende war, sind wir nach Hause gegangen.",
+       "alternatives": [
+        "Nachdem der Film zu Ende war, gingen wir nach Hause."
+       ]
+      },
+      {
+       "id": "11-10-5",
+       "ru": "Пока я готовлю, ты можешь накрыть на стол.",
+       "de": "Während ich koche, kannst du den Tisch decken.",
+       "alternatives": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 12,
+   "title": "Если бы и пассив",
+   "blocks": [
+    {
+     "id": "12-01",
+     "topic": "Если бы: wenn ich … hätte",
+     "sentences": [
+      {
+       "id": "12-01-1",
+       "ru": "Если бы у меня было время, я бы пришёл.",
+       "de": "Wenn ich Zeit hätte, würde ich kommen.",
+       "alternatives": [
+        "Wenn ich Zeit hätte, käme ich."
+       ]
+      },
+      {
+       "id": "12-01-2",
+       "ru": "Если бы у меня были деньги, я бы купил дом.",
+       "de": "Wenn ich Geld hätte, würde ich ein Haus kaufen.",
+       "alternatives": []
+      },
+      {
+       "id": "12-01-3",
+       "ru": "На твоём месте я бы позвонил.",
+       "de": "An deiner Stelle würde ich anrufen.",
+       "alternatives": [
+        "Ich an deiner Stelle würde anrufen.",
+        "Wenn ich du wäre, würde ich anrufen."
+       ]
+      },
+      {
+       "id": "12-01-4",
+       "ru": "Если бы погода была лучше, мы бы поехали на море.",
+       "de": "Wenn das Wetter besser wäre, würden wir ans Meer fahren.",
+       "alternatives": []
+      },
+      {
+       "id": "12-01-5",
+       "ru": "Было бы хорошо, если бы ты пришёл.",
+       "de": "Es wäre gut, wenn du kommen würdest.",
+       "alternatives": [
+        "Es wäre gut, wenn du kämst."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "12-02",
+     "topic": "Мечты: ich wünschte, würde gern",
+     "sentences": [
+      {
+       "id": "12-02-1",
+       "ru": "Хотел бы я, чтобы ты был здесь.",
+       "de": "Ich wünschte, du wärst hier.",
+       "alternatives": [
+        "Ich wünschte, du wärest hier."
+       ]
+      },
+      {
+       "id": "12-02-2",
+       "ru": "Если бы я только умел плавать!",
+       "de": "Wenn ich nur schwimmen könnte!",
+       "alternatives": [
+        "Wenn ich doch schwimmen könnte!"
+       ]
+      },
+      {
+       "id": "12-02-3",
+       "ru": "Мне бы хотелось жить у моря.",
+       "de": "Ich würde gern am Meer wohnen.",
+       "alternatives": [
+        "Ich würde gerne am Meer wohnen.",
+        "Ich würde gern am Meer leben.",
+        "Ich würde gerne am Meer leben."
+       ]
+      },
+      {
+       "id": "12-02-4",
+       "ru": "Что бы ты сделал с миллионом?",
+       "de": "Was würdest du mit einer Million machen?",
+       "alternatives": [
+        "Was würdest du mit einer Million tun?"
+       ]
+      },
+      {
+       "id": "12-02-5",
+       "ru": "Я бы этого не делал.",
+       "de": "Ich würde das nicht machen.",
+       "alternatives": [
+        "Ich würde das nicht tun.",
+        "Das würde ich nicht machen.",
+        "Das würde ich nicht tun."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "12-03",
+     "topic": "Если бы тогда: hätte … gemacht",
+     "sentences": [
+      {
+       "id": "12-03-1",
+       "ru": "Если бы я знал, я бы тебе сказал.",
+       "de": "Wenn ich das gewusst hätte, hätte ich es dir gesagt.",
+       "alternatives": [
+        "Wenn ich es gewusst hätte, hätte ich es dir gesagt."
+       ]
+      },
+      {
+       "id": "12-03-2",
+       "ru": "Я бы пришёл, но я был болен.",
+       "de": "Ich wäre gekommen, aber ich war krank.",
+       "alternatives": []
+      },
+      {
+       "id": "12-03-3",
+       "ru": "Тебе следовало позвонить.",
+       "de": "Du hättest anrufen sollen.",
+       "alternatives": []
+      },
+      {
+       "id": "12-03-4",
+       "ru": "Мы могли бы поехать на поезде.",
+       "de": "Wir hätten mit dem Zug fahren können.",
+       "alternatives": []
+      },
+      {
+       "id": "12-03-5",
+       "ru": "Без тебя я бы не справился.",
+       "de": "Ohne dich hätte ich es nicht geschafft.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "12-04",
+     "topic": "Пассив: wird gemacht",
+     "sentences": [
+      {
+       "id": "12-04-1",
+       "ru": "Дом строится.",
+       "de": "Das Haus wird gebaut.",
+       "alternatives": []
+      },
+      {
+       "id": "12-04-2",
+       "ru": "Окна моют каждую неделю.",
+       "de": "Die Fenster werden jede Woche geputzt.",
+       "alternatives": []
+      },
+      {
+       "id": "12-04-3",
+       "ru": "Здесь продаются билеты.",
+       "de": "Hier werden Fahrkarten verkauft.",
+       "alternatives": [
+        "Hier werden Tickets verkauft."
+       ]
+      },
+      {
+       "id": "12-04-4",
+       "ru": "Пациента осматривает врач.",
+       "de": "Der Patient wird vom Arzt untersucht.",
+       "alternatives": []
+      },
+      {
+       "id": "12-04-5",
+       "ru": "Обед подают в час.",
+       "de": "Das Mittagessen wird um ein Uhr serviert.",
+       "alternatives": [
+        "Das Mittagessen wird um eins serviert."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "12-05",
+     "topic": "Пассив в прошлом: wurde gemacht",
+     "sentences": [
+      {
+       "id": "12-05-1",
+       "ru": "Этот дом построили сто лет назад.",
+       "de": "Dieses Haus wurde vor hundert Jahren gebaut.",
+       "alternatives": [
+        "Das Haus wurde vor hundert Jahren gebaut.",
+        "Dieses Haus wurde vor 100 Jahren gebaut."
+       ]
+      },
+      {
+       "id": "12-05-2",
+       "ru": "Машину украли.",
+       "de": "Das Auto wurde gestohlen.",
+       "alternatives": [
+        "Das Auto ist gestohlen worden."
+       ]
+      },
+      {
+       "id": "12-05-3",
+       "ru": "Меня пригласили на свадьбу.",
+       "de": "Ich wurde zur Hochzeit eingeladen.",
+       "alternatives": [
+        "Ich bin zur Hochzeit eingeladen worden."
+       ]
+      },
+      {
+       "id": "12-05-4",
+       "ru": "Письмо отправили вчера.",
+       "de": "Der Brief wurde gestern geschickt.",
+       "alternatives": [
+        "Der Brief wurde gestern abgeschickt.",
+        "Der Brief ist gestern geschickt worden."
+       ]
+      },
+      {
+       "id": "12-05-5",
+       "ru": "Встречу перенесли.",
+       "de": "Das Treffen wurde verschoben.",
+       "alternatives": [
+        "Der Termin wurde verschoben."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "12-06",
+     "topic": "Нужно сделать: muss gemacht werden",
+     "sentences": [
+      {
+       "id": "12-06-1",
+       "ru": "Это нужно сделать сегодня.",
+       "de": "Das muss heute gemacht werden.",
+       "alternatives": [
+        "Das muss heute erledigt werden."
+       ]
+      },
+      {
+       "id": "12-06-2",
+       "ru": "Комнату нужно убрать.",
+       "de": "Das Zimmer muss aufgeräumt werden.",
+       "alternatives": []
+      },
+      {
+       "id": "12-06-3",
+       "ru": "Эту дверь нельзя открывать.",
+       "de": "Diese Tür darf nicht geöffnet werden.",
+       "alternatives": []
+      },
+      {
+       "id": "12-06-4",
+       "ru": "Машину нужно отремонтировать.",
+       "de": "Das Auto muss repariert werden.",
+       "alternatives": []
+      },
+      {
+       "id": "12-06-5",
+       "ru": "Это можно починить?",
+       "de": "Kann das repariert werden?",
+       "alternatives": [
+        "Kann man das reparieren?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "12-07",
+     "topic": "Уже до того: Plusquamperfekt",
+     "sentences": [
+      {
+       "id": "12-07-1",
+       "ru": "Когда я пришёл, поезд уже ушёл.",
+       "de": "Als ich kam, war der Zug schon abgefahren.",
+       "alternatives": [
+        "Als ich ankam, war der Zug schon abgefahren."
+       ]
+      },
+      {
+       "id": "12-07-2",
+       "ru": "Я не знал, что она уже уехала.",
+       "de": "Ich wusste nicht, dass sie schon abgereist war.",
+       "alternatives": [
+        "Ich wusste nicht, dass sie schon weggefahren war."
+       ]
+      },
+      {
+       "id": "12-07-3",
+       "ru": "Он забыл, что уже рассказывал это.",
+       "de": "Er vergaß, dass er das schon erzählt hatte.",
+       "alternatives": [
+        "Er hat vergessen, dass er das schon erzählt hatte."
+       ]
+      },
+      {
+       "id": "12-07-4",
+       "ru": "Мы уже поели, когда пришли гости.",
+       "de": "Wir hatten schon gegessen, als die Gäste kamen.",
+       "alternatives": []
+      },
+      {
+       "id": "12-07-5",
+       "ru": "Она плакала, потому что потеряла ключ.",
+       "de": "Sie weinte, weil sie den Schlüssel verloren hatte.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "12-08",
+     "topic": "Lassen",
+     "sentences": [
+      {
+       "id": "12-08-1",
+       "ru": "Я отдаю машину в ремонт.",
+       "de": "Ich lasse mein Auto reparieren.",
+       "alternatives": [
+        "Ich lasse das Auto reparieren."
+       ]
+      },
+      {
+       "id": "12-08-2",
+       "ru": "Оставь меня в покое!",
+       "de": "Lass mich in Ruhe!",
+       "alternatives": []
+      },
+      {
+       "id": "12-08-3",
+       "ru": "Она стрижётся в парикмахерской.",
+       "de": "Sie lässt sich beim Friseur die Haare schneiden.",
+       "alternatives": [
+        "Sie lässt sich die Haare beim Friseur schneiden."
+       ]
+      },
+      {
+       "id": "12-08-4",
+       "ru": "Я оставил телефон дома.",
+       "de": "Ich habe mein Handy zu Hause gelassen.",
+       "alternatives": [
+        "Ich habe das Handy zu Hause gelassen.",
+        "Ich habe mein Handy zu Hause liegen lassen."
+       ]
+      },
+      {
+       "id": "12-08-5",
+       "ru": "Дай мне помочь!",
+       "de": "Lass mich helfen!",
+       "alternatives": [
+        "Lass mich dir helfen!"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "12-09",
+     "topic": "Об этом: darauf, woran",
+     "sentences": [
+      {
+       "id": "12-09-1",
+       "ru": "Я жду этого с нетерпением.",
+       "de": "Ich freue mich darauf.",
+       "alternatives": []
+      },
+      {
+       "id": "12-09-2",
+       "ru": "О чём ты думаешь?",
+       "de": "Woran denkst du?",
+       "alternatives": []
+      },
+      {
+       "id": "12-09-3",
+       "ru": "Чего ты ждёшь?",
+       "de": "Worauf wartest du?",
+       "alternatives": []
+      },
+      {
+       "id": "12-09-4",
+       "ru": "Я об этом не знал.",
+       "de": "Davon wusste ich nichts.",
+       "alternatives": [
+        "Ich wusste nichts davon."
+       ]
+      },
+      {
+       "id": "12-09-5",
+       "ru": "Он этим интересуется?",
+       "de": "Interessiert er sich dafür?",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "12-10",
+     "topic": "Из-за, несмотря на: wegen, trotz",
+     "sentences": [
+      {
+       "id": "12-10-1",
+       "ru": "Из-за дождя мы остались дома.",
+       "de": "Wegen des Regens sind wir zu Hause geblieben.",
+       "alternatives": [
+        "Wegen des Regens blieben wir zu Hause.",
+        "Wegen dem Regen sind wir zu Hause geblieben."
+       ]
+      },
+      {
+       "id": "12-10-2",
+       "ru": "Несмотря на погоду, мы пошли гулять.",
+       "de": "Trotz des Wetters sind wir spazieren gegangen.",
+       "alternatives": [
+        "Trotz des Wetters gingen wir spazieren."
+       ]
+      },
+      {
+       "id": "12-10-3",
+       "ru": "Во время отпуска я много читал.",
+       "de": "Während des Urlaubs habe ich viel gelesen.",
+       "alternatives": [
+        "Im Urlaub habe ich viel gelesen."
+       ]
+      },
+      {
+       "id": "12-10-4",
+       "ru": "Это машина моего брата.",
+       "de": "Das ist das Auto meines Bruders.",
+       "alternatives": []
+      },
+      {
+       "id": "12-10-5",
+       "ru": "Поезд опоздал из-за забастовки.",
+       "de": "Der Zug hatte wegen des Streiks Verspätung.",
+       "alternatives": [
+        "Wegen des Streiks hatte der Zug Verspätung."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 13,
+   "title": "Связи и чувства",
+   "blocks": [
+    {
+     "id": "13-01",
+     "topic": "Чем … тем: je … desto",
+     "sentences": [
+      {
+       "id": "13-01-1",
+       "ru": "Чем больше я учусь, тем лучше говорю.",
+       "de": "Je mehr ich lerne, desto besser spreche ich.",
+       "alternatives": [
+        "Je mehr ich lerne, umso besser spreche ich."
+       ]
+      },
+      {
+       "id": "13-01-2",
+       "ru": "Чем раньше, тем лучше.",
+       "de": "Je früher, desto besser.",
+       "alternatives": [
+        "Je früher, umso besser."
+       ]
+      },
+      {
+       "id": "13-01-3",
+       "ru": "Чем старше он становится, тем спокойнее.",
+       "de": "Je älter er wird, desto ruhiger wird er.",
+       "alternatives": [
+        "Je älter er wird, umso ruhiger wird er."
+       ]
+      },
+      {
+       "id": "13-01-4",
+       "ru": "Чем дольше я жду, тем больше нервничаю.",
+       "de": "Je länger ich warte, desto nervöser werde ich.",
+       "alternatives": [
+        "Je länger ich warte, umso nervöser werde ich."
+       ]
+      },
+      {
+       "id": "13-01-5",
+       "ru": "Чем меньше сахара ты ешь, тем лучше.",
+       "de": "Je weniger Zucker du isst, desto besser.",
+       "alternatives": [
+        "Je weniger Zucker du isst, umso besser."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "13-02",
+     "topic": "И … и, ни … ни: sowohl … als auch, weder … noch",
+     "sentences": [
+      {
+       "id": "13-02-1",
+       "ru": "Я говорю и по-английски, и по-немецки.",
+       "de": "Ich spreche sowohl Englisch als auch Deutsch.",
+       "alternatives": []
+      },
+      {
+       "id": "13-02-2",
+       "ru": "У меня нет ни времени, ни денег.",
+       "de": "Ich habe weder Zeit noch Geld.",
+       "alternatives": []
+      },
+      {
+       "id": "13-02-3",
+       "ru": "Он не пьёт ни кофе, ни чай.",
+       "de": "Er trinkt weder Kaffee noch Tee.",
+       "alternatives": []
+      },
+      {
+       "id": "13-02-4",
+       "ru": "Нам нравятся и горы, и море.",
+       "de": "Uns gefallen sowohl die Berge als auch das Meer.",
+       "alternatives": [
+        "Wir mögen sowohl die Berge als auch das Meer."
+       ]
+      },
+      {
+       "id": "13-02-5",
+       "ru": "Ни он, ни она не знали ответа.",
+       "de": "Weder er noch sie kannten die Antwort.",
+       "alternatives": [
+        "Weder er noch sie wussten die Antwort."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "13-03",
+     "topic": "Хотя и, либо, не … а: zwar, entweder, sondern",
+     "sentences": [
+      {
+       "id": "13-03-1",
+       "ru": "Квартира хотя и маленькая, но уютная.",
+       "de": "Die Wohnung ist zwar klein, aber gemütlich.",
+       "alternatives": []
+      },
+      {
+       "id": "13-03-2",
+       "ru": "Либо ты идёшь со мной, либо остаёшься дома.",
+       "de": "Entweder kommst du mit, oder du bleibst zu Hause.",
+       "alternatives": [
+        "Entweder kommst du mit oder du bleibst zu Hause.",
+        "Entweder du kommst mit, oder du bleibst zu Hause."
+       ]
+      },
+      {
+       "id": "13-03-3",
+       "ru": "Она не только умная, но и добрая.",
+       "de": "Sie ist nicht nur klug, sondern auch nett.",
+       "alternatives": [
+        "Sie ist nicht nur klug, sondern auch freundlich.",
+        "Sie ist nicht nur intelligent, sondern auch nett."
+       ]
+      },
+      {
+       "id": "13-03-4",
+       "ru": "Это не мой телефон, а его.",
+       "de": "Das ist nicht mein Handy, sondern seins.",
+       "alternatives": [
+        "Das ist nicht mein Handy, sondern sein Handy."
+       ]
+      },
+      {
+       "id": "13-03-5",
+       "ru": "Он хотя и богат, но не счастлив.",
+       "de": "Er ist zwar reich, aber nicht glücklich.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "13-04",
+     "topic": "Как только, пока: sobald, solange, seit, bis",
+     "sentences": [
+      {
+       "id": "13-04-1",
+       "ru": "Как только я приду домой, я тебе позвоню.",
+       "de": "Sobald ich zu Hause bin, rufe ich dich an.",
+       "alternatives": []
+      },
+      {
+       "id": "13-04-2",
+       "ru": "Пока идёт дождь, мы остаёмся внутри.",
+       "de": "Solange es regnet, bleiben wir drinnen.",
+       "alternatives": []
+      },
+      {
+       "id": "13-04-3",
+       "ru": "С тех пор как он здесь живёт, он счастлив.",
+       "de": "Seitdem er hier wohnt, ist er glücklich.",
+       "alternatives": [
+        "Seit er hier wohnt, ist er glücklich."
+       ]
+      },
+      {
+       "id": "13-04-4",
+       "ru": "Подожди, пока я не вернусь.",
+       "de": "Warte, bis ich zurückkomme.",
+       "alternatives": [
+        "Warte, bis ich zurück bin."
+       ]
+      },
+      {
+       "id": "13-04-5",
+       "ru": "Как только поезд остановился, все вышли.",
+       "de": "Sobald der Zug hielt, stiegen alle aus.",
+       "alternatives": [
+        "Sobald der Zug gehalten hat, sind alle ausgestiegen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "13-05",
+     "topic": "Тем, что: indem",
+     "sentences": [
+      {
+       "id": "13-05-1",
+       "ru": "Он похудел, занимаясь спортом каждый день.",
+       "de": "Er hat abgenommen, indem er jeden Tag Sport gemacht hat.",
+       "alternatives": [
+        "Er hat abgenommen, indem er jeden Tag Sport getrieben hat."
+       ]
+      },
+      {
+       "id": "13-05-2",
+       "ru": "Я учу слова, читая книги.",
+       "de": "Ich lerne Wörter, indem ich Bücher lese.",
+       "alternatives": []
+      },
+      {
+       "id": "13-05-3",
+       "ru": "Ты можешь сэкономить, готовя дома.",
+       "de": "Du kannst Geld sparen, indem du zu Hause kochst.",
+       "alternatives": []
+      },
+      {
+       "id": "13-05-4",
+       "ru": "Она успокаивается, слушая музыку.",
+       "de": "Sie beruhigt sich, indem sie Musik hört.",
+       "alternatives": []
+      },
+      {
+       "id": "13-05-5",
+       "ru": "Мы экономим энергию, выключая свет.",
+       "de": "Wir sparen Energie, indem wir das Licht ausschalten.",
+       "alternatives": [
+        "Wir sparen Energie, indem wir das Licht ausmachen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "13-06",
+     "topic": "Выражения с es",
+     "sentences": [
+      {
+       "id": "13-06-1",
+       "ru": "Это того стоит.",
+       "de": "Es lohnt sich.",
+       "alternatives": [
+        "Das lohnt sich."
+       ]
+      },
+      {
+       "id": "13-06-2",
+       "ru": "Это зависит от погоды.",
+       "de": "Das hängt vom Wetter ab.",
+       "alternatives": [
+        "Es hängt vom Wetter ab.",
+        "Es kommt auf das Wetter an.",
+        "Das kommt aufs Wetter an."
+       ]
+      },
+      {
+       "id": "13-06-3",
+       "ru": "Речь идёт о деньгах.",
+       "de": "Es geht um Geld.",
+       "alternatives": [
+        "Es geht ums Geld."
+       ]
+      },
+      {
+       "id": "13-06-4",
+       "ru": "Мне всё равно.",
+       "de": "Das ist mir egal.",
+       "alternatives": [
+        "Es ist mir egal."
+       ]
+      },
+      {
+       "id": "13-06-5",
+       "ru": "У меня это не получается.",
+       "de": "Es gelingt mir nicht.",
+       "alternatives": [
+        "Das gelingt mir nicht."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "13-07",
+     "topic": "Поиск работы",
+     "sentences": [
+      {
+       "id": "13-07-1",
+       "ru": "Я отправил своё резюме.",
+       "de": "Ich habe meinen Lebenslauf geschickt.",
+       "alternatives": [
+        "Ich habe meinen Lebenslauf abgeschickt."
+       ]
+      },
+      {
+       "id": "13-07-2",
+       "ru": "Завтра у меня собеседование.",
+       "de": "Morgen habe ich ein Vorstellungsgespräch.",
+       "alternatives": [
+        "Ich habe morgen ein Vorstellungsgespräch."
+       ]
+      },
+      {
+       "id": "13-07-3",
+       "ru": "Я претендую на эту должность.",
+       "de": "Ich bewerbe mich um diese Stelle.",
+       "alternatives": [
+        "Ich bewerbe mich auf diese Stelle."
+       ]
+      },
+      {
+       "id": "13-07-4",
+       "ru": "У меня есть опыт в продажах.",
+       "de": "Ich habe Erfahrung im Verkauf.",
+       "alternatives": [
+        "Ich habe Berufserfahrung im Verkauf."
+       ]
+      },
+      {
+       "id": "13-07-5",
+       "ru": "Когда я могу начать?",
+       "de": "Wann kann ich anfangen?",
+       "alternatives": [
+        "Ab wann kann ich anfangen?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "13-08",
+     "topic": "Жалоба",
+     "sentences": [
+      {
+       "id": "13-08-1",
+       "ru": "Я хочу пожаловаться.",
+       "de": "Ich möchte mich beschweren.",
+       "alternatives": []
+      },
+      {
+       "id": "13-08-2",
+       "ru": "Отопление не работает.",
+       "de": "Die Heizung funktioniert nicht.",
+       "alternatives": [
+        "Die Heizung geht nicht."
+       ]
+      },
+      {
+       "id": "13-08-3",
+       "ru": "Мой заказ до сих пор не пришёл.",
+       "de": "Meine Bestellung ist immer noch nicht angekommen.",
+       "alternatives": [
+        "Meine Bestellung ist noch nicht angekommen."
+       ]
+      },
+      {
+       "id": "13-08-4",
+       "ru": "Я хотел бы вернуть свои деньги.",
+       "de": "Ich möchte mein Geld zurück.",
+       "alternatives": [
+        "Ich hätte gern mein Geld zurück.",
+        "Ich möchte mein Geld zurückhaben."
+       ]
+      },
+      {
+       "id": "13-08-5",
+       "ru": "Это недоразумение.",
+       "de": "Das ist ein Missverständnis.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "13-09",
+     "topic": "Чувства: Angst vor, stolz auf",
+     "sentences": [
+      {
+       "id": "13-09-1",
+       "ru": "Я боюсь собак.",
+       "de": "Ich habe Angst vor Hunden.",
+       "alternatives": []
+      },
+      {
+       "id": "13-09-2",
+       "ru": "Мы гордимся тобой.",
+       "de": "Wir sind stolz auf dich.",
+       "alternatives": []
+      },
+      {
+       "id": "13-09-3",
+       "ru": "Ты доволен своей работой?",
+       "de": "Bist du mit deiner Arbeit zufrieden?",
+       "alternatives": []
+      },
+      {
+       "id": "13-09-4",
+       "ru": "Она скучает по семье.",
+       "de": "Sie vermisst ihre Familie.",
+       "alternatives": []
+      },
+      {
+       "id": "13-09-5",
+       "ru": "Он влюблён в мою сестру.",
+       "de": "Er ist in meine Schwester verliebt.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "13-10",
+     "topic": "Своё мнение",
+     "sentences": [
+      {
+       "id": "13-10-1",
+       "ru": "С одной стороны, город красивый, с другой — дорогой.",
+       "de": "Einerseits ist die Stadt schön, andererseits ist sie teuer.",
+       "alternatives": [
+        "Einerseits ist die Stadt schön, andererseits teuer."
+       ]
+      },
+      {
+       "id": "13-10-2",
+       "ru": "Я считаю это важным.",
+       "de": "Ich halte das für wichtig.",
+       "alternatives": [
+        "Ich finde das wichtig.",
+        "Ich bin der Meinung, dass das wichtig ist."
+       ]
+      },
+      {
+       "id": "13-10-3",
+       "ru": "Я в этом не уверен.",
+       "de": "Da bin ich mir nicht sicher.",
+       "alternatives": [
+        "Ich bin mir da nicht sicher."
+       ]
+      },
+      {
+       "id": "13-10-4",
+       "ru": "Тут ты прав.",
+       "de": "Da hast du recht.",
+       "alternatives": [
+        "Da hast du Recht."
+       ]
+      },
+      {
+       "id": "13-10-5",
+       "ru": "Я совсем другого мнения.",
+       "de": "Ich bin ganz anderer Meinung.",
+       "alternatives": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 14,
+   "title": "Мир вокруг",
+   "blocks": [
+    {
+     "id": "14-01",
+     "topic": "Прилагательные без артикля",
+     "sentences": [
+      {
+       "id": "14-01-1",
+       "ru": "Хорошие друзья важны.",
+       "de": "Gute Freunde sind wichtig.",
+       "alternatives": []
+      },
+      {
+       "id": "14-01-2",
+       "ru": "Я люблю свежий хлеб.",
+       "de": "Ich mag frisches Brot.",
+       "alternatives": [
+        "Ich esse gern frisches Brot."
+       ]
+      },
+      {
+       "id": "14-01-3",
+       "ru": "Он пьёт только холодную воду.",
+       "de": "Er trinkt nur kaltes Wasser.",
+       "alternatives": []
+      },
+      {
+       "id": "14-01-4",
+       "ru": "В старых домах высокие потолки.",
+       "de": "In alten Häusern sind die Decken hoch.",
+       "alternatives": [
+        "Alte Häuser haben hohe Decken."
+       ]
+      },
+      {
+       "id": "14-01-5",
+       "ru": "С сердечным приветом.",
+       "de": "Mit herzlichen Grüßen.",
+       "alternatives": [
+        "Herzliche Grüße."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "14-02",
+     "topic": "Причастия: der schlafende Hund, das gestohlene Auto",
+     "sentences": [
+      {
+       "id": "14-02-1",
+       "ru": "Не буди спящую собаку!",
+       "de": "Weck den schlafenden Hund nicht!",
+       "alternatives": [
+        "Weck den schlafenden Hund nicht auf!"
+       ]
+      },
+      {
+       "id": "14-02-2",
+       "ru": "Вот исправленный текст.",
+       "de": "Hier ist der korrigierte Text.",
+       "alternatives": []
+      },
+      {
+       "id": "14-02-3",
+       "ru": "Украденную машину нашли.",
+       "de": "Das gestohlene Auto wurde gefunden.",
+       "alternatives": [
+        "Das gestohlene Auto ist gefunden worden."
+       ]
+      },
+      {
+       "id": "14-02-4",
+       "ru": "Налей кипящую воду в чашку.",
+       "de": "Gieß das kochende Wasser in die Tasse.",
+       "alternatives": []
+      },
+      {
+       "id": "14-02-5",
+       "ru": "Он продал свою подержанную машину.",
+       "de": "Er hat sein gebrauchtes Auto verkauft.",
+       "alternatives": [
+        "Er verkaufte sein gebrauchtes Auto."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "14-03",
+     "topic": "Будущее: werden",
+     "sentences": [
+      {
+       "id": "14-03-1",
+       "ru": "Я буду учиться в университете.",
+       "de": "Ich werde an der Universität studieren.",
+       "alternatives": [
+        "Ich werde an der Uni studieren."
+       ]
+      },
+      {
+       "id": "14-03-2",
+       "ru": "Завтра мы всё обсудим.",
+       "de": "Morgen werden wir alles besprechen.",
+       "alternatives": [
+        "Wir werden morgen alles besprechen.",
+        "Morgen besprechen wir alles."
+       ]
+      },
+      {
+       "id": "14-03-3",
+       "ru": "Он, наверное, уже спит.",
+       "de": "Er wird wohl schon schlafen.",
+       "alternatives": [
+        "Er schläft wohl schon.",
+        "Er schläft wahrscheinlich schon."
+       ]
+      },
+      {
+       "id": "14-03-4",
+       "ru": "Ты будешь счастлив, вот увидишь.",
+       "de": "Du wirst glücklich sein, du wirst sehen.",
+       "alternatives": []
+      },
+      {
+       "id": "14-03-5",
+       "ru": "Через десять лет всё будет иначе.",
+       "de": "In zehn Jahren wird alles anders sein.",
+       "alternatives": [
+        "In 10 Jahren wird alles anders sein."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "14-04",
+     "topic": "Природа и экология",
+     "sentences": [
+      {
+       "id": "14-04-1",
+       "ru": "Мы должны беречь природу.",
+       "de": "Wir müssen die Natur schützen.",
+       "alternatives": []
+      },
+      {
+       "id": "14-04-2",
+       "ru": "Я сортирую мусор.",
+       "de": "Ich trenne den Müll.",
+       "alternatives": []
+      },
+      {
+       "id": "14-04-3",
+       "ru": "Слишком много машин загрязняют воздух.",
+       "de": "Zu viele Autos verschmutzen die Luft.",
+       "alternatives": []
+      },
+      {
+       "id": "14-04-4",
+       "ru": "Климат меняется.",
+       "de": "Das Klima ändert sich.",
+       "alternatives": [
+        "Das Klima verändert sich."
+       ]
+      },
+      {
+       "id": "14-04-5",
+       "ru": "Экономь воду!",
+       "de": "Spar Wasser!",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "14-05",
+     "topic": "У врача",
+     "sentences": [
+      {
+       "id": "14-05-1",
+       "ru": "Врач выписал мне лекарство.",
+       "de": "Der Arzt hat mir ein Medikament verschrieben.",
+       "alternatives": [
+        "Mir wurde ein Medikament verschrieben."
+       ]
+      },
+      {
+       "id": "14-05-2",
+       "ru": "Я на больничном.",
+       "de": "Ich bin krankgeschrieben.",
+       "alternatives": []
+      },
+      {
+       "id": "14-05-3",
+       "ru": "Принимайте таблетки три раза в день.",
+       "de": "Nehmen Sie die Tabletten dreimal am Tag.",
+       "alternatives": [
+        "Nehmen Sie die Tabletten dreimal täglich."
+       ]
+      },
+      {
+       "id": "14-05-4",
+       "ru": "У меня аллергия на орехи.",
+       "de": "Ich bin allergisch gegen Nüsse.",
+       "alternatives": [
+        "Ich habe eine Allergie gegen Nüsse."
+       ]
+      },
+      {
+       "id": "14-05-5",
+       "ru": "Мне сделали операцию.",
+       "de": "Ich wurde operiert.",
+       "alternatives": [
+        "Ich bin operiert worden."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "14-06",
+     "topic": "Новости и медиа",
+     "sentences": [
+      {
+       "id": "14-06-1",
+       "ru": "Ты читал новости?",
+       "de": "Hast du die Nachrichten gelesen?",
+       "alternatives": []
+      },
+      {
+       "id": "14-06-2",
+       "ru": "В газете пишут о выборах.",
+       "de": "Die Zeitung schreibt über die Wahlen.",
+       "alternatives": [
+        "In der Zeitung steht etwas über die Wahlen."
+       ]
+      },
+      {
+       "id": "14-06-3",
+       "ru": "Я редко смотрю телевизор.",
+       "de": "Ich sehe selten fern.",
+       "alternatives": []
+      },
+      {
+       "id": "14-06-4",
+       "ru": "Молодёжь проводит много времени в соцсетях.",
+       "de": "Jugendliche verbringen viel Zeit in sozialen Netzwerken.",
+       "alternatives": [
+        "Junge Leute verbringen viel Zeit in sozialen Netzwerken.",
+        "Jugendliche verbringen viel Zeit in sozialen Medien."
+       ]
+      },
+      {
+       "id": "14-06-5",
+       "ru": "Эта новость меня удивила.",
+       "de": "Diese Nachricht hat mich überrascht.",
+       "alternatives": [
+        "Die Nachricht hat mich überrascht."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "14-07",
+     "topic": "Учёба и экзамены",
+     "sentences": [
+      {
+       "id": "14-07-1",
+       "ru": "Я сдал экзамен.",
+       "de": "Ich habe die Prüfung bestanden.",
+       "alternatives": []
+      },
+      {
+       "id": "14-07-2",
+       "ru": "Он провалил тест.",
+       "de": "Er ist durch den Test gefallen.",
+       "alternatives": [
+        "Er hat den Test nicht bestanden."
+       ]
+      },
+      {
+       "id": "14-07-3",
+       "ru": "Мне нужно подготовиться к экзамену.",
+       "de": "Ich muss mich auf die Prüfung vorbereiten.",
+       "alternatives": []
+      },
+      {
+       "id": "14-07-4",
+       "ru": "Она изучает медицину.",
+       "de": "Sie studiert Medizin.",
+       "alternatives": []
+      },
+      {
+       "id": "14-07-5",
+       "ru": "Сколько длится курс?",
+       "de": "Wie lange dauert der Kurs?",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "14-08",
+     "topic": "Банк и документы",
+     "sentences": [
+      {
+       "id": "14-08-1",
+       "ru": "Я хочу открыть счёт.",
+       "de": "Ich möchte ein Konto eröffnen.",
+       "alternatives": []
+      },
+      {
+       "id": "14-08-2",
+       "ru": "Нужно заполнить этот формуляр.",
+       "de": "Man muss dieses Formular ausfüllen.",
+       "alternatives": [
+        "Sie müssen dieses Formular ausfüllen.",
+        "Dieses Formular muss ausgefüllt werden."
+       ]
+      },
+      {
+       "id": "14-08-3",
+       "ru": "Где мне нужно подписать?",
+       "de": "Wo muss ich unterschreiben?",
+       "alternatives": []
+      },
+      {
+       "id": "14-08-4",
+       "ru": "Мой паспорт недействителен.",
+       "de": "Mein Pass ist ungültig.",
+       "alternatives": [
+        "Mein Reisepass ist ungültig.",
+        "Mein Pass ist nicht mehr gültig."
+       ]
+      },
+      {
+       "id": "14-08-5",
+       "ru": "Я забыл свой пароль.",
+       "de": "Ich habe mein Passwort vergessen.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "14-09",
+     "topic": "Сосед, турист, студент: n-склонение",
+     "sentences": [
+      {
+       "id": "14-09-1",
+       "ru": "Я спросил соседа.",
+       "de": "Ich habe den Nachbarn gefragt.",
+       "alternatives": []
+      },
+      {
+       "id": "14-09-2",
+       "ru": "Мы помогли туристу.",
+       "de": "Wir haben dem Touristen geholfen.",
+       "alternatives": []
+      },
+      {
+       "id": "14-09-3",
+       "ru": "Ты знаешь этого студента?",
+       "de": "Kennst du diesen Studenten?",
+       "alternatives": [
+        "Kennst du den Studenten?"
+       ]
+      },
+      {
+       "id": "14-09-4",
+       "ru": "Я поговорил с господином Мюллером.",
+       "de": "Ich habe mit Herrn Müller gesprochen.",
+       "alternatives": []
+      },
+      {
+       "id": "14-09-5",
+       "ru": "Полицейский задал мальчику вопрос.",
+       "de": "Der Polizist hat dem Jungen eine Frage gestellt.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "14-10",
+     "topic": "В поездке",
+     "sentences": [
+      {
+       "id": "14-10-1",
+       "ru": "Мы сняли дом у озера.",
+       "de": "Wir haben ein Haus am See gemietet.",
+       "alternatives": []
+      },
+      {
+       "id": "14-10-2",
+       "ru": "Рейс отменили.",
+       "de": "Der Flug wurde gestrichen.",
+       "alternatives": [
+        "Der Flug wurde annulliert.",
+        "Der Flug ist ausgefallen."
+       ]
+      },
+      {
+       "id": "14-10-3",
+       "ru": "Мой багаж потерялся.",
+       "de": "Mein Gepäck ist verloren gegangen.",
+       "alternatives": [
+        "Mein Koffer ist verloren gegangen."
+       ]
+      },
+      {
+       "id": "14-10-4",
+       "ru": "Мы опоздали на самолёт.",
+       "de": "Wir haben das Flugzeug verpasst.",
+       "alternatives": [
+        "Wir haben den Flug verpasst."
+       ]
+      },
+      {
+       "id": "14-10-5",
+       "ru": "Я никогда не забуду эту поездку.",
+       "de": "Ich werde diese Reise nie vergessen.",
+       "alternatives": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 15,
+   "title": "Сложные фразы",
+   "blocks": [
+    {
+     "id": "15-01",
+     "topic": "Который с предлогом: von dem, über das, dessen",
+     "sentences": [
+      {
+       "id": "15-01-1",
+       "ru": "Это человек, о котором я тебе рассказывал.",
+       "de": "Das ist der Mann, von dem ich dir erzählt habe.",
+       "alternatives": [
+        "Das ist der Mensch, von dem ich dir erzählt habe."
+       ]
+      },
+      {
+       "id": "15-01-2",
+       "ru": "Это проблема, о которой мы говорили.",
+       "de": "Das ist das Problem, über das wir gesprochen haben.",
+       "alternatives": []
+      },
+      {
+       "id": "15-01-3",
+       "ru": "Квартира, которую мы сняли, очень светлая.",
+       "de": "Die Wohnung, die wir gemietet haben, ist sehr hell.",
+       "alternatives": []
+      },
+      {
+       "id": "15-01-4",
+       "ru": "Мужчина, у которого зазвонил телефон, вышел.",
+       "de": "Der Mann, dessen Handy klingelte, ging hinaus.",
+       "alternatives": [
+        "Der Mann, dessen Handy geklingelt hat, ist hinausgegangen."
+       ]
+      },
+      {
+       "id": "15-01-5",
+       "ru": "Всё, что ты сказал, правда.",
+       "de": "Alles, was du gesagt hast, ist wahr.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "15-02",
+     "topic": "Где, что: wo, was",
+     "sentences": [
+      {
+       "id": "15-02-1",
+       "ru": "Это кафе, где мы познакомились.",
+       "de": "Das ist das Café, wo wir uns kennengelernt haben.",
+       "alternatives": [
+        "Das ist das Café, in dem wir uns kennengelernt haben."
+       ]
+      },
+      {
+       "id": "15-02-2",
+       "ru": "Он сделал то, что обещал.",
+       "de": "Er hat gemacht, was er versprochen hat.",
+       "alternatives": [
+        "Er hat getan, was er versprochen hat."
+       ]
+      },
+      {
+       "id": "15-02-3",
+       "ru": "Это лучшее, что я когда-либо ел.",
+       "de": "Das ist das Beste, was ich je gegessen habe.",
+       "alternatives": []
+      },
+      {
+       "id": "15-02-4",
+       "ru": "Есть кое-что, что я должен тебе сказать.",
+       "de": "Es gibt etwas, was ich dir sagen muss.",
+       "alternatives": [
+        "Es gibt etwas, das ich dir sagen muss."
+       ]
+      },
+      {
+       "id": "15-02-5",
+       "ru": "Там, где я живу, очень тихо.",
+       "de": "Dort, wo ich wohne, ist es sehr ruhig.",
+       "alternatives": [
+        "Da, wo ich wohne, ist es sehr ruhig."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "15-03",
+     "topic": "Каждый раз, когда: immer wenn, während",
+     "sentences": [
+      {
+       "id": "15-03-1",
+       "ru": "Каждый раз, когда я его вижу, он улыбается.",
+       "de": "Immer wenn ich ihn sehe, lächelt er.",
+       "alternatives": [
+        "Jedes Mal, wenn ich ihn sehe, lächelt er."
+       ]
+      },
+      {
+       "id": "15-03-2",
+       "ru": "В то время как я работаю, он спит.",
+       "de": "Während ich arbeite, schläft er.",
+       "alternatives": []
+      },
+      {
+       "id": "15-03-3",
+       "ru": "Когда мне было скучно, я читал.",
+       "de": "Wenn mir langweilig war, habe ich gelesen.",
+       "alternatives": [
+        "Wenn mir langweilig war, las ich."
+       ]
+      },
+      {
+       "id": "15-03-4",
+       "ru": "С тех пор как я бросил курить, мне лучше.",
+       "de": "Seitdem ich mit dem Rauchen aufgehört habe, geht es mir besser.",
+       "alternatives": [
+        "Seit ich mit dem Rauchen aufgehört habe, geht es mir besser."
+       ]
+      },
+      {
+       "id": "15-03-5",
+       "ru": "До того как я приехал в Германию, я не говорил по-немецки.",
+       "de": "Bevor ich nach Deutschland kam, sprach ich kein Deutsch.",
+       "alternatives": [
+        "Bevor ich nach Deutschland gekommen bin, habe ich kein Deutsch gesprochen."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "15-04",
+     "topic": "Рассказ о прошлом",
+     "sentences": [
+      {
+       "id": "15-04-1",
+       "ru": "В детстве я часто бывал у бабушки.",
+       "de": "Als Kind war ich oft bei meiner Oma.",
+       "alternatives": [
+        "Als Kind war ich oft bei meiner Großmutter."
+       ]
+      },
+      {
+       "id": "15-04-2",
+       "ru": "Мы познакомились в университете.",
+       "de": "Wir haben uns an der Universität kennengelernt.",
+       "alternatives": [
+        "Wir haben uns an der Uni kennengelernt.",
+        "Wir lernten uns an der Universität kennen."
+       ]
+      },
+      {
+       "id": "15-04-3",
+       "ru": "Тогда у нас не было денег.",
+       "de": "Damals hatten wir kein Geld.",
+       "alternatives": []
+      },
+      {
+       "id": "15-04-4",
+       "ru": "Однажды он просто исчез.",
+       "de": "Eines Tages verschwand er einfach.",
+       "alternatives": [
+        "Eines Tages ist er einfach verschwunden."
+       ]
+      },
+      {
+       "id": "15-04-5",
+       "ru": "Это было лучшее время в моей жизни.",
+       "de": "Das war die schönste Zeit meines Lebens.",
+       "alternatives": [
+        "Das war die beste Zeit meines Lebens."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "15-05",
+     "topic": "Вежливые просьбы и предложения",
+     "sentences": [
+      {
+       "id": "15-05-1",
+       "ru": "Вы не против, если я открою окно?",
+       "de": "Haben Sie etwas dagegen, wenn ich das Fenster öffne?",
+       "alternatives": [
+        "Haben Sie etwas dagegen, wenn ich das Fenster aufmache?",
+        "Stört es Sie, wenn ich das Fenster öffne?"
+       ]
+      },
+      {
+       "id": "15-05-2",
+       "ru": "Не могли бы вы сказать, где здесь туалет?",
+       "de": "Könnten Sie mir sagen, wo hier die Toilette ist?",
+       "alternatives": [
+        "Können Sie mir sagen, wo hier die Toilette ist?"
+       ]
+      },
+      {
+       "id": "15-05-3",
+       "ru": "Как насчёт того, чтобы пойти в кино?",
+       "de": "Wie wäre es, wenn wir ins Kino gehen?",
+       "alternatives": [
+        "Was hältst du davon, ins Kino zu gehen?",
+        "Wie wäre es mit Kino?"
+       ]
+      },
+      {
+       "id": "15-05-4",
+       "ru": "Давай встретимся в субботу!",
+       "de": "Treffen wir uns am Samstag!",
+       "alternatives": [
+        "Lass uns am Samstag treffen!"
+       ]
+      },
+      {
+       "id": "15-05-5",
+       "ru": "Я был бы вам очень благодарен.",
+       "de": "Ich wäre Ihnen sehr dankbar.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "15-06",
+     "topic": "Доводы: außerdem, erstens, schließlich",
+     "sentences": [
+      {
+       "id": "15-06-1",
+       "ru": "Кроме того, это вредно для здоровья.",
+       "de": "Außerdem ist das ungesund.",
+       "alternatives": [
+        "Außerdem ist das schlecht für die Gesundheit.",
+        "Außerdem ist es schlecht für die Gesundheit."
+       ]
+      },
+      {
+       "id": "15-06-2",
+       "ru": "Поэтому я решил переехать.",
+       "de": "Deshalb habe ich beschlossen umzuziehen.",
+       "alternatives": [
+        "Deshalb habe ich beschlossen, umzuziehen.",
+        "Deshalb habe ich mich entschieden umzuziehen."
+       ]
+      },
+      {
+       "id": "15-06-3",
+       "ru": "Во-первых, это дорого, во-вторых, далеко.",
+       "de": "Erstens ist es teuer, zweitens ist es weit weg.",
+       "alternatives": [
+        "Erstens ist es teuer, zweitens ist es weit."
+       ]
+      },
+      {
+       "id": "15-06-4",
+       "ru": "Например, можно ездить на велосипеде.",
+       "de": "Zum Beispiel kann man mit dem Fahrrad fahren.",
+       "alternatives": [
+        "Man kann zum Beispiel mit dem Fahrrad fahren."
+       ]
+      },
+      {
+       "id": "15-06-5",
+       "ru": "В итоге мы остались дома.",
+       "de": "Schließlich sind wir zu Hause geblieben.",
+       "alternatives": [
+        "Am Ende sind wir zu Hause geblieben.",
+        "Letztendlich sind wir zu Hause geblieben."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "15-07",
+     "topic": "На работе",
+     "sentences": [
+      {
+       "id": "15-07-1",
+       "ru": "Я отвечаю за этот проект.",
+       "de": "Ich bin für dieses Projekt verantwortlich.",
+       "alternatives": [
+        "Ich bin für das Projekt verantwortlich.",
+        "Ich bin für dieses Projekt zuständig."
+       ]
+      },
+      {
+       "id": "15-07-2",
+       "ru": "Совещание перенесли на понедельник.",
+       "de": "Die Besprechung wurde auf Montag verschoben.",
+       "alternatives": [
+        "Das Meeting wurde auf Montag verschoben."
+       ]
+      },
+      {
+       "id": "15-07-3",
+       "ru": "Мне нужно закончить отчёт до пятницы.",
+       "de": "Ich muss den Bericht bis Freitag fertig machen.",
+       "alternatives": [
+        "Ich muss den Bericht bis Freitag fertigstellen.",
+        "Ich muss den Bericht bis Freitag beenden."
+       ]
+      },
+      {
+       "id": "15-07-4",
+       "ru": "Коллеги мне очень помогли.",
+       "de": "Die Kollegen haben mir sehr geholfen.",
+       "alternatives": [
+        "Meine Kollegen haben mir sehr geholfen."
+       ]
+      },
+      {
+       "id": "15-07-5",
+       "ru": "Два дня в неделю я работаю из дома.",
+       "de": "Ich arbeite zwei Tage pro Woche von zu Hause.",
+       "alternatives": [
+        "Ich arbeite zwei Tage pro Woche von zu Hause aus.",
+        "Ich arbeite zwei Tage pro Woche im Homeoffice.",
+        "Zwei Tage pro Woche arbeite ich von zu Hause."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "15-08",
+     "topic": "Отношения",
+     "sentences": [
+      {
+       "id": "15-08-1",
+       "ru": "Мы поссорились.",
+       "de": "Wir haben uns gestritten.",
+       "alternatives": []
+      },
+      {
+       "id": "15-08-2",
+       "ru": "Они расстались.",
+       "de": "Sie haben sich getrennt.",
+       "alternatives": []
+      },
+      {
+       "id": "15-08-3",
+       "ru": "Мы помирились.",
+       "de": "Wir haben uns versöhnt.",
+       "alternatives": [
+        "Wir haben uns wieder vertragen."
+       ]
+      },
+      {
+       "id": "15-08-4",
+       "ru": "Я могу на тебя положиться.",
+       "de": "Ich kann mich auf dich verlassen.",
+       "alternatives": []
+      },
+      {
+       "id": "15-08-5",
+       "ru": "Мы понимаем друг друга без слов.",
+       "de": "Wir verstehen uns ohne Worte.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "15-09",
+     "topic": "Привычки",
+     "sentences": [
+      {
+       "id": "15-09-1",
+       "ru": "Я привык рано вставать.",
+       "de": "Ich bin daran gewöhnt, früh aufzustehen.",
+       "alternatives": [
+        "Ich habe mich daran gewöhnt, früh aufzustehen.",
+        "Ich bin es gewohnt, früh aufzustehen."
+       ]
+      },
+      {
+       "id": "15-09-2",
+       "ru": "Я никак не могу привыкнуть к погоде.",
+       "de": "Ich kann mich nicht an das Wetter gewöhnen.",
+       "alternatives": [
+        "Ich kann mich einfach nicht an das Wetter gewöhnen."
+       ]
+      },
+      {
+       "id": "15-09-3",
+       "ru": "Обычно он опаздывает.",
+       "de": "Normalerweise kommt er zu spät.",
+       "alternatives": [
+        "Er kommt normalerweise zu spät.",
+        "Er kommt meistens zu spät."
+       ]
+      },
+      {
+       "id": "15-09-4",
+       "ru": "Я стараюсь есть меньше сладкого.",
+       "de": "Ich versuche, weniger Süßes zu essen.",
+       "alternatives": [
+        "Ich versuche weniger Süßes zu essen."
+       ]
+      },
+      {
+       "id": "15-09-5",
+       "ru": "Я больше не ем мясо.",
+       "de": "Ich esse kein Fleisch mehr.",
+       "alternatives": []
+      }
+     ]
+    },
+    {
+     "id": "15-10",
+     "topic": "Планы на будущее",
+     "sentences": [
+      {
+       "id": "15-10-1",
+       "ru": "После учёбы я хочу путешествовать.",
+       "de": "Nach dem Studium möchte ich reisen.",
+       "alternatives": [
+        "Nach dem Studium will ich reisen."
+       ]
+      },
+      {
+       "id": "15-10-2",
+       "ru": "Когда-нибудь я открою своё кафе.",
+       "de": "Irgendwann werde ich mein eigenes Café eröffnen.",
+       "alternatives": [
+        "Irgendwann eröffne ich mein eigenes Café.",
+        "Eines Tages werde ich mein eigenes Café eröffnen."
+       ]
+      },
+      {
+       "id": "15-10-3",
+       "ru": "Я надеюсь найти хорошую работу.",
+       "de": "Ich hoffe, eine gute Arbeit zu finden.",
+       "alternatives": [
+        "Ich hoffe, eine gute Stelle zu finden.",
+        "Ich hoffe, einen guten Job zu finden."
+       ]
+      },
+      {
+       "id": "15-10-4",
+       "ru": "Моя цель — свободно говорить по-немецки.",
+       "de": "Mein Ziel ist es, fließend Deutsch zu sprechen.",
+       "alternatives": [
+        "Mein Ziel ist, fließend Deutsch zu sprechen."
+       ]
+      },
+      {
+       "id": "15-10-5",
+       "ru": "Посмотрим, что будет.",
+       "de": "Mal sehen, was passiert.",
+       "alternatives": [
+        "Wir werden sehen, was passiert.",
+        "Mal sehen, was kommt."
+       ]
       }
      ]
     }
