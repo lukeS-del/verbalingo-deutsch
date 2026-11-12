@@ -564,17 +564,17 @@
       {
        "id": "2-04-4",
        "ru": "Урок начинается в десять часов.",
-       "de": "Die Stunde beginnt um zehn Uhr.",
+       "de": "Der Unterricht beginnt um zehn Uhr.",
        "alternatives": [
-        "Um zehn Uhr beginnt die Stunde."
+        "Um zehn Uhr beginnt der Unterricht."
        ]
       },
       {
        "id": "2-04-5",
        "ru": "Я ложусь спать в одиннадцать часов.",
-       "de": "Ich gehe um elf Uhr ins Bett.",
+       "de": "Ich gehe um elf Uhr schlafen.",
        "alternatives": [
-        "Um elf Uhr gehe ich ins Bett."
+        "Um elf Uhr gehe ich schlafen."
        ]
       }
      ]
@@ -604,7 +604,7 @@
       {
        "id": "2-05-4",
        "ru": "Твой телефон лежит на столе.",
-       "de": "Dein Handy liegt auf dem Tisch.",
+       "de": "Dein Telefon liegt auf dem Tisch.",
        "alternatives": []
       },
       {
@@ -1081,31 +1081,31 @@
      "sentences": [
       {
        "id": "6-07-1",
-       "ru": "Я люблю кошек.",
+       "ru": "Мне нравятся кошки.",
        "de": "Ich mag Katzen.",
        "alternatives": []
       },
       {
        "id": "6-07-2",
-       "ru": "Ты любишь рыбу?",
+       "ru": "Тебе нравится рыба?",
        "de": "Magst du Fisch?",
        "alternatives": []
       },
       {
        "id": "6-07-3",
-       "ru": "Он не любит молоко.",
+       "ru": "Ему не нравится молоко.",
        "de": "Er mag keine Milch.",
        "alternatives": []
       },
       {
        "id": "6-07-4",
-       "ru": "Мы любим музыку.",
+       "ru": "Нам нравится музыка.",
        "de": "Wir mögen Musik.",
        "alternatives": []
       },
       {
        "id": "6-07-5",
-       "ru": "Она любит шоколад.",
+       "ru": "Ей нравится шоколад.",
        "de": "Sie mag Schokolade.",
        "alternatives": []
       }
@@ -1659,8 +1659,9 @@
       {
        "id": "7-10-2",
        "ru": "Кто идёт с нами?",
-       "de": "Wer kommt mit?",
+       "de": "Wer geht mit uns?",
        "alternatives": [
+        "Wer kommt mit?",
         "Wer kommt mit uns?"
        ]
       },
@@ -1816,7 +1817,7 @@
       },
       {
        "id": "3-04-2",
-       "ru": "Я дам тебе книгу.",
+       "ru": "Я даю тебе книгу.",
        "de": "Ich gebe dir das Buch.",
        "alternatives": []
       },
@@ -2431,7 +2432,7 @@
       },
       {
        "id": "4-09-2",
-       "ru": "Моя сестра учится в Берлине.",
+       "ru": "Моя сестра учится в университете в Берлине.",
        "de": "Meine Schwester studiert in Berlin.",
        "alternatives": []
       },
@@ -2465,7 +2466,7 @@
       {
        "id": "4-10-1",
        "ru": "В квартире три комнаты.",
-       "de": "Die Wohnung hat drei Zimmer.",
+       "de": "In der Wohnung gibt es drei Zimmer.",
        "alternatives": []
       },
       {
@@ -3108,7 +3109,7 @@
       },
       {
        "id": "8-05-5",
-       "ru": "Я не уверен, что это правильно.",
+       "ru": "Я не уверен, правильно ли это.",
        "de": "Ich bin nicht sicher, ob das richtig ist.",
        "alternatives": [
         "Ich bin mir nicht sicher, ob das richtig ist."
@@ -3214,7 +3215,7 @@
      "sentences": [
       {
        "id": "8-08-1",
-       "ru": "Эта сумка моя.",
+       "ru": "Эта сумка принадлежит мне.",
        "de": "Diese Tasche gehört mir.",
        "alternatives": [
         "Die Tasche gehört mir."
@@ -3230,7 +3231,7 @@
       },
       {
        "id": "8-08-3",
-       "ru": "Тебе нравится пирог?",
+       "ru": "Пирог тебе по вкусу?",
        "de": "Schmeckt dir der Kuchen?",
        "alternatives": []
       },
@@ -4110,7 +4111,7 @@
       },
       {
        "id": "10-07-4",
-       "ru": "Соседи очень приятные.",
+       "ru": "Соседи очень милые.",
        "de": "Die Nachbarn sind sehr nett.",
        "alternatives": []
       },
@@ -5041,10 +5042,10 @@
       {
        "id": "12-08-4",
        "ru": "Я оставил телефон дома.",
-       "de": "Ich habe mein Handy zu Hause gelassen.",
+       "de": "Ich habe mein Telefon zu Hause gelassen.",
        "alternatives": [
-        "Ich habe das Handy zu Hause gelassen.",
-        "Ich habe mein Handy zu Hause liegen lassen."
+        "Ich habe das Telefon zu Hause gelassen.",
+        "Ich habe mein Telefon zu Hause liegen lassen."
        ]
       },
       {
@@ -5263,9 +5264,9 @@
       {
        "id": "13-03-4",
        "ru": "Это не мой телефон, а его.",
-       "de": "Das ist nicht mein Handy, sondern seins.",
+       "de": "Das ist nicht mein Telefon, sondern seins.",
        "alternatives": [
-        "Das ist nicht mein Handy, sondern sein Handy."
+        "Das ist nicht mein Telefon, sondern sein Telefon."
        ]
       },
       {
@@ -5594,7 +5595,7 @@
       },
       {
        "id": "14-01-2",
-       "ru": "Я люблю свежий хлеб.",
+       "ru": "Мне нравится свежий хлеб.",
        "de": "Ich mag frisches Brot.",
        "alternatives": [
         "Ich esse gern frisches Brot."
@@ -6031,9 +6032,9 @@
       {
        "id": "15-01-4",
        "ru": "Мужчина, у которого зазвонил телефон, вышел.",
-       "de": "Der Mann, dessen Handy klingelte, ging hinaus.",
+       "de": "Der Mann, dessen Telefon klingelte, ging hinaus.",
        "alternatives": [
-        "Der Mann, dessen Handy geklingelt hat, ist hinausgegangen."
+        "Der Mann, dessen Telefon geklingelt hat, ist hinausgegangen."
        ]
       },
       {
