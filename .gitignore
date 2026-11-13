@@ -1,5 +1,0 @@
-.venv-audio/
-.audio-models/
-.audio-cache/
-__pycache__/
-*.part
